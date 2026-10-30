@@ -1,0 +1,199 @@
+2026-10-30 17:05:13 ensaio: CONDICOES='C-controlo C-rede C-atraso C-atraso-cache' REPETICOES=30 PEDIDOS=20 TIMEOUT_S=2 TENTATIVAS=3 ATRASO_MS=3000 PROB_ATRASO=0.3 SEMENTE=42 TOXICIDADE=0.3 LATENCIA=1 RECRIAR_BD=1
+2026-10-30 17:05:13 a recriar a pilha com a base de dados vazia
+2026-10-30 17:05:31 réplicas com FAULT_DELAY_MS=0 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=0; toxics no proxy mcp: nenhum
+2026-10-30 17:05:31 C-controlo: início (30 repetições x 20 pedidos, timeout 2s, 3 tentativas)
+2026-10-30 17:05:32 C-controlo-01: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:33 C-controlo-02: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:34 C-controlo-03: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:35 C-controlo-04: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:37 C-controlo-05: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:38 C-controlo-06: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:39 C-controlo-07: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:40 C-controlo-08: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:41 C-controlo-09: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:42 C-controlo-10: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:43 C-controlo-11: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:44 C-controlo-12: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:45 C-controlo-13: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:46 C-controlo-14: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:47 C-controlo-15: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:48 C-controlo-16: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:49 C-controlo-17: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:50 C-controlo-18: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:51 C-controlo-19: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:52 C-controlo-20: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:53 C-controlo-21: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:54 C-controlo-22: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:55 C-controlo-23: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:56 C-controlo-24: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:57 C-controlo-25: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:58 C-controlo-26: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:05:59 C-controlo-27: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:06:00 C-controlo-28: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:06:01 C-controlo-29: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:06:02 C-controlo-30: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-controlo.csv
+2026-10-30 17:06:02 C-controlo: fim; linhas na tabela: 600
+2026-10-30 17:06:09 réplicas com FAULT_DELAY_MS=0 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=0; toxics no proxy mcp: corte	type=reset_peer	stream=downstream	toxicity=0.30	attributes=[	timeout=0	]
+2026-10-30 17:06:09 C-rede: início (30 repetições x 20 pedidos, timeout 2s, 3 tentativas)
+2026-10-30 17:06:10 C-rede-01: 20 pedidos lógicos, 33 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 13 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:11 C-rede-02: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 4 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:12 C-rede-03: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 4 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:13 C-rede-04: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 6 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:14 C-rede-05: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 5 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:16 C-rede-06: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 11 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:18 C-rede-07: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 9 (+5 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:19 C-rede-08: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 8 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:21 C-rede-09: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 6 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:22 C-rede-10: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 7 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:23 C-rede-11: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 4 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:24 C-rede-12: 20 pedidos lógicos, 37 tentativas (tools/call), resultados finais {'ok': 18, 'esgotado': 2}, cortes de ligação 19 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:25 C-rede-13: 20 pedidos lógicos, 35 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 15 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:26 C-rede-14: 20 pedidos lógicos, 21 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 1 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:27 C-rede-15: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 12 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:29 C-rede-16: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 8 (+2 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:30 C-rede-17: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 9 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:31 C-rede-18: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 4 (+2 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:33 C-rede-19: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 5 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:34 C-rede-20: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 8 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:35 C-rede-21: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 9 (+2 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:37 C-rede-22: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 8 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:38 C-rede-23: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 11 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:39 C-rede-24: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 5 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:40 C-rede-25: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 6 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:41 C-rede-26: 20 pedidos lógicos, 32 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 12 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:43 C-rede-27: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'esgotado': 1, 'ok': 19}, cortes de ligação 8 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:44 C-rede-28: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 9 (+0 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:45 C-rede-29: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 7 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:46 C-rede-30: 20 pedidos lógicos, 30 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 11 (+1 no aquecimento), POSTs extra 0 -> /results/C-rede.csv
+2026-10-30 17:06:47 C-rede: fim; linhas na tabela: 835
+2026-10-30 17:06:53 réplicas com FAULT_DELAY_MS=3000 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=0; toxics no proxy mcp: nenhum
+2026-10-30 17:06:53 C-atraso: início (30 repetições x 20 pedidos, timeout 2s, 3 tentativas)
+2026-10-30 17:07:16 C-atraso-01: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 18, 'esgotado': 2}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:07:32 C-atraso-02: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:07:49 C-atraso-03: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:08:05 C-atraso-04: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:08:34 C-atraso-05: 20 pedidos lógicos, 32 tentativas (tools/call), resultados finais {'ok': 18, 'esgotado': 2}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:08:56 C-atraso-06: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:09:03 C-atraso-07: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:09:18 C-atraso-08: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:09:32 C-atraso-09: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:09:57 C-atraso-10: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:10:07 C-atraso-11: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:10:22 C-atraso-12: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:10:41 C-atraso-13: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'esgotado': 1, 'ok': 19}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:10:51 C-atraso-14: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:11:05 C-atraso-15: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:11:23 C-atraso-16: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:11:34 C-atraso-17: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:11:54 C-atraso-18: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:12:15 C-atraso-19: 20 pedidos lógicos, 30 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:12:29 C-atraso-20: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:12:54 C-atraso-21: 20 pedidos lógicos, 32 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:13:18 C-atraso-22: 20 pedidos lógicos, 30 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:13:27 C-atraso-23: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:13:39 C-atraso-24: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:13:46 C-atraso-25: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:14:10 C-atraso-26: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:14:31 C-atraso-27: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:14:40 C-atraso-28: 20 pedidos lógicos, 24 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:14:59 C-atraso-29: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:15:19 C-atraso-30: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 19, 'esgotado': 1}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso.csv
+2026-10-30 17:15:19 C-atraso: fim; linhas na tabela: 817
+2026-10-30 17:15:25 réplicas com FAULT_DELAY_MS=3000 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=1; toxics no proxy mcp: nenhum
+2026-10-30 17:15:25 C-atraso-cache: início (30 repetições x 20 pedidos, timeout 2s, 3 tentativas)
+2026-10-30 17:15:48 C-atraso-cache-01: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:03 C-atraso-cache-02: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:21 C-atraso-cache-03: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:34 C-atraso-cache-04: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:54 C-atraso-cache-05: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:19 C-atraso-cache-06: 20 pedidos lógicos, 32 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:33 C-atraso-cache-07: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:40 C-atraso-cache-08: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:56 C-atraso-cache-09: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:15 C-atraso-cache-10: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:31 C-atraso-cache-11: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:42 C-atraso-cache-12: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:02 C-atraso-cache-13: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:19 C-atraso-cache-14: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:27 C-atraso-cache-15: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:42 C-atraso-cache-16: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:55 C-atraso-cache-17: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:13 C-atraso-cache-18: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:24 C-atraso-cache-19: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:44 C-atraso-cache-20: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:01 C-atraso-cache-21: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:17 C-atraso-cache-22: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:40 C-atraso-cache-23: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:56 C-atraso-cache-24: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:07 C-atraso-cache-25: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:19 C-atraso-cache-26: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:34 C-atraso-cache-27: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:48 C-atraso-cache-28: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:53 C-atraso-cache-29: 20 pedidos lógicos, 22 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:23:20 C-atraso-cache-30: 20 pedidos lógicos, 33 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:23:21 C-atraso-cache: fim; linhas na tabela: 766
+2026-10-30 17:23:27 réplicas com FAULT_DELAY_MS=0 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=0; toxics no proxy mcp: nenhum
+2026-10-30 17:23:27 latência L-nginx: início (http://nginx:80/mcp, 30 repetições x 20 pedidos)
+2026-10-30 17:23:28 L-nginx-01: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:29 L-nginx-02: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:30 L-nginx-03: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:31 L-nginx-04: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:33 L-nginx-05: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:34 L-nginx-06: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:35 L-nginx-07: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:36 L-nginx-08: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:37 L-nginx-09: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:38 L-nginx-10: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:39 L-nginx-11: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:40 L-nginx-12: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:41 L-nginx-13: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:42 L-nginx-14: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:43 L-nginx-15: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:44 L-nginx-16: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:45 L-nginx-17: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:46 L-nginx-18: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:47 L-nginx-19: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:48 L-nginx-20: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:49 L-nginx-21: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:50 L-nginx-22: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:51 L-nginx-23: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:52 L-nginx-24: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:53 L-nginx-25: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:54 L-nginx-26: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:55 L-nginx-27: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:56 L-nginx-28: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:57 L-nginx-29: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:58 L-nginx-30: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-nginx.csv
+2026-10-30 17:23:58 latência L-direto: início (http://server-a:8000/mcp, 30 repetições x 20 pedidos)
+2026-10-30 17:23:59 L-direto-01: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:00 L-direto-02: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:01 L-direto-03: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:02 L-direto-04: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:03 L-direto-05: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:04 L-direto-06: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:05 L-direto-07: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:05 L-direto-08: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:06 L-direto-09: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:07 L-direto-10: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:08 L-direto-11: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:09 L-direto-12: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:10 L-direto-13: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:11 L-direto-14: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:12 L-direto-15: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:14 L-direto-16: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:15 L-direto-17: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:15 L-direto-18: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:16 L-direto-19: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:17 L-direto-20: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:18 L-direto-21: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:19 L-direto-22: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:20 L-direto-23: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:21 L-direto-24: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:22 L-direto-25: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:23 L-direto-26: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:24 L-direto-27: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:25 L-direto-28: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:26 L-direto-29: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:27 L-direto-30: 20 pedidos lógicos, 20 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/latencia/L-direto.csv
+2026-10-30 17:24:33 réplicas com FAULT_DELAY_MS=0 FAULT_PROB=0.3 FAULT_SEED=42 DEDUP_MEMORIA=0; toxics no proxy mcp: nenhum
+2026-10-30 17:24:33 ensaio: concluído

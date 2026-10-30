@@ -1,0 +1,4 @@
+rota,chamadas,mediana_ms,p95_ms,chamadas_sem_primeira,mediana_sem_primeira_ms,p95_sem_primeira_ms
+toxiproxy + nginx,600,2.14,10.39,570,2.11,3.94
+nginx,600,1.86,21.96,570,1.85,4.24
+direto,600,1.56,9.59,570,1.54,2.60

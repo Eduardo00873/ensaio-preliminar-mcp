@@ -1,0 +1,12 @@
+# Sistema e editores
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Os resultados (CSV, registos JSONL, logs e resumo) fazem parte do ensaio e
+# ficam no repositório. Pastas de verificação temporária não.
+results/verificacao/

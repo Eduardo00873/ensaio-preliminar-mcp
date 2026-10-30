@@ -1,0 +1,5 @@
+condicao,repeticoes,pedidos_logicos,linhas,duplicados,pedidos_2_ou_mais_linhas,pedidos_sem_linha,duplicados_por_repeticao_media,duplicados_por_repeticao_dp,duplicados_por_repeticao_min,duplicados_por_repeticao_max,pct_pedidos_duplicados,duplicados_replica_dif_original,pct_duplicados_replica_dif_original,duplicados_replica_dif_anterior,pedidos_dup_com_repeticao_noutra_replica,pedidos_sem_resposta
+C-controlo,30,600,600,0,0,0,0.00,0.00,0,0,0.0,0,,0,0,0
+C-atraso,30,600,1800,1200,600,0,40.00,0.00,40,40,100.0,600,50.0,1200,600,600
+C-rede,30,600,838,238,176,0,7.93,2.79,4,15,29.3,176,73.9,238,176,19
+C-atraso-cache,30,600,1200,600,600,0,20.00,0.00,20,20,100.0,600,100.0,600,600,0

@@ -1,0 +1,1996 @@
+server-a-1  | INFO:     172.19.0.6:54434 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-01 request_no=2 charge_id=2254 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-01 request_no=3 charge_id=2256 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-01 request_no=4 charge_id=2258 fault_injected=True
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-01 request_no=5 charge_id=2260 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2260
+server-a-1  | INFO:     172.19.0.6:54470 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-01 request_no=6 charge_id=2262 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2262
+server-a-1  | INFO:     172.19.0.6:54470 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-01 request_no=8 charge_id=2264 fault_injected=True
+server-a-1  | cache: jsonrpc_id=15 run_id=C-atraso-cache-01 request_no=8 -> charge_id=2264 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:49536 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-01 request_no=10 charge_id=2267 fault_injected=True
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-01 request_no=11 charge_id=2269 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2269
+server-a-1  | INFO:     172.19.0.6:49540 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-01 request_no=12 charge_id=2271 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2271
+server-a-1  | INFO:     172.19.0.6:49540 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-01 request_no=13 charge_id=2273 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2273
+server-a-1  | INFO:     172.19.0.6:49540 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-01 request_no=14 charge_id=2275 fault_injected=True
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-01 request_no=15 charge_id=2276 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2276
+server-a-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-01 request_no=17 charge_id=2278 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=29 charge_id=2278
+server-a-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=31 run_id=C-atraso-cache-01 request_no=19 charge_id=2280 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=31 charge_id=2280
+server-a-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-02 request_no=2 charge_id=2283 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-02 request_no=3 charge_id=2285 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-02 request_no=4 charge_id=2287 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2287
+server-a-1  | INFO:     172.19.0.6:37110 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-02 request_no=5 charge_id=2289 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2289
+server-a-1  | INFO:     172.19.0.6:37110 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-02 request_no=7 charge_id=2291 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2291
+server-a-1  | INFO:     172.19.0.6:37110 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-02 request_no=8 charge_id=2293 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2293
+server-a-1  | INFO:     172.19.0.6:37110 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-02 request_no=10 charge_id=2295 fault_injected=True
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-01 request_no=1 charge_id=2253 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2253
+server-b-1  | INFO:     172.19.0.6:60734 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-01 request_no=2 charge_id=2255 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2255
+server-b-1  | INFO:     172.19.0.6:60734 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-01 request_no=3 charge_id=2257 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2257
+server-b-1  | INFO:     172.19.0.6:60734 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-01 request_no=4 charge_id=2259 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2259
+server-b-1  | INFO:     172.19.0.6:60734 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-01 request_no=6 charge_id=2261 fault_injected=True
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-01 request_no=7 charge_id=2263 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2263
+server-b-1  | INFO:     172.19.0.6:37690 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-01 request_no=8 charge_id=2265 fault_injected=True
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-01 request_no=9 charge_id=2266 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2266
+server-b-1  | INFO:     172.19.0.6:37702 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-01 request_no=10 charge_id=2268 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2268
+server-b-1  | INFO:     172.19.0.6:37702 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-01 request_no=12 charge_id=2270 fault_injected=True
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-01 request_no=13 charge_id=2272 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-01 request_no=14 charge_id=2274 fault_injected=True
+server-b-1  | cache: jsonrpc_id=26 run_id=C-atraso-cache-01 request_no=14 -> charge_id=2274 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-01 request_no=16 charge_id=2277 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2277
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-01 request_no=18 charge_id=2279 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=30 charge_id=2279
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=32 run_id=C-atraso-cache-01 request_no=20 charge_id=2281 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=32 charge_id=2281
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-02 request_no=1 charge_id=2282 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2282
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-02 request_no=2 charge_id=2284 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2284
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-02 request_no=3 charge_id=2286 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2286
+server-b-1  | INFO:     172.19.0.6:40822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-02 request_no=5 charge_id=2288 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-02 request_no=6 charge_id=2290 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2290
+server-b-1  | INFO:     172.19.0.6:39112 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-02 request_no=8 charge_id=2292 fault_injected=True
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-02 request_no=9 charge_id=2294 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2294
+server-b-1  | INFO:     172.19.0.6:39122 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-02 request_no=10 charge_id=2296 fault_injected=True
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-02 request_no=11 charge_id=2297 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2297
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-02 request_no=13 charge_id=2299 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2299
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-02 request_no=14 charge_id=2301 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2301
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-02 request_no=16 charge_id=2303 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2303
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-02 request_no=18 charge_id=2305 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2305
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-02 request_no=20 charge_id=2307 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2307
+server-b-1  | INFO:     172.19.0.6:39136 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-03 request_no=1 charge_id=2308 fault_injected=True
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-03 request_no=2 charge_id=2310 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2310
+server-b-1  | INFO:     172.19.0.6:56260 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-03 request_no=3 charge_id=2312 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2312
+server-b-1  | INFO:     172.19.0.6:56260 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-03 request_no=5 charge_id=2314 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2314
+server-b-1  | INFO:     172.19.0.6:56260 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-03 request_no=6 charge_id=2316 fault_injected=True
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-03 request_no=7 charge_id=2317 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2317
+server-b-1  | INFO:     172.19.0.6:56262 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-03 request_no=9 charge_id=2319 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2319
+server-b-1  | INFO:     172.19.0.6:56262 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-03 request_no=11 charge_id=2321 fault_injected=False
+server-a-1  | cache: jsonrpc_id=17 run_id=C-atraso-cache-02 request_no=10 -> charge_id=2295 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:37122 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-02 request_no=12 charge_id=2298 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2298
+server-a-1  | INFO:     172.19.0.6:37122 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-02 request_no=14 charge_id=2300 fault_injected=True
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-02 request_no=15 charge_id=2302 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2302
+server-a-1  | INFO:     172.19.0.6:38412 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-02 request_no=17 charge_id=2304 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2304
+server-a-1  | INFO:     172.19.0.6:38412 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-02 request_no=19 charge_id=2306 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2306
+server-a-1  | INFO:     172.19.0.6:38412 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:38412 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-03 request_no=1 charge_id=2309 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2309
+server-a-1  | INFO:     172.19.0.6:38412 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-03 request_no=3 charge_id=2311 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-03 request_no=4 charge_id=2313 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2313
+server-a-1  | INFO:     172.19.0.6:38422 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-03 request_no=6 charge_id=2315 fault_injected=True
+server-a-1  | cache: jsonrpc_id=11 run_id=C-atraso-cache-03 request_no=6 -> charge_id=2315 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:38432 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-03 request_no=8 charge_id=2318 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2318
+server-a-1  | INFO:     172.19.0.6:38432 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-03 request_no=10 charge_id=2320 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2320
+server-a-1  | INFO:     172.19.0.6:38432 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-03 request_no=12 charge_id=2322 fault_injected=True
+server-a-1  | cache: jsonrpc_id=19 run_id=C-atraso-cache-03 request_no=12 -> charge_id=2322 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-03 request_no=14 charge_id=2325 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2325
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-03 request_no=16 charge_id=2327 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2327
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2321
+server-b-1  | INFO:     172.19.0.6:56262 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-03 request_no=12 charge_id=2323 fault_injected=True
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-03 request_no=13 charge_id=2324 fault_injected=False
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-03 request_no=17 charge_id=2329 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2329
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-03 request_no=18 charge_id=2331 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2331
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-03 request_no=20 charge_id=2333 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=29 charge_id=2333
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-04 request_no=1 charge_id=2334 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2334
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-04 request_no=2 charge_id=2336 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2336
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-04 request_no=4 charge_id=2338 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2338
+server-a-1  | INFO:     172.19.0.6:39046 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-04 request_no=5 charge_id=2340 fault_injected=True
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-04 request_no=6 charge_id=2341 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2341
+server-a-1  | INFO:     172.19.0.6:41398 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-04 request_no=8 charge_id=2343 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2343
+server-a-1  | INFO:     172.19.0.6:41398 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-04 request_no=10 charge_id=2345 fault_injected=True
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-04 request_no=11 charge_id=2347 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2347
+server-a-1  | INFO:     172.19.0.6:41400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-04 request_no=12 charge_id=2349 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2349
+server-a-1  | INFO:     172.19.0.6:41400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-04 request_no=14 charge_id=2351 fault_injected=True
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-04 request_no=15 charge_id=2353 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2353
+server-a-1  | INFO:     172.19.0.6:48498 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-04 request_no=17 charge_id=2355 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2355
+server-a-1  | INFO:     172.19.0.6:48498 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-04 request_no=19 charge_id=2357 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2357
+server-a-1  | INFO:     172.19.0.6:48498 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:48498 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-05 request_no=2 charge_id=2360 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2360
+server-a-1  | INFO:     172.19.0.6:48498 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-05 request_no=4 charge_id=2362 fault_injected=True
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2324
+server-b-1  | INFO:     172.19.0.6:55802 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-03 request_no=15 charge_id=2326 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2326
+server-b-1  | INFO:     172.19.0.6:55802 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-03 request_no=17 charge_id=2328 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-03 request_no=18 charge_id=2330 fault_injected=True
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-03 request_no=19 charge_id=2332 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2332
+server-b-1  | INFO:     172.19.0.6:55822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:55822 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-04 request_no=2 charge_id=2335 fault_injected=True
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-04 request_no=3 charge_id=2337 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2337
+server-b-1  | INFO:     172.19.0.6:41592 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-04 request_no=5 charge_id=2339 fault_injected=True
+server-b-1  | cache: jsonrpc_id=9 run_id=C-atraso-cache-04 request_no=5 -> charge_id=2339 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:41596 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-04 request_no=7 charge_id=2342 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2342
+server-b-1  | INFO:     172.19.0.6:41596 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-04 request_no=9 charge_id=2344 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2344
+server-b-1  | INFO:     172.19.0.6:41596 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-04 request_no=10 charge_id=2346 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2346
+server-b-1  | INFO:     172.19.0.6:41596 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-04 request_no=12 charge_id=2348 fault_injected=True
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-04 request_no=13 charge_id=2350 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=2350
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-04 request_no=14 charge_id=2352 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2352
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-04 request_no=16 charge_id=2354 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2354
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-04 request_no=18 charge_id=2356 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2356
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-04 request_no=20 charge_id=2358 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=27 charge_id=2358
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-05 request_no=1 charge_id=2359 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2359
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-05 request_no=3 charge_id=2361 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2361
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-05 request_no=4 charge_id=2363 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2363
+server-b-1  | INFO:     172.19.0.6:41608 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-05 request_no=6 charge_id=2365 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-05 request_no=7 charge_id=2367 fault_injected=True
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-05 request_no=8 charge_id=2369 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2369
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-05 request_no=5 charge_id=2364 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2364
+server-a-1  | INFO:     172.19.0.6:48512 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-05 request_no=6 charge_id=2366 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2366
+server-a-1  | INFO:     172.19.0.6:48512 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-05 request_no=7 charge_id=2368 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2368
+server-a-1  | INFO:     172.19.0.6:48512 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-05 request_no=9 charge_id=2370 fault_injected=True
+server-a-1  | cache: jsonrpc_id=15 run_id=C-atraso-cache-05 request_no=9 -> charge_id=2370 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:38720 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-05 request_no=11 charge_id=2373 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2373
+server-a-1  | INFO:     172.19.0.6:38720 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-05 request_no=13 charge_id=2375 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2375
+server-a-1  | INFO:     172.19.0.6:38720 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-05 request_no=15 charge_id=2377 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2377
+server-a-1  | INFO:     172.19.0.6:38720 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-05 request_no=17 charge_id=2379 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2379
+server-a-1  | INFO:     172.19.0.6:38720 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-05 request_no=18 charge_id=2381 fault_injected=True
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-05 request_no=19 charge_id=2382 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2382
+server-a-1  | INFO:     172.19.0.6:38724 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-05 request_no=20 charge_id=2384 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:49796 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-06 request_no=2 charge_id=2386 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2386
+server-a-1  | INFO:     172.19.0.6:49796 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-06 request_no=3 charge_id=2388 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2388
+server-a-1  | INFO:     172.19.0.6:49796 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-06 request_no=4 charge_id=2390 fault_injected=True
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-06 request_no=5 charge_id=2391 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2391
+server-a-1  | INFO:     172.19.0.6:49802 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-06 request_no=6 charge_id=2393 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-06 request_no=7 charge_id=2394 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2394
+server-a-1  | INFO:     172.19.0.6:49980 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-06 request_no=9 charge_id=2396 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-06 request_no=10 charge_id=2398 fault_injected=True
+server-a-1  | cache: jsonrpc_id=19 run_id=C-atraso-cache-06 request_no=10 -> charge_id=2398 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:50002 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-06 request_no=12 charge_id=2401 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2401
+server-a-1  | INFO:     172.19.0.6:50002 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-06 request_no=13 charge_id=2403 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2403
+server-a-1  | INFO:     172.19.0.6:50002 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-06 request_no=15 charge_id=2405 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2405
+server-a-1  | INFO:     172.19.0.6:50002 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-06 request_no=17 charge_id=2407 fault_injected=True
+server-a-1  | cache: jsonrpc_id=29 run_id=C-atraso-cache-06 request_no=17 -> charge_id=2407 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:44972 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=31 run_id=C-atraso-cache-06 request_no=19 charge_id=2410 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=31 charge_id=2410
+server-a-1  | INFO:     172.19.0.6:44972 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=33 run_id=C-atraso-cache-06 request_no=20 charge_id=2412 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=33 charge_id=2412
+server-b-1  | INFO:     172.19.0.6:46252 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-05 request_no=9 charge_id=2371 fault_injected=True
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-05 request_no=10 charge_id=2372 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2372
+server-b-1  | INFO:     172.19.0.6:40364 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-05 request_no=12 charge_id=2374 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2374
+server-b-1  | INFO:     172.19.0.6:40364 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-05 request_no=14 charge_id=2376 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2376
+server-b-1  | INFO:     172.19.0.6:40364 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-05 request_no=16 charge_id=2378 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2378
+server-b-1  | INFO:     172.19.0.6:40364 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-05 request_no=18 charge_id=2380 fault_injected=True
+server-b-1  | cache: jsonrpc_id=26 run_id=C-atraso-cache-05 request_no=18 -> charge_id=2380 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:40378 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-05 request_no=20 charge_id=2383 fault_injected=True
+server-b-1  | cache: jsonrpc_id=30 run_id=C-atraso-cache-05 request_no=20 -> charge_id=2383 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:59102 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-06 request_no=1 charge_id=2385 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2385
+server-b-1  | INFO:     172.19.0.6:59102 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-06 request_no=3 charge_id=2387 fault_injected=True
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-06 request_no=4 charge_id=2389 fault_injected=True
+server-b-1  | cache: jsonrpc_id=8 run_id=C-atraso-cache-06 request_no=4 -> charge_id=2389 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:59126 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-06 request_no=6 charge_id=2392 fault_injected=True
+server-b-1  | cache: jsonrpc_id=12 run_id=C-atraso-cache-06 request_no=6 -> charge_id=2392 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:52680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-06 request_no=8 charge_id=2395 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2395
+server-b-1  | INFO:     172.19.0.6:52680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-06 request_no=9 charge_id=2397 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2397
+server-b-1  | INFO:     172.19.0.6:52680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-06 request_no=10 charge_id=2399 fault_injected=True
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-06 request_no=11 charge_id=2400 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2400
+server-b-1  | INFO:     172.19.0.6:52696 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-06 request_no=13 charge_id=2402 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-06 request_no=14 charge_id=2404 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2404
+server-b-1  | INFO:     172.19.0.6:47680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-06 request_no=16 charge_id=2406 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2406
+server-b-1  | INFO:     172.19.0.6:47680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-06 request_no=17 charge_id=2408 fault_injected=True
+server-b-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-06 request_no=18 charge_id=2409 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=30 charge_id=2409
+server-b-1  | INFO:     172.19.0.6:47684 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=32 run_id=C-atraso-cache-06 request_no=20 charge_id=2411 fault_injected=True
+server-b-1  | INFO:     172.19.0.6:47694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-07 request_no=1 charge_id=2414 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2414
+server-a-1  | INFO:     172.19.0.6:44972 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-07 request_no=1 charge_id=2413 fault_injected=True
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-07 request_no=2 charge_id=2415 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2415
+server-a-1  | INFO:     172.19.0.6:44984 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-07 request_no=4 charge_id=2417 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2417
+server-a-1  | INFO:     172.19.0.6:44984 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-07 request_no=5 charge_id=2419 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=2419
+server-a-1  | INFO:     172.19.0.6:44984 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-07 request_no=6 charge_id=2421 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2421
+server-a-1  | INFO:     172.19.0.6:44984 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-07 request_no=8 charge_id=2423 fault_injected=True
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-07 request_no=9 charge_id=2425 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=2425
+server-a-1  | INFO:     172.19.0.6:34454 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-07 request_no=11 charge_id=2427 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2427
+server-a-1  | INFO:     172.19.0.6:34454 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-07 request_no=13 charge_id=2429 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2429
+server-a-1  | INFO:     172.19.0.6:34454 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-07 request_no=15 charge_id=2431 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2431
+server-a-1  | INFO:     172.19.0.6:34454 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-07 request_no=16 charge_id=2433 fault_injected=False
+server-b-1  | INFO:     172.19.0.6:47694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-07 request_no=3 charge_id=2416 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2416
+server-b-1  | INFO:     172.19.0.6:47694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-07 request_no=5 charge_id=2418 fault_injected=True
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-07 request_no=6 charge_id=2420 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-07 request_no=7 charge_id=2422 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2422
+server-b-1  | INFO:     172.19.0.6:40408 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-07 request_no=8 charge_id=2424 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2424
+server-b-1  | INFO:     172.19.0.6:40408 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-07 request_no=10 charge_id=2426 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2426
+server-b-1  | INFO:     172.19.0.6:40408 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2433
+server-a-1  | INFO:     172.19.0.6:34454 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-07 request_no=18 charge_id=2435 fault_injected=True
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-07 request_no=19 charge_id=2437 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2437
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-08 request_no=2 charge_id=2440 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2440
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-08 request_no=4 charge_id=2442 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2442
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-08 request_no=6 charge_id=2444 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2444
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-08 request_no=8 charge_id=2446 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2446
+server-a-1  | INFO:     172.19.0.6:34468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-08 request_no=10 charge_id=2448 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-08 request_no=11 charge_id=2450 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2450
+server-a-1  | INFO:     172.19.0.6:42052 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-08 request_no=13 charge_id=2452 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2452
+server-a-1  | INFO:     172.19.0.6:42052 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-08 request_no=15 charge_id=2454 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2454
+server-a-1  | INFO:     172.19.0.6:42052 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-08 request_no=17 charge_id=2456 fault_injected=True
+server-a-1  | cache: jsonrpc_id=21 run_id=C-atraso-cache-08 request_no=17 -> charge_id=2456 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:42062 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-08 request_no=19 charge_id=2459 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2459
+server-a-1  | INFO:     172.19.0.6:42062 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:42062 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-09 request_no=2 charge_id=2462 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-09 request_no=3 charge_id=2464 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2464
+server-a-1  | INFO:     172.19.0.6:41126 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-09 request_no=5 charge_id=2466 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2466
+server-a-1  | INFO:     172.19.0.6:41126 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-09 request_no=6 charge_id=2468 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2468
+server-a-1  | INFO:     172.19.0.6:41126 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-09 request_no=7 charge_id=2470 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-09 request_no=8 charge_id=2471 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2471
+server-a-1  | INFO:     172.19.0.6:41138 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-09 request_no=10 charge_id=2473 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-09 request_no=11 charge_id=2475 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2475
+server-a-1  | INFO:     172.19.0.6:41150 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-09 request_no=13 charge_id=2477 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-09 request_no=14 charge_id=2479 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2479
+server-a-1  | INFO:     172.19.0.6:43612 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-09 request_no=16 charge_id=2481 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2481
+server-a-1  | INFO:     172.19.0.6:43612 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-09 request_no=17 charge_id=2483 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2483
+server-a-1  | INFO:     172.19.0.6:43612 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-09 request_no=19 charge_id=2485 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2485
+server-a-1  | INFO:     172.19.0.6:43612 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:43612 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-10 request_no=2 charge_id=2488 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-10 request_no=3 charge_id=2490 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-10 request_no=4 charge_id=2492 fault_injected=True
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-10 request_no=5 charge_id=2494 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2494
+server-a-1  | INFO:     172.19.0.6:42182 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-10 request_no=7 charge_id=2496 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2496
+server-a-1  | INFO:     172.19.0.6:42182 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-10 request_no=8 charge_id=2498 fault_injected=True
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-10 request_no=9 charge_id=2499 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2499
+server-a-1  | INFO:     172.19.0.6:42196 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-10 request_no=11 charge_id=2501 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2501
+server-a-1  | INFO:     172.19.0.6:42196 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-10 request_no=13 charge_id=2503 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2503
+server-a-1  | INFO:     172.19.0.6:42196 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-10 request_no=15 charge_id=2505 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2505
+server-a-1  | INFO:     172.19.0.6:42196 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-10 request_no=17 charge_id=2507 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2507
+server-a-1  | INFO:     172.19.0.6:42196 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-10 request_no=19 charge_id=2509 fault_injected=True
+server-a-1  | cache: jsonrpc_id=27 run_id=C-atraso-cache-10 request_no=19 -> charge_id=2509 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:42200 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-10 request_no=20 charge_id=2512 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:35620 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-11 request_no=2 charge_id=2514 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2514
+server-a-1  | INFO:     172.19.0.6:35620 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-11 request_no=4 charge_id=2516 fault_injected=True
+server-a-1  | cache: jsonrpc_id=7 run_id=C-atraso-cache-11 request_no=4 -> charge_id=2516 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:35630 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-11 request_no=6 charge_id=2519 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2519
+server-a-1  | INFO:     172.19.0.6:35630 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-07 request_no=12 charge_id=2428 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2428
+server-b-1  | INFO:     172.19.0.6:40408 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-07 request_no=14 charge_id=2430 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=2430
+server-b-1  | INFO:     172.19.0.6:40408 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-07 request_no=16 charge_id=2432 fault_injected=True
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-07 request_no=17 charge_id=2434 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2434
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-07 request_no=18 charge_id=2436 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2436
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-07 request_no=20 charge_id=2438 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=27 charge_id=2438
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-08 request_no=1 charge_id=2439 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2439
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-08 request_no=3 charge_id=2441 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2441
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-08 request_no=5 charge_id=2443 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2443
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-08 request_no=7 charge_id=2445 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2445
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-08 request_no=9 charge_id=2447 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2447
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-08 request_no=10 charge_id=2449 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2449
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-08 request_no=12 charge_id=2451 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2451
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-08 request_no=14 charge_id=2453 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2453
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-08 request_no=16 charge_id=2455 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2455
+server-b-1  | INFO:     172.19.0.6:40412 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-08 request_no=17 charge_id=2457 fault_injected=True
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-08 request_no=18 charge_id=2458 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2458
+server-b-1  | INFO:     172.19.0.6:60234 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-08 request_no=20 charge_id=2460 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2460
+server-b-1  | INFO:     172.19.0.6:60234 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-09 request_no=1 charge_id=2461 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2461
+server-b-1  | INFO:     172.19.0.6:60234 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-09 request_no=2 charge_id=2463 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2463
+server-b-1  | INFO:     172.19.0.6:60234 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-09 request_no=4 charge_id=2465 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2465
+server-b-1  | INFO:     172.19.0.6:60234 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-09 request_no=6 charge_id=2467 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-09 request_no=7 charge_id=2469 fault_injected=True
+server-b-1  | cache: jsonrpc_id=12 run_id=C-atraso-cache-09 request_no=7 -> charge_id=2469 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-09 request_no=9 charge_id=2472 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2472
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-09 request_no=10 charge_id=2474 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2474
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-09 request_no=12 charge_id=2476 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2476
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-09 request_no=13 charge_id=2478 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2478
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-09 request_no=15 charge_id=2480 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2480
+server-b-1  | INFO:     172.19.0.6:36868 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-09 request_no=17 charge_id=2482 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-09 request_no=18 charge_id=2484 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2484
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-09 request_no=20 charge_id=2486 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2486
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-10 request_no=1 charge_id=2487 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2487
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-10 request_no=2 charge_id=2489 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2489
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-10 request_no=3 charge_id=2491 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2491
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-10 request_no=4 charge_id=2493 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2493
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-10 request_no=6 charge_id=2495 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2495
+server-b-1  | INFO:     172.19.0.6:44676 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-11 request_no=7 charge_id=2521 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-11 request_no=8 charge_id=2522 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2522
+server-a-1  | INFO:     172.19.0.6:44218 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-11 request_no=9 charge_id=2524 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-11 request_no=10 charge_id=2525 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2525
+server-a-1  | INFO:     172.19.0.6:44230 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-11 request_no=12 charge_id=2527 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-11 request_no=13 charge_id=2529 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2529
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-11 request_no=15 charge_id=2531 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2531
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-11 request_no=17 charge_id=2533 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2533
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-11 request_no=19 charge_id=2535 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2535
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-12 request_no=2 charge_id=2538 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2538
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-12 request_no=4 charge_id=2540 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2540
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-12 request_no=6 charge_id=2542 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2542
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-12 request_no=8 charge_id=2544 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2544
+server-a-1  | INFO:     172.19.0.6:44236 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-12 request_no=10 charge_id=2546 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-12 request_no=11 charge_id=2548 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2548
+server-a-1  | INFO:     172.19.0.6:56362 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-12 request_no=13 charge_id=2550 fault_injected=True
+server-a-1  | cache: jsonrpc_id=17 run_id=C-atraso-cache-12 request_no=13 -> charge_id=2550 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:56374 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-12 request_no=15 charge_id=2553 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2553
+server-a-1  | INFO:     172.19.0.6:56374 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-12 request_no=17 charge_id=2555 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2555
+server-a-1  | INFO:     172.19.0.6:56374 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-12 request_no=19 charge_id=2557 fault_injected=True
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-12 request_no=20 charge_id=2559 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:51098 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-13 request_no=1 charge_id=2562 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-13 request_no=2 charge_id=2563 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2563
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-13 request_no=4 charge_id=2565 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2565
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-13 request_no=5 charge_id=2567 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2567
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-13 request_no=7 charge_id=2569 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2569
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-13 request_no=8 charge_id=2571 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2571
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-13 request_no=10 charge_id=2573 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2573
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-13 request_no=11 charge_id=2575 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2575
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-13 request_no=13 charge_id=2577 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2577
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-13 request_no=14 charge_id=2579 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2579
+server-a-1  | INFO:     172.19.0.6:51112 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-13 request_no=16 charge_id=2581 fault_injected=True
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-13 request_no=17 charge_id=2583 fault_injected=True
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-13 request_no=18 charge_id=2585 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2585
+server-a-1  | INFO:     172.19.0.6:59052 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-13 request_no=20 charge_id=2587 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:51944 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-14 request_no=2 charge_id=2590 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-14 request_no=3 charge_id=2592 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-14 request_no=4 charge_id=2594 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2594
+server-a-1  | INFO:     172.19.0.6:51956 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-14 request_no=6 charge_id=2596 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2596
+server-a-1  | INFO:     172.19.0.6:51956 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-14 request_no=8 charge_id=2598 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2598
+server-a-1  | INFO:     172.19.0.6:51956 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-14 request_no=10 charge_id=2600 fault_injected=True
+server-a-1  | cache: jsonrpc_id=15 run_id=C-atraso-cache-14 request_no=10 -> charge_id=2600 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:51966 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-14 request_no=11 charge_id=2603 fault_injected=True
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-14 request_no=12 charge_id=2604 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-14 request_no=13 charge_id=2606 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2606
+server-a-1  | INFO:     172.19.0.6:55212 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-14 request_no=15 charge_id=2608 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2608
+server-a-1  | INFO:     172.19.0.6:55212 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-14 request_no=17 charge_id=2610 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2610
+server-a-1  | INFO:     172.19.0.6:55212 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-14 request_no=19 charge_id=2612 fault_injected=True
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-14 request_no=20 charge_id=2614 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=29 charge_id=2614
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-15 request_no=1 charge_id=2615 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2615
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-15 request_no=3 charge_id=2617 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2617
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-15 request_no=4 charge_id=2619 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2619
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-15 request_no=6 charge_id=2621 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=2621
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-15 request_no=7 charge_id=2623 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2623
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-15 request_no=9 charge_id=2625 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2625
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-15 request_no=11 charge_id=2627 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=2627
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-15 request_no=13 charge_id=2629 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2629
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-15 request_no=15 charge_id=2631 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2631
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-15 request_no=17 charge_id=2633 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2633
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-15 request_no=19 charge_id=2635 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2635
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-15 request_no=20 charge_id=2637 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2637
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-16 request_no=1 charge_id=2638 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2638
+server-a-1  | INFO:     172.19.0.6:55214 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-16 request_no=3 charge_id=2640 fault_injected=True
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-16 request_no=4 charge_id=2642 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2642
+server-a-1  | INFO:     172.19.0.6:57936 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-16 request_no=6 charge_id=2644 fault_injected=True
+server-a-1  | cache: jsonrpc_id=10 run_id=C-atraso-cache-16 request_no=6 -> charge_id=2644 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:33938 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-16 request_no=7 charge_id=2647 fault_injected=True
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-16 request_no=8 charge_id=2648 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=2648
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-16 request_no=10 charge_id=2650 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2650
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-16 request_no=12 charge_id=2652 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2652
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-16 request_no=13 charge_id=2654 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2654
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-16 request_no=15 charge_id=2656 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2656
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-16 request_no=17 charge_id=2658 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2658
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-16 request_no=18 charge_id=2660 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2660
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-16 request_no=20 charge_id=2662 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=28 charge_id=2662
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-17 request_no=1 charge_id=2663 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2663
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-17 request_no=2 charge_id=2665 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2665
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-17 request_no=3 charge_id=2667 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2667
+server-a-1  | INFO:     172.19.0.6:33954 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-17 request_no=5 charge_id=2669 fault_injected=True
+server-a-1  | cache: jsonrpc_id=10 run_id=C-atraso-cache-17 request_no=5 -> charge_id=2669 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-17 request_no=6 charge_id=2672 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2672
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-17 request_no=8 charge_id=2674 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=2674
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-17 request_no=10 charge_id=2676 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2676
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-17 request_no=12 charge_id=2678 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2678
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-17 request_no=14 charge_id=2680 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2680
+server-a-1  | INFO:     172.19.0.6:46404 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-17 request_no=16 charge_id=2682 fault_injected=True
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-17 request_no=17 charge_id=2684 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2684
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-17 request_no=19 charge_id=2686 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2686
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-18 request_no=2 charge_id=2689 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2689
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-18 request_no=4 charge_id=2691 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2691
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-18 request_no=6 charge_id=2693 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2693
+server-a-1  | INFO:     172.19.0.6:50234 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-18 request_no=8 charge_id=2695 fault_injected=True
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-18 request_no=9 charge_id=2697 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-18 request_no=10 charge_id=2699 fault_injected=True
+server-a-1  | cache: jsonrpc_id=15 run_id=C-atraso-cache-18 request_no=10 -> charge_id=2699 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-18 request_no=11 charge_id=2702 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2702
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-18 request_no=13 charge_id=2704 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2704
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-18 request_no=14 charge_id=2706 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2706
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-18 request_no=16 charge_id=2708 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2708
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-18 request_no=17 charge_id=2710 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2710
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-18 request_no=19 charge_id=2712 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2712
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-18 request_no=20 charge_id=2714 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=29 charge_id=2714
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-19 request_no=1 charge_id=2715 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2715
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-19 request_no=3 charge_id=2717 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2717
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-19 request_no=5 charge_id=2719 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2719
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-19 request_no=7 charge_id=2721 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=2721
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-19 request_no=8 charge_id=2723 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2723
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-19 request_no=9 charge_id=2725 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2725
+server-a-1  | INFO:     172.19.0.6:39838 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-19 request_no=11 charge_id=2727 fault_injected=True
+server-a-1  | cache: jsonrpc_id=16 run_id=C-atraso-cache-19 request_no=11 -> charge_id=2727 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-19 request_no=13 charge_id=2730 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2730
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-19 request_no=14 charge_id=2732 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2732
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-19 request_no=16 charge_id=2734 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2734
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-19 request_no=18 charge_id=2736 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2736
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-19 request_no=20 charge_id=2738 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2738
+server-a-1  | INFO:     172.19.0.6:55400 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-20 request_no=1 charge_id=2739 fault_injected=True
+server-a-1  | cache: jsonrpc_id=4 run_id=C-atraso-cache-20 request_no=1 -> charge_id=2739 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:60652 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-20 request_no=3 charge_id=2742 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2742
+server-a-1  | INFO:     172.19.0.6:60652 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-20 request_no=5 charge_id=2744 fault_injected=True
+server-a-1  | cache: jsonrpc_id=10 run_id=C-atraso-cache-20 request_no=5 -> charge_id=2744 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-20 request_no=7 charge_id=2747 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2747
+server-a-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-20 request_no=9 charge_id=2749 fault_injected=True
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-20 request_no=10 charge_id=2751 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2751
+server-a-1  | INFO:     172.19.0.6:39800 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-20 request_no=11 charge_id=2753 fault_injected=True
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-20 request_no=12 charge_id=2754 fault_injected=True
+server-a-1  | cache: jsonrpc_id=22 run_id=C-atraso-cache-20 request_no=12 -> charge_id=2754 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:38388 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-20 request_no=14 charge_id=2757 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2757
+server-a-1  | INFO:     172.19.0.6:38388 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-20 request_no=16 charge_id=2759 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2759
+server-a-1  | INFO:     172.19.0.6:38388 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-20 request_no=18 charge_id=2761 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=28 charge_id=2761
+server-a-1  | INFO:     172.19.0.6:38388 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-20 request_no=20 charge_id=2763 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=30 charge_id=2763
+server-a-1  | INFO:     172.19.0.6:38388 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-21 request_no=1 charge_id=2764 fault_injected=True
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-21 request_no=2 charge_id=2766 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2766
+server-a-1  | INFO:     172.19.0.6:38402 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-21 request_no=4 charge_id=2768 fault_injected=True
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-21 request_no=5 charge_id=2770 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=2770
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-21 request_no=6 charge_id=2772 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2772
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-21 request_no=8 charge_id=2774 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2774
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-21 request_no=9 charge_id=2776 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=2776
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-21 request_no=10 charge_id=2778 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2778
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-21 request_no=12 charge_id=2780 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=2780
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-21 request_no=13 charge_id=2782 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2782
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-21 request_no=15 charge_id=2784 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2784
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-21 request_no=17 charge_id=2786 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=24 charge_id=2786
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-21 request_no=19 charge_id=2788 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=26 charge_id=2788
+server-a-1  | INFO:     172.19.0.6:38418 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-21 request_no=20 charge_id=2790 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:43758 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-22 request_no=2 charge_id=2792 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2792
+server-a-1  | INFO:     172.19.0.6:43758 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-22 request_no=3 charge_id=2794 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2794
+server-a-1  | INFO:     172.19.0.6:43758 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-22 request_no=5 charge_id=2796 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2796
+server-a-1  | INFO:     172.19.0.6:43758 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-22 request_no=7 charge_id=2798 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2798
+server-a-1  | INFO:     172.19.0.6:43758 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-22 request_no=8 charge_id=2800 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-22 request_no=9 charge_id=2801 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2801
+server-a-1  | INFO:     172.19.0.6:40322 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-22 request_no=10 charge_id=2803 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-22 request_no=11 charge_id=2804 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2804
+server-a-1  | INFO:     172.19.0.6:40332 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-22 request_no=13 charge_id=2806 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-22 request_no=14 charge_id=2808 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2808
+server-a-1  | INFO:     172.19.0.6:55452 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-22 request_no=16 charge_id=2810 fault_injected=True
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-22 request_no=17 charge_id=2812 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2812
+server-a-1  | INFO:     172.19.0.6:55468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-22 request_no=19 charge_id=2814 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2814
+server-a-1  | INFO:     172.19.0.6:55468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:55468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-23 request_no=2 charge_id=2817 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2817
+server-a-1  | INFO:     172.19.0.6:55468 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-23 request_no=4 charge_id=2819 fault_injected=True
+server-a-1  | cache: jsonrpc_id=7 run_id=C-atraso-cache-23 request_no=4 -> charge_id=2819 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:55470 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-23 request_no=6 charge_id=2822 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2822
+server-a-1  | INFO:     172.19.0.6:55470 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-23 request_no=8 charge_id=2824 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-23 request_no=9 charge_id=2826 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2826
+server-a-1  | INFO:     172.19.0.6:46294 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-23 request_no=11 charge_id=2828 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-23 request_no=12 charge_id=2830 fault_injected=True
+server-a-1  | cache: jsonrpc_id=19 run_id=C-atraso-cache-23 request_no=12 -> charge_id=2830 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:46312 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-23 request_no=14 charge_id=2833 fault_injected=True
+server-a-1  | cache: jsonrpc_id=23 run_id=C-atraso-cache-23 request_no=14 -> charge_id=2833 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-23 request_no=15 charge_id=2836 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2836
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-23 request_no=16 charge_id=2838 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2838
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-23 request_no=17 charge_id=2840 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=29 charge_id=2840
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=31 run_id=C-atraso-cache-23 request_no=19 charge_id=2842 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=31 charge_id=2842
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:44174 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-24 request_no=2 charge_id=2845 fault_injected=True
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-24 request_no=3 charge_id=2847 fault_injected=True
+server-a-1  | cache: jsonrpc_id=7 run_id=C-atraso-cache-24 request_no=3 -> charge_id=2847 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:33294 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-24 request_no=5 charge_id=2850 fault_injected=True
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-24 request_no=6 charge_id=2852 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2852
+server-a-1  | INFO:     172.19.0.6:33308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-24 request_no=8 charge_id=2854 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2854
+server-a-1  | INFO:     172.19.0.6:33308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-24 request_no=10 charge_id=2856 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2856
+server-a-1  | INFO:     172.19.0.6:33308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-24 request_no=12 charge_id=2858 fault_injected=True
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-24 request_no=13 charge_id=2860 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-24 request_no=14 charge_id=2862 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2862
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-24 request_no=15 charge_id=2864 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2864
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-24 request_no=17 charge_id=2866 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2866
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-24 request_no=19 charge_id=2868 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2868
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-25 request_no=2 charge_id=2871 fault_injected=False
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-10 request_no=8 charge_id=2497 fault_injected=True
+server-b-1  | cache: jsonrpc_id=14 run_id=C-atraso-cache-10 request_no=8 -> charge_id=2497 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-10 request_no=10 charge_id=2500 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2500
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-10 request_no=12 charge_id=2502 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2502
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-10 request_no=14 charge_id=2504 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2504
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-10 request_no=16 charge_id=2506 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2506
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-10 request_no=18 charge_id=2508 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2508
+server-b-1  | INFO:     172.19.0.6:40928 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-10 request_no=19 charge_id=2510 fault_injected=True
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-10 request_no=20 charge_id=2511 fault_injected=True
+server-b-1  | cache: jsonrpc_id=30 run_id=C-atraso-cache-10 request_no=20 -> charge_id=2511 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:57592 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-11 request_no=1 charge_id=2513 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2513
+server-b-1  | INFO:     172.19.0.6:57592 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-11 request_no=3 charge_id=2515 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2515
+server-b-1  | INFO:     172.19.0.6:57592 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-11 request_no=4 charge_id=2517 fault_injected=True
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-11 request_no=5 charge_id=2518 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2518
+server-b-1  | INFO:     172.19.0.6:57604 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-11 request_no=7 charge_id=2520 fault_injected=True
+server-b-1  | cache: jsonrpc_id=12 run_id=C-atraso-cache-11 request_no=7 -> charge_id=2520 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:60242 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-11 request_no=9 charge_id=2523 fault_injected=True
+server-b-1  | cache: jsonrpc_id=16 run_id=C-atraso-cache-11 request_no=9 -> charge_id=2523 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-11 request_no=11 charge_id=2526 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2526
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-11 request_no=12 charge_id=2528 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2528
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-11 request_no=14 charge_id=2530 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2530
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-11 request_no=16 charge_id=2532 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2532
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-11 request_no=18 charge_id=2534 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2534
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-11 request_no=20 charge_id=2536 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2536
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-12 request_no=1 charge_id=2537 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2537
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-12 request_no=3 charge_id=2539 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2539
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-12 request_no=5 charge_id=2541 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2541
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-12 request_no=7 charge_id=2543 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2543
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-12 request_no=9 charge_id=2545 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2545
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-12 request_no=10 charge_id=2547 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2547
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-12 request_no=12 charge_id=2549 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2549
+server-b-1  | INFO:     172.19.0.6:60250 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-12 request_no=13 charge_id=2551 fault_injected=True
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-12 request_no=14 charge_id=2552 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2552
+server-b-1  | INFO:     172.19.0.6:39452 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-12 request_no=16 charge_id=2554 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2554
+server-b-1  | INFO:     172.19.0.6:39452 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-12 request_no=18 charge_id=2556 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2556
+server-b-1  | INFO:     172.19.0.6:39452 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-12 request_no=19 charge_id=2558 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2558
+server-b-1  | INFO:     172.19.0.6:39452 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-12 request_no=20 charge_id=2560 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2560
+server-b-1  | INFO:     172.19.0.6:39452 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-13 request_no=1 charge_id=2561 fault_injected=True
+server-b-1  | cache: jsonrpc_id=4 run_id=C-atraso-cache-13 request_no=1 -> charge_id=2561 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:47788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-13 request_no=3 charge_id=2564 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2564
+server-b-1  | INFO:     172.19.0.6:47788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-13 request_no=5 charge_id=2566 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-13 request_no=6 charge_id=2568 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2568
+server-b-1  | INFO:     172.19.0.6:47804 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-13 request_no=8 charge_id=2570 fault_injected=True
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-13 request_no=9 charge_id=2572 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2572
+server-b-1  | INFO:     172.19.0.6:47816 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-13 request_no=11 charge_id=2574 fault_injected=True
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-13 request_no=12 charge_id=2576 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2576
+server-b-1  | INFO:     172.19.0.6:52078 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-13 request_no=14 charge_id=2578 fault_injected=True
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-13 request_no=15 charge_id=2580 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2580
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-13 request_no=16 charge_id=2582 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2582
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-13 request_no=17 charge_id=2584 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2584
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-13 request_no=19 charge_id=2586 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2586
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-13 request_no=20 charge_id=2588 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=30 charge_id=2588
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-14 request_no=1 charge_id=2589 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2589
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-14 request_no=2 charge_id=2591 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2591
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-14 request_no=3 charge_id=2593 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2593
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-14 request_no=5 charge_id=2595 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2595
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-14 request_no=7 charge_id=2597 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2597
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-14 request_no=9 charge_id=2599 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2599
+server-b-1  | INFO:     172.19.0.6:52080 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-14 request_no=10 charge_id=2601 fault_injected=True
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-14 request_no=11 charge_id=2602 fault_injected=True
+server-b-1  | cache: jsonrpc_id=18 run_id=C-atraso-cache-14 request_no=11 -> charge_id=2602 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-14 request_no=12 charge_id=2605 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2605
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-14 request_no=14 charge_id=2607 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2607
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-14 request_no=16 charge_id=2609 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2609
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-14 request_no=18 charge_id=2611 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2611
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-14 request_no=19 charge_id=2613 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2613
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-15 request_no=2 charge_id=2616 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2616
+server-b-1  | INFO:     172.19.0.6:46694 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-15 request_no=4 charge_id=2618 fault_injected=True
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-15 request_no=5 charge_id=2620 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2620
+server-b-1  | INFO:     172.19.0.6:46706 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-15 request_no=7 charge_id=2622 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-15 request_no=8 charge_id=2624 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2624
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-15 request_no=10 charge_id=2626 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2626
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-15 request_no=12 charge_id=2628 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2628
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-15 request_no=14 charge_id=2630 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2630
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-15 request_no=16 charge_id=2632 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=2632
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-15 request_no=18 charge_id=2634 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2634
+server-b-1  | INFO:     172.19.0.6:39782 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-15 request_no=20 charge_id=2636 fault_injected=True
+server-b-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-16 request_no=2 charge_id=2639 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2639
+server-b-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-16 request_no=3 charge_id=2641 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2641
+server-b-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-16 request_no=5 charge_id=2643 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2643
+server-b-1  | INFO:     172.19.0.6:39788 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-16 request_no=6 charge_id=2645 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-16 request_no=7 charge_id=2646 fault_injected=True
+server-b-1  | cache: jsonrpc_id=13 run_id=C-atraso-cache-16 request_no=7 -> charge_id=2646 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:43550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-16 request_no=9 charge_id=2649 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2649
+server-b-1  | INFO:     172.19.0.6:43550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-16 request_no=11 charge_id=2651 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2651
+server-b-1  | INFO:     172.19.0.6:43550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-16 request_no=13 charge_id=2653 fault_injected=True
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-16 request_no=14 charge_id=2655 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2655
+server-b-1  | INFO:     172.19.0.6:43552 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-16 request_no=16 charge_id=2657 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2657
+server-b-1  | INFO:     172.19.0.6:43552 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-16 request_no=18 charge_id=2659 fault_injected=True
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-16 request_no=19 charge_id=2661 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=27 charge_id=2661
+server-b-1  | INFO:     172.19.0.6:43560 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:43560 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-17 request_no=2 charge_id=2664 fault_injected=True
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-17 request_no=3 charge_id=2666 fault_injected=True
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-17 request_no=4 charge_id=2668 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2668
+server-b-1  | INFO:     172.19.0.6:38346 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-17 request_no=5 charge_id=2670 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-17 request_no=6 charge_id=2671 fault_injected=True
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-17 request_no=7 charge_id=2673 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2673
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-17 request_no=9 charge_id=2675 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2675
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-17 request_no=11 charge_id=2677 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2677
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-17 request_no=13 charge_id=2679 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=2679
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-17 request_no=15 charge_id=2681 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2681
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-17 request_no=16 charge_id=2683 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2683
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-17 request_no=18 charge_id=2685 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2685
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-17 request_no=20 charge_id=2687 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=27 charge_id=2687
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-18 request_no=1 charge_id=2688 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2688
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-18 request_no=3 charge_id=2690 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2690
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-18 request_no=5 charge_id=2692 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2692
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-18 request_no=7 charge_id=2694 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2694
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-18 request_no=8 charge_id=2696 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2696
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-18 request_no=9 charge_id=2698 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2698
+server-b-1  | INFO:     172.19.0.6:41590 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-18 request_no=10 charge_id=2700 fault_injected=True
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-18 request_no=11 charge_id=2701 fault_injected=True
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-18 request_no=12 charge_id=2703 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2703
+server-b-1  | INFO:     172.19.0.6:47970 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-18 request_no=14 charge_id=2705 fault_injected=True
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-18 request_no=15 charge_id=2707 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2707
+server-b-1  | INFO:     172.19.0.6:47978 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-18 request_no=17 charge_id=2709 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-18 request_no=18 charge_id=2711 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2711
+server-b-1  | INFO:     172.19.0.6:47986 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-18 request_no=20 charge_id=2713 fault_injected=True
+server-b-1  | INFO:     172.19.0.6:46176 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-19 request_no=2 charge_id=2716 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2716
+server-b-1  | INFO:     172.19.0.6:46176 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-19 request_no=4 charge_id=2718 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2718
+server-b-1  | INFO:     172.19.0.6:46176 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-19 request_no=6 charge_id=2720 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2720
+server-b-1  | INFO:     172.19.0.6:46176 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-19 request_no=8 charge_id=2722 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-19 request_no=9 charge_id=2724 fault_injected=True
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-19 request_no=10 charge_id=2726 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2726
+server-b-1  | INFO:     172.19.0.6:46192 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-19 request_no=11 charge_id=2728 fault_injected=True
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-19 request_no=12 charge_id=2729 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2729
+server-b-1  | INFO:     172.19.0.6:46206 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-19 request_no=14 charge_id=2731 fault_injected=True
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-19 request_no=15 charge_id=2733 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2733
+server-b-1  | INFO:     172.19.0.6:35550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-19 request_no=17 charge_id=2735 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2735
+server-b-1  | INFO:     172.19.0.6:35550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-19 request_no=19 charge_id=2737 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2737
+server-b-1  | INFO:     172.19.0.6:35550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:35550 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-20 request_no=1 charge_id=2740 fault_injected=True
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-20 request_no=2 charge_id=2741 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2741
+server-b-1  | INFO:     172.19.0.6:35564 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-20 request_no=4 charge_id=2743 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2743
+server-b-1  | INFO:     172.19.0.6:35564 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-20 request_no=5 charge_id=2745 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-20 request_no=6 charge_id=2746 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2746
+server-b-1  | INFO:     172.19.0.6:39948 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-20 request_no=8 charge_id=2748 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2748
+server-b-1  | INFO:     172.19.0.6:39948 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-20 request_no=9 charge_id=2750 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2750
+server-b-1  | INFO:     172.19.0.6:39948 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-20 request_no=11 charge_id=2752 fault_injected=True
+server-b-1  | cache: jsonrpc_id=19 run_id=C-atraso-cache-20 request_no=11 -> charge_id=2752 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:39964 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-20 request_no=12 charge_id=2755 fault_injected=True
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-20 request_no=13 charge_id=2756 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2756
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-20 request_no=15 charge_id=2758 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2758
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-20 request_no=17 charge_id=2760 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=27 charge_id=2760
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-20 request_no=19 charge_id=2762 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=29 charge_id=2762
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-21 request_no=1 charge_id=2765 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2765
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-21 request_no=3 charge_id=2767 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2767
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-21 request_no=4 charge_id=2769 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2769
+server-b-1  | INFO:     172.19.0.6:60944 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-21 request_no=6 charge_id=2771 fault_injected=True
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-21 request_no=7 charge_id=2773 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2773
+server-b-1  | INFO:     172.19.0.6:60948 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-21 request_no=9 charge_id=2775 fault_injected=True
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2871
+server-a-1  | INFO:     172.19.0.6:55300 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-25 request_no=4 charge_id=2873 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-25 request_no=5 charge_id=2875 fault_injected=False
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2875
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-25 request_no=6 charge_id=2877 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2877
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-25 request_no=8 charge_id=2879 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2879
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-25 request_no=10 charge_id=2881 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2881
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-25 request_no=12 charge_id=2883 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2883
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-25 request_no=14 charge_id=2885 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2885
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-25 request_no=16 charge_id=2887 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2887
+server-a-1  | INFO:     172.19.0.6:55308 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-25 request_no=18 charge_id=2889 fault_injected=True
+server-a-1  | cache: jsonrpc_id=23 run_id=C-atraso-cache-25 request_no=18 -> charge_id=2889 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-25 request_no=19 charge_id=2892 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2892
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-26 request_no=2 charge_id=2895 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2895
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-26 request_no=3 charge_id=2897 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2897
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-26 request_no=5 charge_id=2899 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2899
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-26 request_no=7 charge_id=2901 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2901
+server-a-1  | INFO:     172.19.0.6:50416 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-26 request_no=9 charge_id=2903 fault_injected=True
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-26 request_no=10 charge_id=2905 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2905
+server-a-1  | INFO:     172.19.0.6:50422 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-26 request_no=12 charge_id=2907 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2907
+server-a-1  | INFO:     172.19.0.6:50422 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-26 request_no=14 charge_id=2909 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=2909
+server-a-1  | INFO:     172.19.0.6:50422 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-26 request_no=16 charge_id=2911 fault_injected=True
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-26 request_no=17 charge_id=2913 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2913
+server-a-1  | INFO:     172.19.0.6:58932 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-26 request_no=19 charge_id=2915 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2915
+server-a-1  | INFO:     172.19.0.6:58932 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-26 request_no=20 charge_id=2917 fault_injected=True
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-27 request_no=1 charge_id=2919 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2919
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-27 request_no=2 charge_id=2921 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2921
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-27 request_no=4 charge_id=2923 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=2923
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-27 request_no=6 charge_id=2925 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=2925
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-27 request_no=8 charge_id=2927 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2927
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-27 request_no=10 charge_id=2929 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2929
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-27 request_no=12 charge_id=2931 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2931
+server-a-1  | INFO:     172.19.0.6:58940 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-27 request_no=13 charge_id=2933 fault_injected=True
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-27 request_no=14 charge_id=2934 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=2934
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-27 request_no=15 charge_id=2936 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2936
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-27 request_no=16 charge_id=2938 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2938
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-27 request_no=17 charge_id=2940 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=25 charge_id=2940
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-27 request_no=19 charge_id=2942 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2942
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-28 request_no=2 charge_id=2945 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2945
+server-a-1  | INFO:     172.19.0.6:43858 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-28 request_no=4 charge_id=2947 fault_injected=True
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-28 request_no=5 charge_id=2949 fault_injected=True
+server-a-1  | cache: jsonrpc_id=9 run_id=C-atraso-cache-28 request_no=5 -> charge_id=2949 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:58806 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-28 request_no=7 charge_id=2952 fault_injected=False
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-21 request_no=10 charge_id=2777 fault_injected=True
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-21 request_no=11 charge_id=2779 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2779
+server-b-1  | INFO:     172.19.0.6:51858 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-21 request_no=13 charge_id=2781 fault_injected=True
+server-a-1  | resposta: jsonrpc_id=11 charge_id=2952
+server-a-1  | INFO:     172.19.0.6:58806 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-28 request_no=9 charge_id=2954 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=2954
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-21 request_no=14 charge_id=2783 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2783
+server-b-1  | INFO:     172.19.0.6:51870 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-21 request_no=16 charge_id=2785 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2785
+server-b-1  | INFO:     172.19.0.6:51870 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-21 request_no=18 charge_id=2787 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=25 charge_id=2787
+server-b-1  | INFO:     172.19.0.6:51870 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-21 request_no=20 charge_id=2789 fault_injected=True
+server-b-1  | cache: jsonrpc_id=29 run_id=C-atraso-cache-21 request_no=20 -> charge_id=2789 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:58806 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-28 request_no=11 charge_id=2956 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=2956
+server-a-1  | INFO:     172.19.0.6:58806 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-28 request_no=13 charge_id=2958 fault_injected=True
+server-a-1  | cache: jsonrpc_id=19 run_id=C-atraso-cache-28 request_no=13 -> charge_id=2958 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:53574 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-28 request_no=15 charge_id=2961 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=2961
+server-a-1  | INFO:     172.19.0.6:53574 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:51886 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-22 request_no=1 charge_id=2791 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2791
+server-b-1  | INFO:     172.19.0.6:51886 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-22 request_no=3 charge_id=2793 fault_injected=True
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-22 request_no=4 charge_id=2795 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2795
+server-b-1  | INFO:     172.19.0.6:60560 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-22 request_no=6 charge_id=2797 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2797
+server-b-1  | INFO:     172.19.0.6:60560 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-22 request_no=8 charge_id=2799 fault_injected=True
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-28 request_no=17 charge_id=2963 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=2963
+server-a-1  | INFO:     172.19.0.6:53574 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-28 request_no=19 charge_id=2965 fault_injected=True
+server-a-1  | commit: jsonrpc_id=27 run_id=C-atraso-cache-28 request_no=20 charge_id=2967 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=27 charge_id=2967
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-29 request_no=1 charge_id=2968 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=2968
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-29 request_no=3 charge_id=2970 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=2970
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-29 request_no=5 charge_id=2972 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=2972
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-29 request_no=7 charge_id=2974 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=2974
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-29 request_no=9 charge_id=2976 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=2976
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-29 request_no=11 charge_id=2978 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=2978
+server-a-1  | INFO:     172.19.0.6:53578 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-29 request_no=13 charge_id=2980 fault_injected=True
+server-b-1  | cache: jsonrpc_id=12 run_id=C-atraso-cache-22 request_no=8 -> charge_id=2799 (sem INSERT)
+server-a-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-29 request_no=14 charge_id=2982 fault_injected=False
+server-b-1  | INFO:     172.19.0.6:60564 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-22 request_no=10 charge_id=2802 fault_injected=True
+server-b-1  | cache: jsonrpc_id=16 run_id=C-atraso-cache-22 request_no=10 -> charge_id=2802 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-22 request_no=12 charge_id=2805 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=2982
+server-a-1  | INFO:     172.19.0.6:53592 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-29 request_no=16 charge_id=2984 fault_injected=True
+server-a-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-29 request_no=17 charge_id=2986 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=2986
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2805
+server-a-1  | INFO:     172.19.0.6:38158 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-22 request_no=13 charge_id=2807 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2807
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-22 request_no=15 charge_id=2809 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2809
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-22 request_no=16 charge_id=2811 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2811
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-29 request_no=19 charge_id=2988 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=22 charge_id=2988
+server-a-1  | INFO:     172.19.0.6:38158 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:38158 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-22 request_no=18 charge_id=2813 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2813
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-22 request_no=20 charge_id=2815 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2815
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-23 request_no=1 charge_id=2816 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2816
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-23 request_no=3 charge_id=2818 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2818
+server-b-1  | INFO:     172.19.0.6:60568 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-23 request_no=4 charge_id=2820 fault_injected=True
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-23 request_no=5 charge_id=2821 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2821
+server-b-1  | INFO:     172.19.0.6:37446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-23 request_no=7 charge_id=2823 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2823
+server-b-1  | INFO:     172.19.0.6:37446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-23 request_no=8 charge_id=2825 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2825
+server-b-1  | INFO:     172.19.0.6:37446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-23 request_no=10 charge_id=2827 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2827
+server-b-1  | INFO:     172.19.0.6:37446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-23 request_no=11 charge_id=2829 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2829
+server-b-1  | INFO:     172.19.0.6:37446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-23 request_no=12 charge_id=2831 fault_injected=True
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-23 request_no=13 charge_id=2832 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2832
+server-b-1  | INFO:     172.19.0.6:33642 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-23 request_no=14 charge_id=2834 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-23 request_no=15 charge_id=2835 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-23 request_no=16 charge_id=2837 fault_injected=True
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-23 request_no=17 charge_id=2839 fault_injected=True
+server-a-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-30 request_no=2 charge_id=2991 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2991
+server-a-1  | INFO:     172.19.0.6:38158 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-23 request_no=18 charge_id=2841 fault_injected=False
+server-a-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-30 request_no=3 charge_id=2993 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=30 charge_id=2841
+server-a-1  | resposta: jsonrpc_id=5 charge_id=2993
+server-a-1  | INFO:     172.19.0.6:38158 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-30 request_no=4 charge_id=2995 fault_injected=True
+server-a-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-30 request_no=5 charge_id=2996 fault_injected=True
+server-a-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-30 request_no=6 charge_id=2998 fault_injected=True
+server-b-1  | INFO:     172.19.0.6:39446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=32 run_id=C-atraso-cache-23 request_no=20 charge_id=2843 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=32 charge_id=2843
+server-b-1  | INFO:     172.19.0.6:39446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-24 request_no=1 charge_id=2844 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2844
+server-a-1  | cache: jsonrpc_id=13 run_id=C-atraso-cache-30 request_no=6 -> charge_id=2998 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:51564 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-30 request_no=8 charge_id=3001 fault_injected=True
+server-a-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-30 request_no=9 charge_id=3003 fault_injected=True
+server-a-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-30 request_no=10 charge_id=3005 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=3005
+server-a-1  | INFO:     172.19.0.6:51570 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-30 request_no=12 charge_id=3007 fault_injected=True
+server-b-1  | INFO:     172.19.0.6:39446 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-30 request_no=13 charge_id=3009 fault_injected=False
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-24 request_no=2 charge_id=2846 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=23 charge_id=3009
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2846
+server-b-1  | INFO:     172.19.0.6:39446 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-24 request_no=3 charge_id=2848 fault_injected=True
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-24 request_no=4 charge_id=2849 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2849
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-24 request_no=5 charge_id=2851 fault_injected=False
+server-a-1  | INFO:     172.19.0.6:51580 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=25 run_id=C-atraso-cache-30 request_no=15 charge_id=3011 fault_injected=True
+server-a-1  | cache: jsonrpc_id=27 run_id=C-atraso-cache-30 request_no=15 -> charge_id=3011 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:38446 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=29 run_id=C-atraso-cache-30 request_no=17 charge_id=3014 fault_injected=True
+server-a-1  | cache: jsonrpc_id=31 run_id=C-atraso-cache-30 request_no=17 -> charge_id=3014 (sem INSERT)
+server-a-1  | INFO:     172.19.0.6:38462 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=33 run_id=C-atraso-cache-30 request_no=19 charge_id=3017 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=33 charge_id=3017
+server-a-1  | INFO:     172.19.0.6:38462 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2851
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-24 request_no=7 charge_id=2853 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2853
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-24 request_no=9 charge_id=2855 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2855
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-24 request_no=11 charge_id=2857 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2857
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-24 request_no=12 charge_id=2859 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2859
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-24 request_no=13 charge_id=2861 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2861
+server-b-1  | INFO:     172.19.0.6:56294 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-24 request_no=15 charge_id=2863 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-24 request_no=16 charge_id=2865 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2865
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-24 request_no=18 charge_id=2867 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2867
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-24 request_no=20 charge_id=2869 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2869
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-25 request_no=1 charge_id=2870 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2870
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-25 request_no=3 charge_id=2872 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2872
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-25 request_no=4 charge_id=2874 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2874
+server-b-1  | INFO:     172.19.0.6:55516 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-25 request_no=6 charge_id=2876 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-25 request_no=7 charge_id=2878 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2878
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-25 request_no=9 charge_id=2880 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2880
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-25 request_no=11 charge_id=2882 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2882
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-25 request_no=13 charge_id=2884 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2884
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-25 request_no=15 charge_id=2886 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2886
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-25 request_no=17 charge_id=2888 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2888
+server-b-1  | INFO:     172.19.0.6:55518 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-25 request_no=18 charge_id=2890 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-25 request_no=19 charge_id=2891 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-25 request_no=20 charge_id=2893 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2893
+server-b-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-26 request_no=1 charge_id=2894 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2894
+server-b-1  | INFO:     172.19.0.6:57880 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-26 request_no=3 charge_id=2896 fault_injected=True
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-26 request_no=4 charge_id=2898 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2898
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-26 request_no=6 charge_id=2900 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2900
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-26 request_no=8 charge_id=2902 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2902
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-26 request_no=9 charge_id=2904 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2904
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-26 request_no=11 charge_id=2906 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2906
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-26 request_no=13 charge_id=2908 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2908
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-26 request_no=15 charge_id=2910 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=2910
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-26 request_no=16 charge_id=2912 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2912
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-26 request_no=18 charge_id=2914 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2914
+server-b-1  | INFO:     172.19.0.6:57888 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-26 request_no=20 charge_id=2916 fault_injected=True
+server-b-1  | cache: jsonrpc_id=26 run_id=C-atraso-cache-26 request_no=20 -> charge_id=2916 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:34724 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-27 request_no=1 charge_id=2918 fault_injected=True
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-27 request_no=2 charge_id=2920 fault_injected=True
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-27 request_no=3 charge_id=2922 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2922
+server-b-1  | INFO:     172.19.0.6:35098 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-27 request_no=5 charge_id=2924 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=2924
+server-b-1  | INFO:     172.19.0.6:35098 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-27 request_no=7 charge_id=2926 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2926
+server-b-1  | INFO:     172.19.0.6:35098 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-27 request_no=9 charge_id=2928 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2928
+server-b-1  | INFO:     172.19.0.6:35098 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-27 request_no=11 charge_id=2930 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2930
+server-b-1  | INFO:     172.19.0.6:35098 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-27 request_no=13 charge_id=2932 fault_injected=True
+server-b-1  | cache: jsonrpc_id=18 run_id=C-atraso-cache-27 request_no=13 -> charge_id=2932 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:35104 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-27 request_no=15 charge_id=2935 fault_injected=True
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-27 request_no=16 charge_id=2937 fault_injected=True
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-27 request_no=17 charge_id=2939 fault_injected=True
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-27 request_no=18 charge_id=2941 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2941
+server-b-1  | INFO:     172.19.0.6:47698 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-27 request_no=20 charge_id=2943 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=2943
+server-b-1  | INFO:     172.19.0.6:47698 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-28 request_no=1 charge_id=2944 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2944
+server-b-1  | INFO:     172.19.0.6:47698 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-28 request_no=3 charge_id=2946 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=2946
+server-b-1  | INFO:     172.19.0.6:47698 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-28 request_no=4 charge_id=2948 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=2948
+server-b-1  | INFO:     172.19.0.6:47698 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-atraso-cache-28 request_no=5 charge_id=2950 fault_injected=True
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-28 request_no=6 charge_id=2951 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2951
+server-b-1  | INFO:     172.19.0.6:47712 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-28 request_no=8 charge_id=2953 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=2953
+server-b-1  | INFO:     172.19.0.6:47712 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-28 request_no=10 charge_id=2955 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=2955
+server-b-1  | INFO:     172.19.0.6:47712 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-28 request_no=12 charge_id=2957 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=2957
+server-b-1  | INFO:     172.19.0.6:47712 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-28 request_no=13 charge_id=2959 fault_injected=True
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-28 request_no=14 charge_id=2960 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=2960
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-28 request_no=16 charge_id=2962 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=2962
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-28 request_no=18 charge_id=2964 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=2964
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-28 request_no=19 charge_id=2966 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=26 charge_id=2966
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-atraso-cache-29 request_no=2 charge_id=2969 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=2969
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-atraso-cache-29 request_no=4 charge_id=2971 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=2971
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-atraso-cache-29 request_no=6 charge_id=2973 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=2973
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-atraso-cache-29 request_no=8 charge_id=2975 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=2975
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-atraso-cache-29 request_no=10 charge_id=2977 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=2977
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-atraso-cache-29 request_no=12 charge_id=2979 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=2979
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-atraso-cache-29 request_no=13 charge_id=2981 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=2981
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-atraso-cache-29 request_no=15 charge_id=2983 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=2983
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-atraso-cache-29 request_no=16 charge_id=2985 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=2985
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-atraso-cache-29 request_no=18 charge_id=2987 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=2987
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=23 run_id=C-atraso-cache-29 request_no=20 charge_id=2989 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=23 charge_id=2989
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-atraso-cache-30 request_no=1 charge_id=2990 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=2990
+server-b-1  | INFO:     172.19.0.6:35360 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-atraso-cache-30 request_no=3 charge_id=2992 fault_injected=True
+server-b-1  | commit: jsonrpc_id=6 run_id=C-atraso-cache-30 request_no=4 charge_id=2994 fault_injected=True
+server-b-1  | cache: jsonrpc_id=8 run_id=C-atraso-cache-30 request_no=4 -> charge_id=2994 (sem INSERT)
+server-b-1  | INFO:     172.19.0.6:53508 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-atraso-cache-30 request_no=5 charge_id=2997 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=2997
+server-b-1  | INFO:     172.19.0.6:53508 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-atraso-cache-30 request_no=6 charge_id=2999 fault_injected=True
+server-b-1  | commit: jsonrpc_id=14 run_id=C-atraso-cache-30 request_no=7 charge_id=3000 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=3000
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-atraso-cache-30 request_no=8 charge_id=3002 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=3002
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-atraso-cache-30 request_no=9 charge_id=3004 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=3004
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-atraso-cache-30 request_no=11 charge_id=3006 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=3006
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=22 run_id=C-atraso-cache-30 request_no=12 charge_id=3008 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=22 charge_id=3008
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=24 run_id=C-atraso-cache-30 request_no=14 charge_id=3010 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=24 charge_id=3010
+server-b-1  | INFO:     172.19.0.6:37096 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=26 run_id=C-atraso-cache-30 request_no=15 charge_id=3012 fault_injected=True
+server-b-1  | commit: jsonrpc_id=28 run_id=C-atraso-cache-30 request_no=16 charge_id=3013 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=28 charge_id=3013
+server-b-1  | INFO:     172.19.0.6:34674 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=30 run_id=C-atraso-cache-30 request_no=17 charge_id=3015 fault_injected=True
+server-b-1  | commit: jsonrpc_id=32 run_id=C-atraso-cache-30 request_no=18 charge_id=3016 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=32 charge_id=3016
+server-b-1  | INFO:     172.19.0.6:34680 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=34 run_id=C-atraso-cache-30 request_no=20 charge_id=3018 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=34 charge_id=3018
+server-b-1  | INFO:     172.19.0.6:34680 - "POST /mcp HTTP/1.1" 200 OK

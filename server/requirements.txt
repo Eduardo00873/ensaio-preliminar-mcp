@@ -1,0 +1,8 @@
+# Dependências diretas do servidor, com versões exatas.
+# As dependências transitivas ficam fixadas em requirements.lock (gerado a partir
+# deste ficheiro dentro da imagem Python fixada; ver README).
+mcp==2.3.0
+mcp-types==2.3.0
+psycopg[binary]==3.3.6
+psycopg-pool==3.3.3
+uvicorn==0.54.0

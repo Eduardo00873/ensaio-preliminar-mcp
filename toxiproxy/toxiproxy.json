@@ -1,0 +1,8 @@
+[
+  {
+    "name": "mcp",
+    "listen": "0.0.0.0:8666",
+    "upstream": "nginx:80",
+    "enabled": true
+  }
+]

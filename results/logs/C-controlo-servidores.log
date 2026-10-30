@@ -1,0 +1,1830 @@
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-01 request_no=2 charge_id=2 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=2
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-01 request_no=4 charge_id=4 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=4
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-01 request_no=6 charge_id=6 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=6
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-01 request_no=8 charge_id=8 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=8
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-01 request_no=10 charge_id=10 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=10
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-01 request_no=12 charge_id=12 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=12
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-01 request_no=14 charge_id=14 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=14
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-01 request_no=16 charge_id=16 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=16
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-01 request_no=1 charge_id=1 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=1
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-01 request_no=3 charge_id=3 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=3
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-01 request_no=5 charge_id=5 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=5
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-01 request_no=7 charge_id=7 fault_injected=False
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-01 request_no=18 charge_id=18 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=18
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-01 request_no=20 charge_id=20 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=20
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | resposta: jsonrpc_id=8 charge_id=7
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-02 request_no=1 charge_id=21 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=21
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-02 request_no=3 charge_id=23 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=23
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-02 request_no=5 charge_id=25 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=25
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-01 request_no=9 charge_id=9 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=9
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-01 request_no=11 charge_id=11 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=11
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-01 request_no=13 charge_id=13 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=13
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-01 request_no=15 charge_id=15 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=15
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-01 request_no=17 charge_id=17 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=17
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-01 request_no=19 charge_id=19 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=19
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-02 request_no=2 charge_id=22 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=22
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-02 request_no=4 charge_id=24 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=24
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-02 request_no=6 charge_id=26 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=26
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-02 request_no=8 charge_id=28 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=28
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-02 request_no=10 charge_id=30 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=30
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-02 request_no=12 charge_id=32 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=32
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-02 request_no=14 charge_id=34 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=34
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-02 request_no=16 charge_id=36 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=36
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-02 request_no=18 charge_id=38 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=38
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-02 request_no=20 charge_id=40 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=40
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-03 request_no=1 charge_id=41 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=41
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-03 request_no=3 charge_id=43 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=43
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-03 request_no=5 charge_id=45 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=45
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-03 request_no=7 charge_id=47 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=47
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-03 request_no=9 charge_id=49 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=49
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-03 request_no=11 charge_id=51 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=51
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-03 request_no=13 charge_id=53 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=53
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-03 request_no=15 charge_id=55 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=55
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-03 request_no=17 charge_id=57 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=57
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-03 request_no=19 charge_id=59 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=59
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-04 request_no=2 charge_id=62 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=62
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-04 request_no=4 charge_id=64 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=64
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-04 request_no=6 charge_id=66 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=66
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-04 request_no=8 charge_id=68 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=68
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-04 request_no=10 charge_id=70 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=70
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-04 request_no=12 charge_id=72 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=72
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-04 request_no=14 charge_id=74 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=74
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-04 request_no=16 charge_id=76 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=76
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-04 request_no=18 charge_id=78 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=78
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-04 request_no=20 charge_id=80 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=80
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-05 request_no=1 charge_id=81 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=81
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-05 request_no=3 charge_id=83 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=83
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-05 request_no=5 charge_id=85 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=85
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-05 request_no=7 charge_id=87 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=87
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-05 request_no=9 charge_id=89 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=89
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-05 request_no=11 charge_id=91 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=91
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-05 request_no=13 charge_id=93 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=93
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-05 request_no=15 charge_id=95 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=95
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-05 request_no=17 charge_id=97 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=97
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-05 request_no=19 charge_id=99 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=99
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-06 request_no=2 charge_id=102 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=102
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-06 request_no=4 charge_id=104 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=104
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-06 request_no=6 charge_id=106 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=106
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-06 request_no=8 charge_id=108 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=108
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-06 request_no=10 charge_id=110 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=110
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-06 request_no=12 charge_id=112 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=112
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-06 request_no=14 charge_id=114 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=114
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-06 request_no=16 charge_id=116 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=116
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-06 request_no=18 charge_id=118 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=118
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-06 request_no=20 charge_id=120 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=120
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-07 request_no=1 charge_id=121 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=121
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-07 request_no=3 charge_id=123 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=123
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-07 request_no=5 charge_id=125 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=125
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-07 request_no=7 charge_id=127 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=127
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-07 request_no=9 charge_id=129 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=129
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-07 request_no=11 charge_id=131 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=131
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-07 request_no=13 charge_id=133 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=133
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-07 request_no=15 charge_id=135 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=135
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-07 request_no=17 charge_id=137 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=137
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-07 request_no=19 charge_id=139 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=139
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-08 request_no=2 charge_id=142 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=142
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-08 request_no=4 charge_id=144 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=144
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-08 request_no=6 charge_id=146 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=146
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-08 request_no=8 charge_id=148 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=148
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-08 request_no=10 charge_id=150 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=150
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-08 request_no=12 charge_id=152 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=152
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-08 request_no=14 charge_id=154 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=154
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-08 request_no=16 charge_id=156 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=156
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-08 request_no=18 charge_id=158 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=158
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-08 request_no=20 charge_id=160 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=160
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-09 request_no=1 charge_id=161 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=161
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-09 request_no=3 charge_id=163 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=163
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-09 request_no=5 charge_id=165 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=165
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-09 request_no=7 charge_id=167 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=167
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-09 request_no=9 charge_id=169 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=169
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-09 request_no=11 charge_id=171 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=171
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-09 request_no=13 charge_id=173 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=173
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-09 request_no=15 charge_id=175 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=175
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-09 request_no=17 charge_id=177 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=177
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-09 request_no=19 charge_id=179 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=179
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-02 request_no=7 charge_id=27 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=27
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-02 request_no=9 charge_id=29 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=29
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-02 request_no=11 charge_id=31 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=31
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-02 request_no=13 charge_id=33 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=33
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-02 request_no=15 charge_id=35 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=35
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-02 request_no=17 charge_id=37 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=37
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-02 request_no=19 charge_id=39 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=39
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-03 request_no=2 charge_id=42 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=42
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-03 request_no=4 charge_id=44 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=44
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-03 request_no=6 charge_id=46 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=46
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-03 request_no=8 charge_id=48 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=48
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-03 request_no=10 charge_id=50 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=50
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-03 request_no=12 charge_id=52 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=52
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-03 request_no=14 charge_id=54 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=54
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-03 request_no=16 charge_id=56 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=56
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-03 request_no=18 charge_id=58 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=58
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-03 request_no=20 charge_id=60 fault_injected=False
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-10 request_no=2 charge_id=182 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=182
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-10 request_no=4 charge_id=184 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=184
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-10 request_no=6 charge_id=186 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=186
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-10 request_no=8 charge_id=188 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=188
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-10 request_no=10 charge_id=190 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=190
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-10 request_no=12 charge_id=192 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=192
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-10 request_no=14 charge_id=194 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=194
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-10 request_no=16 charge_id=196 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=196
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-10 request_no=18 charge_id=198 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=198
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-10 request_no=20 charge_id=200 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=200
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-11 request_no=1 charge_id=201 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=201
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-11 request_no=3 charge_id=203 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=203
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-11 request_no=5 charge_id=205 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=205
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-11 request_no=7 charge_id=207 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=207
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-11 request_no=9 charge_id=209 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=209
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-11 request_no=11 charge_id=211 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=211
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-11 request_no=13 charge_id=213 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=213
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-11 request_no=15 charge_id=215 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=60
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-04 request_no=1 charge_id=61 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=61
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-04 request_no=3 charge_id=63 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=63
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-04 request_no=5 charge_id=65 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=65
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-04 request_no=7 charge_id=67 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=67
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-04 request_no=9 charge_id=69 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=69
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-04 request_no=11 charge_id=71 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=71
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-04 request_no=13 charge_id=73 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=73
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-04 request_no=15 charge_id=75 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=75
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-04 request_no=17 charge_id=77 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=77
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-04 request_no=19 charge_id=79 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=79
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-05 request_no=2 charge_id=82 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=82
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-05 request_no=4 charge_id=84 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=84
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-05 request_no=6 charge_id=86 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=86
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-05 request_no=8 charge_id=88 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=88
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-05 request_no=10 charge_id=90 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=90
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-05 request_no=12 charge_id=92 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=92
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-05 request_no=14 charge_id=94 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=94
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-05 request_no=16 charge_id=96 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=96
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-05 request_no=18 charge_id=98 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=98
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-05 request_no=20 charge_id=100 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=100
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-06 request_no=1 charge_id=101 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=101
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-06 request_no=3 charge_id=103 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=103
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-06 request_no=5 charge_id=105 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=105
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-06 request_no=7 charge_id=107 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=107
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-06 request_no=9 charge_id=109 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=109
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-06 request_no=11 charge_id=111 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=111
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-06 request_no=13 charge_id=113 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=113
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-06 request_no=15 charge_id=115 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=115
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-06 request_no=17 charge_id=117 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=117
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-06 request_no=19 charge_id=119 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=119
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-07 request_no=2 charge_id=122 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=122
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-07 request_no=4 charge_id=124 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=124
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-07 request_no=6 charge_id=126 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=126
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-07 request_no=8 charge_id=128 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=128
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-07 request_no=10 charge_id=130 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=130
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-07 request_no=12 charge_id=132 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=132
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-07 request_no=14 charge_id=134 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=134
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-07 request_no=16 charge_id=136 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=136
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-07 request_no=18 charge_id=138 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=138
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-07 request_no=20 charge_id=140 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=140
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-08 request_no=1 charge_id=141 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=141
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-08 request_no=3 charge_id=143 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=143
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-08 request_no=5 charge_id=145 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=145
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-08 request_no=7 charge_id=147 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=147
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-08 request_no=9 charge_id=149 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=149
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-08 request_no=11 charge_id=151 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=151
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-08 request_no=13 charge_id=153 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=153
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-08 request_no=15 charge_id=155 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=155
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-08 request_no=17 charge_id=157 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=157
+server-b-1  | resposta: jsonrpc_id=16 charge_id=215
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-11 request_no=17 charge_id=217 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=217
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-11 request_no=19 charge_id=219 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=219
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-12 request_no=2 charge_id=222 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=222
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-12 request_no=4 charge_id=224 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=224
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-12 request_no=6 charge_id=226 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=226
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-12 request_no=8 charge_id=228 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=228
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-12 request_no=10 charge_id=230 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=230
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-12 request_no=12 charge_id=232 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=232
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-12 request_no=14 charge_id=234 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=234
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-12 request_no=16 charge_id=236 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=236
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-12 request_no=18 charge_id=238 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=238
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-12 request_no=20 charge_id=240 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=240
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-13 request_no=1 charge_id=241 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=241
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-13 request_no=3 charge_id=243 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=243
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-13 request_no=5 charge_id=245 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=245
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-13 request_no=7 charge_id=247 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=247
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-13 request_no=9 charge_id=249 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=249
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-13 request_no=11 charge_id=251 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=251
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-08 request_no=19 charge_id=159 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=159
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-09 request_no=2 charge_id=162 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=162
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-09 request_no=4 charge_id=164 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=164
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-09 request_no=6 charge_id=166 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=166
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-09 request_no=8 charge_id=168 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=168
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-09 request_no=10 charge_id=170 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=170
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-09 request_no=12 charge_id=172 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=172
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-09 request_no=14 charge_id=174 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=174
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-09 request_no=16 charge_id=176 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=176
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-09 request_no=18 charge_id=178 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=178
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-09 request_no=20 charge_id=180 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=180
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-10 request_no=1 charge_id=181 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=181
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-10 request_no=3 charge_id=183 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=183
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-10 request_no=5 charge_id=185 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=185
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-10 request_no=7 charge_id=187 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=187
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-10 request_no=9 charge_id=189 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=189
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-10 request_no=11 charge_id=191 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=191
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-10 request_no=13 charge_id=193 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=193
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-10 request_no=15 charge_id=195 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=195
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-10 request_no=17 charge_id=197 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=197
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-10 request_no=19 charge_id=199 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=199
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-11 request_no=2 charge_id=202 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=202
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-11 request_no=4 charge_id=204 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=204
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-11 request_no=6 charge_id=206 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=206
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-11 request_no=8 charge_id=208 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=208
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-11 request_no=10 charge_id=210 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=210
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-11 request_no=12 charge_id=212 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=212
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-11 request_no=14 charge_id=214 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=214
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-11 request_no=16 charge_id=216 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=216
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-11 request_no=18 charge_id=218 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=218
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-11 request_no=20 charge_id=220 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=220
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-12 request_no=1 charge_id=221 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=221
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-12 request_no=3 charge_id=223 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=223
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-12 request_no=5 charge_id=225 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=225
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-12 request_no=7 charge_id=227 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=227
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-12 request_no=9 charge_id=229 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=229
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-12 request_no=11 charge_id=231 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=231
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-12 request_no=13 charge_id=233 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=233
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-12 request_no=15 charge_id=235 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=235
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-12 request_no=17 charge_id=237 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=237
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-12 request_no=19 charge_id=239 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=239
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-13 request_no=2 charge_id=242 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=242
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-13 request_no=4 charge_id=244 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=244
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-13 request_no=6 charge_id=246 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=246
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-13 request_no=8 charge_id=248 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=248
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-13 request_no=10 charge_id=250 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=250
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-13 request_no=12 charge_id=252 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=252
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-13 request_no=14 charge_id=254 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=254
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-13 request_no=16 charge_id=256 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=256
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-13 request_no=18 charge_id=258 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=258
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-13 request_no=20 charge_id=260 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=260
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-14 request_no=1 charge_id=261 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=261
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-14 request_no=3 charge_id=263 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=263
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-14 request_no=5 charge_id=265 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=265
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-14 request_no=7 charge_id=267 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=267
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-14 request_no=9 charge_id=269 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=269
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-14 request_no=11 charge_id=271 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=271
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-14 request_no=13 charge_id=273 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=273
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-14 request_no=15 charge_id=275 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=275
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-14 request_no=17 charge_id=277 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=277
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-14 request_no=19 charge_id=279 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=279
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-15 request_no=2 charge_id=282 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=282
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-15 request_no=4 charge_id=284 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=284
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-15 request_no=6 charge_id=286 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=286
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-15 request_no=8 charge_id=288 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=288
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-15 request_no=10 charge_id=290 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=290
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-15 request_no=12 charge_id=292 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=292
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-15 request_no=14 charge_id=294 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=294
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-15 request_no=16 charge_id=296 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=296
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-15 request_no=18 charge_id=298 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=298
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-15 request_no=20 charge_id=300 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=300
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-16 request_no=1 charge_id=301 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=301
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-16 request_no=3 charge_id=303 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=303
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-16 request_no=5 charge_id=305 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=305
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-16 request_no=7 charge_id=307 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=307
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-16 request_no=9 charge_id=309 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=309
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-16 request_no=11 charge_id=311 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=311
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-16 request_no=13 charge_id=313 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=313
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-16 request_no=15 charge_id=315 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=315
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-16 request_no=17 charge_id=317 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=317
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-16 request_no=19 charge_id=319 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=319
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-17 request_no=2 charge_id=322 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=322
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-17 request_no=4 charge_id=324 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=324
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-17 request_no=6 charge_id=326 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=326
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-17 request_no=8 charge_id=328 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=328
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-17 request_no=10 charge_id=330 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=330
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-17 request_no=12 charge_id=332 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=332
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-17 request_no=14 charge_id=334 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=334
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-17 request_no=16 charge_id=336 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=336
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-17 request_no=18 charge_id=338 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=338
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-17 request_no=20 charge_id=340 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=340
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-18 request_no=1 charge_id=341 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=341
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-18 request_no=3 charge_id=343 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=343
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-18 request_no=5 charge_id=345 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=345
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-18 request_no=7 charge_id=347 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=347
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-18 request_no=9 charge_id=349 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=349
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-18 request_no=11 charge_id=351 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=351
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-18 request_no=13 charge_id=353 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=353
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-18 request_no=15 charge_id=355 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=355
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-18 request_no=17 charge_id=357 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=357
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-18 request_no=19 charge_id=359 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=359
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-19 request_no=2 charge_id=362 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=362
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-19 request_no=4 charge_id=364 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=364
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-19 request_no=6 charge_id=366 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=366
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-19 request_no=8 charge_id=368 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=368
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-19 request_no=10 charge_id=370 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=370
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-19 request_no=12 charge_id=372 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=372
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-19 request_no=14 charge_id=374 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=374
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-19 request_no=16 charge_id=376 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=376
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-19 request_no=18 charge_id=378 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=378
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-19 request_no=20 charge_id=380 fault_injected=False
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-13 request_no=13 charge_id=253 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=253
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-13 request_no=15 charge_id=255 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=255
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-13 request_no=17 charge_id=257 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=257
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-13 request_no=19 charge_id=259 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=259
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-14 request_no=2 charge_id=262 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=262
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-14 request_no=4 charge_id=264 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=264
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-14 request_no=6 charge_id=266 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=266
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-14 request_no=8 charge_id=268 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=268
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-14 request_no=10 charge_id=270 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=270
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-14 request_no=12 charge_id=272 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=272
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-14 request_no=14 charge_id=274 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=274
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-14 request_no=16 charge_id=276 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=276
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-14 request_no=18 charge_id=278 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=278
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-14 request_no=20 charge_id=280 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=280
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-15 request_no=1 charge_id=281 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=281
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-15 request_no=3 charge_id=283 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=283
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-15 request_no=5 charge_id=285 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=285
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-15 request_no=7 charge_id=287 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=287
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-15 request_no=9 charge_id=289 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=289
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-15 request_no=11 charge_id=291 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=291
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-15 request_no=13 charge_id=293 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=293
+server-a-1  | resposta: jsonrpc_id=21 charge_id=380
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-20 request_no=1 charge_id=381 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=381
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-20 request_no=3 charge_id=383 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=383
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-20 request_no=5 charge_id=385 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=385
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-20 request_no=7 charge_id=387 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=387
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-20 request_no=9 charge_id=389 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=389
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-20 request_no=11 charge_id=391 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=391
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-20 request_no=13 charge_id=393 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=393
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-20 request_no=15 charge_id=395 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=395
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-20 request_no=17 charge_id=397 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=397
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-20 request_no=19 charge_id=399 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=399
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-21 request_no=2 charge_id=402 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=402
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-21 request_no=4 charge_id=404 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=404
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-21 request_no=6 charge_id=406 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=406
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-21 request_no=8 charge_id=408 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=408
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-21 request_no=10 charge_id=410 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=410
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-21 request_no=12 charge_id=412 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=412
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-21 request_no=14 charge_id=414 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=414
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-21 request_no=16 charge_id=416 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=416
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-21 request_no=18 charge_id=418 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=418
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-21 request_no=20 charge_id=420 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=420
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-22 request_no=1 charge_id=421 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=421
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-22 request_no=3 charge_id=423 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=423
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-22 request_no=5 charge_id=425 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=425
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-22 request_no=7 charge_id=427 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=427
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-22 request_no=9 charge_id=429 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=429
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-22 request_no=11 charge_id=431 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=431
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-22 request_no=13 charge_id=433 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=433
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-22 request_no=15 charge_id=435 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=435
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-22 request_no=17 charge_id=437 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=437
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-22 request_no=19 charge_id=439 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=439
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-23 request_no=2 charge_id=442 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=442
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-23 request_no=4 charge_id=444 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=444
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-23 request_no=6 charge_id=446 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=446
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-23 request_no=8 charge_id=448 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=448
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-23 request_no=10 charge_id=450 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=450
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-23 request_no=12 charge_id=452 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=452
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-23 request_no=14 charge_id=454 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=454
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-23 request_no=16 charge_id=456 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=456
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-23 request_no=18 charge_id=458 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=458
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-23 request_no=20 charge_id=460 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=460
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-24 request_no=1 charge_id=461 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=461
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-24 request_no=3 charge_id=463 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=463
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-24 request_no=5 charge_id=465 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=465
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-24 request_no=7 charge_id=467 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=467
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-24 request_no=9 charge_id=469 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=469
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-24 request_no=11 charge_id=471 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=471
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-24 request_no=13 charge_id=473 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=473
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-24 request_no=15 charge_id=475 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=475
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-24 request_no=17 charge_id=477 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=477
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-24 request_no=19 charge_id=479 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=479
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-25 request_no=2 charge_id=482 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=482
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-25 request_no=4 charge_id=484 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=484
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-25 request_no=6 charge_id=486 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=486
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-25 request_no=8 charge_id=488 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=488
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-25 request_no=10 charge_id=490 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=490
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-25 request_no=12 charge_id=492 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=492
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-25 request_no=14 charge_id=494 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=494
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-25 request_no=16 charge_id=496 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=496
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-25 request_no=18 charge_id=498 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=498
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-25 request_no=20 charge_id=500 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=500
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-26 request_no=1 charge_id=501 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=501
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-26 request_no=3 charge_id=503 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=503
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-26 request_no=5 charge_id=505 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=505
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-26 request_no=7 charge_id=507 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=507
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-26 request_no=9 charge_id=509 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=509
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-26 request_no=11 charge_id=511 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=511
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-26 request_no=13 charge_id=513 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=513
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-26 request_no=15 charge_id=515 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=515
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-26 request_no=17 charge_id=517 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=517
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-26 request_no=19 charge_id=519 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=519
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-27 request_no=2 charge_id=522 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=522
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-27 request_no=4 charge_id=524 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=524
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-27 request_no=6 charge_id=526 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=526
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-27 request_no=8 charge_id=528 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=528
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-27 request_no=10 charge_id=530 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=530
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-27 request_no=12 charge_id=532 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=532
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-27 request_no=14 charge_id=534 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=534
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-27 request_no=16 charge_id=536 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=536
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-27 request_no=18 charge_id=538 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=538
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-27 request_no=20 charge_id=540 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=540
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-28 request_no=1 charge_id=541 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=541
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-28 request_no=3 charge_id=543 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=543
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-28 request_no=5 charge_id=545 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=545
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-28 request_no=7 charge_id=547 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=547
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-28 request_no=9 charge_id=549 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=549
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-28 request_no=11 charge_id=551 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=551
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-28 request_no=13 charge_id=553 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=553
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-28 request_no=15 charge_id=555 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=555
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-28 request_no=17 charge_id=557 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=557
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-28 request_no=19 charge_id=559 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=559
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=3 run_id=C-controlo-29 request_no=2 charge_id=562 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=3 charge_id=562
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=5 run_id=C-controlo-29 request_no=4 charge_id=564 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=5 charge_id=564
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=7 run_id=C-controlo-29 request_no=6 charge_id=566 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=7 charge_id=566
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=9 run_id=C-controlo-29 request_no=8 charge_id=568 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=9 charge_id=568
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=11 run_id=C-controlo-29 request_no=10 charge_id=570 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=11 charge_id=570
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=13 run_id=C-controlo-29 request_no=12 charge_id=572 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=13 charge_id=572
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=15 run_id=C-controlo-29 request_no=14 charge_id=574 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=15 charge_id=574
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=17 run_id=C-controlo-29 request_no=16 charge_id=576 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=17 charge_id=576
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=19 run_id=C-controlo-29 request_no=18 charge_id=578 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=19 charge_id=578
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=21 run_id=C-controlo-29 request_no=20 charge_id=580 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=21 charge_id=580
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=2 run_id=C-controlo-30 request_no=1 charge_id=581 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=2 charge_id=581
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=4 run_id=C-controlo-30 request_no=3 charge_id=583 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=4 charge_id=583
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=6 run_id=C-controlo-30 request_no=5 charge_id=585 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=6 charge_id=585
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=8 run_id=C-controlo-30 request_no=7 charge_id=587 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=8 charge_id=587
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=10 run_id=C-controlo-30 request_no=9 charge_id=589 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=10 charge_id=589
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=12 run_id=C-controlo-30 request_no=11 charge_id=591 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=12 charge_id=591
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=14 run_id=C-controlo-30 request_no=13 charge_id=593 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=14 charge_id=593
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=16 run_id=C-controlo-30 request_no=15 charge_id=595 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=16 charge_id=595
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=18 run_id=C-controlo-30 request_no=17 charge_id=597 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=18 charge_id=597
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-a-1  | commit: jsonrpc_id=20 run_id=C-controlo-30 request_no=19 charge_id=599 fault_injected=False
+server-a-1  | resposta: jsonrpc_id=20 charge_id=599
+server-a-1  | INFO:     172.19.0.6:59472 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-15 request_no=15 charge_id=295 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=295
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-15 request_no=17 charge_id=297 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=297
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-15 request_no=19 charge_id=299 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=299
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-16 request_no=2 charge_id=302 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=302
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-16 request_no=4 charge_id=304 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=304
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-16 request_no=6 charge_id=306 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=306
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-16 request_no=8 charge_id=308 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=308
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-16 request_no=10 charge_id=310 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=310
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-16 request_no=12 charge_id=312 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=312
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-16 request_no=14 charge_id=314 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=314
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-16 request_no=16 charge_id=316 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=316
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-16 request_no=18 charge_id=318 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=318
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-16 request_no=20 charge_id=320 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=320
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-17 request_no=1 charge_id=321 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=321
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-17 request_no=3 charge_id=323 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=323
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-17 request_no=5 charge_id=325 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=325
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-17 request_no=7 charge_id=327 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=327
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-17 request_no=9 charge_id=329 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=329
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-17 request_no=11 charge_id=331 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=331
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-17 request_no=13 charge_id=333 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=333
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-17 request_no=15 charge_id=335 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=335
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-17 request_no=17 charge_id=337 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=337
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-17 request_no=19 charge_id=339 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=339
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-18 request_no=2 charge_id=342 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=342
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-18 request_no=4 charge_id=344 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=344
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-18 request_no=6 charge_id=346 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=346
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-18 request_no=8 charge_id=348 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=348
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-18 request_no=10 charge_id=350 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=350
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-18 request_no=12 charge_id=352 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=352
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-18 request_no=14 charge_id=354 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=354
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-18 request_no=16 charge_id=356 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=356
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-18 request_no=18 charge_id=358 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=358
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-18 request_no=20 charge_id=360 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=360
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-19 request_no=1 charge_id=361 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=361
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-19 request_no=3 charge_id=363 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=363
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-19 request_no=5 charge_id=365 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=365
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-19 request_no=7 charge_id=367 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=367
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-19 request_no=9 charge_id=369 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=369
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-19 request_no=11 charge_id=371 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=371
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-19 request_no=13 charge_id=373 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=373
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-19 request_no=15 charge_id=375 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=375
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-19 request_no=17 charge_id=377 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=377
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-19 request_no=19 charge_id=379 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=379
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-20 request_no=2 charge_id=382 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=382
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-20 request_no=4 charge_id=384 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=384
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-20 request_no=6 charge_id=386 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=386
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-20 request_no=8 charge_id=388 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=388
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-20 request_no=10 charge_id=390 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=390
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-20 request_no=12 charge_id=392 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=392
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-20 request_no=14 charge_id=394 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=394
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-20 request_no=16 charge_id=396 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=396
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-20 request_no=18 charge_id=398 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=398
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-20 request_no=20 charge_id=400 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=400
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-21 request_no=1 charge_id=401 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=401
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-21 request_no=3 charge_id=403 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=403
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-21 request_no=5 charge_id=405 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=405
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-21 request_no=7 charge_id=407 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=407
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-21 request_no=9 charge_id=409 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=409
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-21 request_no=11 charge_id=411 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=411
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-21 request_no=13 charge_id=413 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=413
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-21 request_no=15 charge_id=415 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=415
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-21 request_no=17 charge_id=417 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=417
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-21 request_no=19 charge_id=419 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=419
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-22 request_no=2 charge_id=422 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=422
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-22 request_no=4 charge_id=424 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=424
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-22 request_no=6 charge_id=426 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=426
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-22 request_no=8 charge_id=428 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=428
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-22 request_no=10 charge_id=430 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=430
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-22 request_no=12 charge_id=432 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=432
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-22 request_no=14 charge_id=434 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=434
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-22 request_no=16 charge_id=436 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=436
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-22 request_no=18 charge_id=438 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=438
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-22 request_no=20 charge_id=440 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=440
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-23 request_no=1 charge_id=441 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=441
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-23 request_no=3 charge_id=443 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=443
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-23 request_no=5 charge_id=445 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=445
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-23 request_no=7 charge_id=447 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=447
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-23 request_no=9 charge_id=449 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=449
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-23 request_no=11 charge_id=451 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=451
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-23 request_no=13 charge_id=453 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=453
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-23 request_no=15 charge_id=455 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=455
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-23 request_no=17 charge_id=457 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=457
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-23 request_no=19 charge_id=459 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=459
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-24 request_no=2 charge_id=462 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=462
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-24 request_no=4 charge_id=464 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=464
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-24 request_no=6 charge_id=466 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=466
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-24 request_no=8 charge_id=468 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=468
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-24 request_no=10 charge_id=470 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=470
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-24 request_no=12 charge_id=472 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=472
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-24 request_no=14 charge_id=474 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=474
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-24 request_no=16 charge_id=476 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=476
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-24 request_no=18 charge_id=478 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=478
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-24 request_no=20 charge_id=480 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=480
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-25 request_no=1 charge_id=481 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=481
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-25 request_no=3 charge_id=483 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=483
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-25 request_no=5 charge_id=485 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=485
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-25 request_no=7 charge_id=487 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=487
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-25 request_no=9 charge_id=489 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=489
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-25 request_no=11 charge_id=491 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=491
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-25 request_no=13 charge_id=493 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=493
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-25 request_no=15 charge_id=495 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=495
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-25 request_no=17 charge_id=497 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=497
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-25 request_no=19 charge_id=499 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=499
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-26 request_no=2 charge_id=502 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=502
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-26 request_no=4 charge_id=504 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=504
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-26 request_no=6 charge_id=506 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=506
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-26 request_no=8 charge_id=508 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=508
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-26 request_no=10 charge_id=510 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=510
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-26 request_no=12 charge_id=512 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=512
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-26 request_no=14 charge_id=514 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=514
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-26 request_no=16 charge_id=516 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=516
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-26 request_no=18 charge_id=518 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=518
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-26 request_no=20 charge_id=520 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=520
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-27 request_no=1 charge_id=521 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=521
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-27 request_no=3 charge_id=523 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=523
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-27 request_no=5 charge_id=525 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=525
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-27 request_no=7 charge_id=527 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=527
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-27 request_no=9 charge_id=529 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=529
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-27 request_no=11 charge_id=531 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=531
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-27 request_no=13 charge_id=533 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=533
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-27 request_no=15 charge_id=535 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=535
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-27 request_no=17 charge_id=537 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=537
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-27 request_no=19 charge_id=539 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=539
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-28 request_no=2 charge_id=542 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=542
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-28 request_no=4 charge_id=544 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=544
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-28 request_no=6 charge_id=546 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=546
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-28 request_no=8 charge_id=548 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=548
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-28 request_no=10 charge_id=550 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=550
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-28 request_no=12 charge_id=552 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=552
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-28 request_no=14 charge_id=554 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=554
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-28 request_no=16 charge_id=556 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=556
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-28 request_no=18 charge_id=558 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=558
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-28 request_no=20 charge_id=560 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=560
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=2 run_id=C-controlo-29 request_no=1 charge_id=561 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=2 charge_id=561
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=4 run_id=C-controlo-29 request_no=3 charge_id=563 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=4 charge_id=563
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=6 run_id=C-controlo-29 request_no=5 charge_id=565 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=6 charge_id=565
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=8 run_id=C-controlo-29 request_no=7 charge_id=567 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=8 charge_id=567
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=10 run_id=C-controlo-29 request_no=9 charge_id=569 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=10 charge_id=569
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=12 run_id=C-controlo-29 request_no=11 charge_id=571 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=12 charge_id=571
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=14 run_id=C-controlo-29 request_no=13 charge_id=573 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=14 charge_id=573
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=16 run_id=C-controlo-29 request_no=15 charge_id=575 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=16 charge_id=575
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=18 run_id=C-controlo-29 request_no=17 charge_id=577 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=18 charge_id=577
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=20 run_id=C-controlo-29 request_no=19 charge_id=579 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=20 charge_id=579
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=3 run_id=C-controlo-30 request_no=2 charge_id=582 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=3 charge_id=582
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=5 run_id=C-controlo-30 request_no=4 charge_id=584 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=5 charge_id=584
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=7 run_id=C-controlo-30 request_no=6 charge_id=586 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=7 charge_id=586
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=9 run_id=C-controlo-30 request_no=8 charge_id=588 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=9 charge_id=588
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=11 run_id=C-controlo-30 request_no=10 charge_id=590 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=11 charge_id=590
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=13 run_id=C-controlo-30 request_no=12 charge_id=592 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=13 charge_id=592
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=15 run_id=C-controlo-30 request_no=14 charge_id=594 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=15 charge_id=594
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=17 run_id=C-controlo-30 request_no=16 charge_id=596 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=17 charge_id=596
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=19 run_id=C-controlo-30 request_no=18 charge_id=598 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=19 charge_id=598
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK
+server-b-1  | commit: jsonrpc_id=21 run_id=C-controlo-30 request_no=20 charge_id=600 fault_injected=False
+server-b-1  | resposta: jsonrpc_id=21 charge_id=600
+server-b-1  | INFO:     172.19.0.6:41204 - "POST /mcp HTTP/1.1" 200 OK

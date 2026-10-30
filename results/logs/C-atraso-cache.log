@@ -1,0 +1,846 @@
+2026-10-30 17:15:26,274 C-atraso-cache-01 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.028 s) [charge_id=2253 replica=server-b]
+2026-10-30 17:15:28,277 C-atraso-cache-01 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.002 s)
+2026-10-30 17:15:28,282 C-atraso-cache-01 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.006 s) [charge_id=2255 replica=server-b]
+2026-10-30 17:15:30,286 C-atraso-cache-01 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.004 s)
+2026-10-30 17:15:30,290 C-atraso-cache-01 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.004 s) [charge_id=2257 replica=server-b]
+2026-10-30 17:15:32,298 C-atraso-cache-01 pedido 4 tentativa 1/3 jsonrpc_id=7 -> timeout (2.007 s)
+2026-10-30 17:15:32,310 C-atraso-cache-01 pedido 4 tentativa 2/3 jsonrpc_id=8 -> ok (0.012 s) [charge_id=2259 replica=server-b]
+2026-10-30 17:15:32,316 C-atraso-cache-01 pedido 5 tentativa 1/3 jsonrpc_id=9 -> ok (0.006 s) [charge_id=2260 replica=server-a]
+2026-10-30 17:15:34,322 C-atraso-cache-01 pedido 6 tentativa 1/3 jsonrpc_id=10 -> timeout (2.005 s)
+2026-10-30 17:15:34,335 C-atraso-cache-01 pedido 6 tentativa 2/3 jsonrpc_id=11 -> ok (0.013 s) [charge_id=2262 replica=server-a]
+2026-10-30 17:15:34,345 C-atraso-cache-01 pedido 7 tentativa 1/3 jsonrpc_id=12 -> ok (0.009 s) [charge_id=2263 replica=server-b]
+2026-10-30 17:15:36,351 C-atraso-cache-01 pedido 8 tentativa 1/3 jsonrpc_id=13 -> timeout (2.006 s)
+2026-10-30 17:15:38,355 C-atraso-cache-01 pedido 8 tentativa 2/3 jsonrpc_id=14 -> timeout (2.004 s)
+2026-10-30 17:15:38,360 C-atraso-cache-01 pedido 8 tentativa 3/3 jsonrpc_id=15 -> ok (0.004 s) [charge_id=2264 replica=server-a]
+2026-10-30 17:15:38,364 C-atraso-cache-01 pedido 9 tentativa 1/3 jsonrpc_id=16 -> ok (0.004 s) [charge_id=2266 replica=server-b]
+2026-10-30 17:15:40,367 C-atraso-cache-01 pedido 10 tentativa 1/3 jsonrpc_id=17 -> timeout (2.003 s)
+2026-10-30 17:15:40,374 C-atraso-cache-01 pedido 10 tentativa 2/3 jsonrpc_id=18 -> ok (0.007 s) [charge_id=2268 replica=server-b]
+2026-10-30 17:15:40,378 C-atraso-cache-01 pedido 11 tentativa 1/3 jsonrpc_id=19 -> ok (0.004 s) [charge_id=2269 replica=server-a]
+2026-10-30 17:15:42,382 C-atraso-cache-01 pedido 12 tentativa 1/3 jsonrpc_id=20 -> timeout (2.004 s)
+2026-10-30 17:15:42,393 C-atraso-cache-01 pedido 12 tentativa 2/3 jsonrpc_id=21 -> ok (0.011 s) [charge_id=2271 replica=server-a]
+2026-10-30 17:15:44,396 C-atraso-cache-01 pedido 13 tentativa 1/3 jsonrpc_id=22 -> timeout (2.003 s)
+2026-10-30 17:15:44,411 C-atraso-cache-01 pedido 13 tentativa 2/3 jsonrpc_id=23 -> ok (0.015 s) [charge_id=2273 replica=server-a]
+2026-10-30 17:15:46,415 C-atraso-cache-01 pedido 14 tentativa 1/3 jsonrpc_id=24 -> timeout (2.004 s)
+2026-10-30 17:15:48,425 C-atraso-cache-01 pedido 14 tentativa 2/3 jsonrpc_id=25 -> timeout (2.010 s)
+2026-10-30 17:15:48,429 C-atraso-cache-01 pedido 14 tentativa 3/3 jsonrpc_id=26 -> ok (0.003 s) [charge_id=2274 replica=server-b]
+2026-10-30 17:15:48,431 C-atraso-cache-01 pedido 15 tentativa 1/3 jsonrpc_id=27 -> ok (0.003 s) [charge_id=2276 replica=server-a]
+2026-10-30 17:15:48,434 C-atraso-cache-01 pedido 16 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2277 replica=server-b]
+2026-10-30 17:15:48,437 C-atraso-cache-01 pedido 17 tentativa 1/3 jsonrpc_id=29 -> ok (0.003 s) [charge_id=2278 replica=server-a]
+2026-10-30 17:15:48,440 C-atraso-cache-01 pedido 18 tentativa 1/3 jsonrpc_id=30 -> ok (0.003 s) [charge_id=2279 replica=server-b]
+2026-10-30 17:15:48,443 C-atraso-cache-01 pedido 19 tentativa 1/3 jsonrpc_id=31 -> ok (0.003 s) [charge_id=2280 replica=server-a]
+2026-10-30 17:15:48,446 C-atraso-cache-01 pedido 20 tentativa 1/3 jsonrpc_id=32 -> ok (0.003 s) [charge_id=2281 replica=server-b]
+2026-10-30 17:15:48,447 C-atraso-cache-01: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:15:49,540 C-atraso-cache-02 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.025 s) [charge_id=2282 replica=server-b]
+2026-10-30 17:15:51,545 C-atraso-cache-02 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.005 s)
+2026-10-30 17:15:51,554 C-atraso-cache-02 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.009 s) [charge_id=2284 replica=server-b]
+2026-10-30 17:15:53,559 C-atraso-cache-02 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.004 s)
+2026-10-30 17:15:53,571 C-atraso-cache-02 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.012 s) [charge_id=2286 replica=server-b]
+2026-10-30 17:15:53,579 C-atraso-cache-02 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.007 s) [charge_id=2287 replica=server-a]
+2026-10-30 17:15:55,583 C-atraso-cache-02 pedido 5 tentativa 1/3 jsonrpc_id=8 -> timeout (2.003 s)
+2026-10-30 17:15:55,595 C-atraso-cache-02 pedido 5 tentativa 2/3 jsonrpc_id=9 -> ok (0.013 s) [charge_id=2289 replica=server-a]
+2026-10-30 17:15:55,605 C-atraso-cache-02 pedido 6 tentativa 1/3 jsonrpc_id=10 -> ok (0.009 s) [charge_id=2290 replica=server-b]
+2026-10-30 17:15:55,611 C-atraso-cache-02 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.006 s) [charge_id=2291 replica=server-a]
+2026-10-30 17:15:57,615 C-atraso-cache-02 pedido 8 tentativa 1/3 jsonrpc_id=12 -> timeout (2.004 s)
+2026-10-30 17:15:57,625 C-atraso-cache-02 pedido 8 tentativa 2/3 jsonrpc_id=13 -> ok (0.010 s) [charge_id=2293 replica=server-a]
+2026-10-30 17:15:57,633 C-atraso-cache-02 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.008 s) [charge_id=2294 replica=server-b]
+2026-10-30 17:15:59,637 C-atraso-cache-02 pedido 10 tentativa 1/3 jsonrpc_id=15 -> timeout (2.004 s)
+2026-10-30 17:16:01,647 C-atraso-cache-02 pedido 10 tentativa 2/3 jsonrpc_id=16 -> timeout (2.010 s)
+2026-10-30 17:16:01,657 C-atraso-cache-02 pedido 10 tentativa 3/3 jsonrpc_id=17 -> ok (0.010 s) [charge_id=2295 replica=server-a]
+2026-10-30 17:16:01,664 C-atraso-cache-02 pedido 11 tentativa 1/3 jsonrpc_id=18 -> ok (0.007 s) [charge_id=2297 replica=server-b]
+2026-10-30 17:16:01,667 C-atraso-cache-02 pedido 12 tentativa 1/3 jsonrpc_id=19 -> ok (0.004 s) [charge_id=2298 replica=server-a]
+2026-10-30 17:16:01,670 C-atraso-cache-02 pedido 13 tentativa 1/3 jsonrpc_id=20 -> ok (0.002 s) [charge_id=2299 replica=server-b]
+2026-10-30 17:16:03,674 C-atraso-cache-02 pedido 14 tentativa 1/3 jsonrpc_id=21 -> timeout (2.004 s)
+2026-10-30 17:16:03,678 C-atraso-cache-02 pedido 14 tentativa 2/3 jsonrpc_id=22 -> ok (0.004 s) [charge_id=2301 replica=server-b]
+2026-10-30 17:16:03,682 C-atraso-cache-02 pedido 15 tentativa 1/3 jsonrpc_id=23 -> ok (0.003 s) [charge_id=2302 replica=server-a]
+2026-10-30 17:16:03,684 C-atraso-cache-02 pedido 16 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2303 replica=server-b]
+2026-10-30 17:16:03,687 C-atraso-cache-02 pedido 17 tentativa 1/3 jsonrpc_id=25 -> ok (0.002 s) [charge_id=2304 replica=server-a]
+2026-10-30 17:16:03,689 C-atraso-cache-02 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.002 s) [charge_id=2305 replica=server-b]
+2026-10-30 17:16:03,691 C-atraso-cache-02 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.002 s) [charge_id=2306 replica=server-a]
+2026-10-30 17:16:03,694 C-atraso-cache-02 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.002 s) [charge_id=2307 replica=server-b]
+2026-10-30 17:16:03,694 C-atraso-cache-02: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:06,723 C-atraso-cache-03 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.003 s)
+2026-10-30 17:16:06,769 C-atraso-cache-03 pedido 1 tentativa 2/3 jsonrpc_id=3 -> ok (0.045 s) [charge_id=2309 replica=server-a]
+2026-10-30 17:16:06,774 C-atraso-cache-03 pedido 2 tentativa 1/3 jsonrpc_id=4 -> ok (0.006 s) [charge_id=2310 replica=server-b]
+2026-10-30 17:16:08,779 C-atraso-cache-03 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.005 s)
+2026-10-30 17:16:08,794 C-atraso-cache-03 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.015 s) [charge_id=2312 replica=server-b]
+2026-10-30 17:16:08,806 C-atraso-cache-03 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.012 s) [charge_id=2313 replica=server-a]
+2026-10-30 17:16:08,812 C-atraso-cache-03 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.005 s) [charge_id=2314 replica=server-b]
+2026-10-30 17:16:10,816 C-atraso-cache-03 pedido 6 tentativa 1/3 jsonrpc_id=9 -> timeout (2.004 s)
+2026-10-30 17:16:12,821 C-atraso-cache-03 pedido 6 tentativa 2/3 jsonrpc_id=10 -> timeout (2.005 s)
+2026-10-30 17:16:12,825 C-atraso-cache-03 pedido 6 tentativa 3/3 jsonrpc_id=11 -> ok (0.004 s) [charge_id=2315 replica=server-a]
+2026-10-30 17:16:12,829 C-atraso-cache-03 pedido 7 tentativa 1/3 jsonrpc_id=12 -> ok (0.003 s) [charge_id=2317 replica=server-b]
+2026-10-30 17:16:12,832 C-atraso-cache-03 pedido 8 tentativa 1/3 jsonrpc_id=13 -> ok (0.003 s) [charge_id=2318 replica=server-a]
+2026-10-30 17:16:12,835 C-atraso-cache-03 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2319 replica=server-b]
+2026-10-30 17:16:12,842 C-atraso-cache-03 pedido 10 tentativa 1/3 jsonrpc_id=15 -> ok (0.007 s) [charge_id=2320 replica=server-a]
+2026-10-30 17:16:12,846 C-atraso-cache-03 pedido 11 tentativa 1/3 jsonrpc_id=16 -> ok (0.004 s) [charge_id=2321 replica=server-b]
+2026-10-30 17:16:14,851 C-atraso-cache-03 pedido 12 tentativa 1/3 jsonrpc_id=17 -> timeout (2.005 s)
+2026-10-30 17:16:16,857 C-atraso-cache-03 pedido 12 tentativa 2/3 jsonrpc_id=18 -> timeout (2.006 s)
+2026-10-30 17:16:16,862 C-atraso-cache-03 pedido 12 tentativa 3/3 jsonrpc_id=19 -> ok (0.005 s) [charge_id=2322 replica=server-a]
+2026-10-30 17:16:16,867 C-atraso-cache-03 pedido 13 tentativa 1/3 jsonrpc_id=20 -> ok (0.005 s) [charge_id=2324 replica=server-b]
+2026-10-30 17:16:16,871 C-atraso-cache-03 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2325 replica=server-a]
+2026-10-30 17:16:16,873 C-atraso-cache-03 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2326 replica=server-b]
+2026-10-30 17:16:16,876 C-atraso-cache-03 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.002 s) [charge_id=2327 replica=server-a]
+2026-10-30 17:16:18,881 C-atraso-cache-03 pedido 17 tentativa 1/3 jsonrpc_id=24 -> timeout (2.005 s)
+2026-10-30 17:16:18,885 C-atraso-cache-03 pedido 17 tentativa 2/3 jsonrpc_id=25 -> ok (0.004 s) [charge_id=2329 replica=server-a]
+2026-10-30 17:16:20,886 C-atraso-cache-03 pedido 18 tentativa 1/3 jsonrpc_id=26 -> timeout (2.002 s)
+2026-10-30 17:16:20,892 C-atraso-cache-03 pedido 18 tentativa 2/3 jsonrpc_id=27 -> ok (0.005 s) [charge_id=2331 replica=server-a]
+2026-10-30 17:16:20,896 C-atraso-cache-03 pedido 19 tentativa 1/3 jsonrpc_id=28 -> ok (0.004 s) [charge_id=2332 replica=server-b]
+2026-10-30 17:16:20,899 C-atraso-cache-03 pedido 20 tentativa 1/3 jsonrpc_id=29 -> ok (0.003 s) [charge_id=2333 replica=server-a]
+2026-10-30 17:16:20,900 C-atraso-cache-03: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:22,064 C-atraso-cache-04 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.030 s) [charge_id=2334 replica=server-a]
+2026-10-30 17:16:24,071 C-atraso-cache-04 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.006 s)
+2026-10-30 17:16:24,084 C-atraso-cache-04 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.013 s) [charge_id=2336 replica=server-a]
+2026-10-30 17:16:24,093 C-atraso-cache-04 pedido 3 tentativa 1/3 jsonrpc_id=5 -> ok (0.009 s) [charge_id=2337 replica=server-b]
+2026-10-30 17:16:24,099 C-atraso-cache-04 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.006 s) [charge_id=2338 replica=server-a]
+2026-10-30 17:16:26,104 C-atraso-cache-04 pedido 5 tentativa 1/3 jsonrpc_id=7 -> timeout (2.004 s)
+2026-10-30 17:16:28,112 C-atraso-cache-04 pedido 5 tentativa 2/3 jsonrpc_id=8 -> timeout (2.009 s)
+2026-10-30 17:16:28,122 C-atraso-cache-04 pedido 5 tentativa 3/3 jsonrpc_id=9 -> ok (0.010 s) [charge_id=2339 replica=server-b]
+2026-10-30 17:16:28,131 C-atraso-cache-04 pedido 6 tentativa 1/3 jsonrpc_id=10 -> ok (0.008 s) [charge_id=2341 replica=server-a]
+2026-10-30 17:16:28,134 C-atraso-cache-04 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.003 s) [charge_id=2342 replica=server-b]
+2026-10-30 17:16:28,137 C-atraso-cache-04 pedido 8 tentativa 1/3 jsonrpc_id=12 -> ok (0.003 s) [charge_id=2343 replica=server-a]
+2026-10-30 17:16:28,141 C-atraso-cache-04 pedido 9 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2344 replica=server-b]
+2026-10-30 17:16:30,147 C-atraso-cache-04 pedido 10 tentativa 1/3 jsonrpc_id=14 -> timeout (2.006 s)
+2026-10-30 17:16:30,159 C-atraso-cache-04 pedido 10 tentativa 2/3 jsonrpc_id=15 -> ok (0.012 s) [charge_id=2346 replica=server-b]
+2026-10-30 17:16:30,166 C-atraso-cache-04 pedido 11 tentativa 1/3 jsonrpc_id=16 -> ok (0.007 s) [charge_id=2347 replica=server-a]
+2026-10-30 17:16:32,173 C-atraso-cache-04 pedido 12 tentativa 1/3 jsonrpc_id=17 -> timeout (2.007 s)
+2026-10-30 17:16:32,225 C-atraso-cache-04 pedido 12 tentativa 2/3 jsonrpc_id=18 -> ok (0.051 s) [charge_id=2349 replica=server-a]
+2026-10-30 17:16:32,239 C-atraso-cache-04 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.015 s) [charge_id=2350 replica=server-b]
+2026-10-30 17:16:34,245 C-atraso-cache-04 pedido 14 tentativa 1/3 jsonrpc_id=20 -> timeout (2.006 s)
+2026-10-30 17:16:34,258 C-atraso-cache-04 pedido 14 tentativa 2/3 jsonrpc_id=21 -> ok (0.013 s) [charge_id=2352 replica=server-b]
+2026-10-30 17:16:34,265 C-atraso-cache-04 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.007 s) [charge_id=2353 replica=server-a]
+2026-10-30 17:16:34,269 C-atraso-cache-04 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2354 replica=server-b]
+2026-10-30 17:16:34,272 C-atraso-cache-04 pedido 17 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2355 replica=server-a]
+2026-10-30 17:16:34,275 C-atraso-cache-04 pedido 18 tentativa 1/3 jsonrpc_id=25 -> ok (0.003 s) [charge_id=2356 replica=server-b]
+2026-10-30 17:16:34,278 C-atraso-cache-04 pedido 19 tentativa 1/3 jsonrpc_id=26 -> ok (0.003 s) [charge_id=2357 replica=server-a]
+2026-10-30 17:16:34,285 C-atraso-cache-04 pedido 20 tentativa 1/3 jsonrpc_id=27 -> ok (0.007 s) [charge_id=2358 replica=server-b]
+2026-10-30 17:16:34,288 C-atraso-cache-04: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:35,902 C-atraso-cache-05 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.042 s) [charge_id=2359 replica=server-b]
+2026-10-30 17:16:35,915 C-atraso-cache-05 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.013 s) [charge_id=2360 replica=server-a]
+2026-10-30 17:16:35,925 C-atraso-cache-05 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.010 s) [charge_id=2361 replica=server-b]
+2026-10-30 17:16:37,933 C-atraso-cache-05 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.008 s)
+2026-10-30 17:16:37,967 C-atraso-cache-05 pedido 4 tentativa 2/3 jsonrpc_id=6 -> ok (0.034 s) [charge_id=2363 replica=server-b]
+2026-10-30 17:16:37,986 C-atraso-cache-05 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.019 s) [charge_id=2364 replica=server-a]
+2026-10-30 17:16:39,989 C-atraso-cache-05 pedido 6 tentativa 1/3 jsonrpc_id=8 -> timeout (2.003 s)
+2026-10-30 17:16:39,998 C-atraso-cache-05 pedido 6 tentativa 2/3 jsonrpc_id=9 -> ok (0.009 s) [charge_id=2366 replica=server-a]
+2026-10-30 17:16:42,003 C-atraso-cache-05 pedido 7 tentativa 1/3 jsonrpc_id=10 -> timeout (2.006 s)
+2026-10-30 17:16:42,019 C-atraso-cache-05 pedido 7 tentativa 2/3 jsonrpc_id=11 -> ok (0.016 s) [charge_id=2368 replica=server-a]
+2026-10-30 17:16:42,024 C-atraso-cache-05 pedido 8 tentativa 1/3 jsonrpc_id=12 -> ok (0.005 s) [charge_id=2369 replica=server-b]
+2026-10-30 17:16:44,029 C-atraso-cache-05 pedido 9 tentativa 1/3 jsonrpc_id=13 -> timeout (2.005 s)
+2026-10-30 17:16:46,040 C-atraso-cache-05 pedido 9 tentativa 2/3 jsonrpc_id=14 -> timeout (2.011 s)
+2026-10-30 17:16:46,058 C-atraso-cache-05 pedido 9 tentativa 3/3 jsonrpc_id=15 -> ok (0.017 s) [charge_id=2370 replica=server-a]
+2026-10-30 17:16:46,068 C-atraso-cache-05 pedido 10 tentativa 1/3 jsonrpc_id=16 -> ok (0.010 s) [charge_id=2372 replica=server-b]
+2026-10-30 17:16:46,075 C-atraso-cache-05 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.006 s) [charge_id=2373 replica=server-a]
+2026-10-30 17:16:46,080 C-atraso-cache-05 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.005 s) [charge_id=2374 replica=server-b]
+2026-10-30 17:16:46,089 C-atraso-cache-05 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.009 s) [charge_id=2375 replica=server-a]
+2026-10-30 17:16:46,093 C-atraso-cache-05 pedido 14 tentativa 1/3 jsonrpc_id=20 -> ok (0.004 s) [charge_id=2376 replica=server-b]
+2026-10-30 17:16:46,096 C-atraso-cache-05 pedido 15 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2377 replica=server-a]
+2026-10-30 17:16:46,099 C-atraso-cache-05 pedido 16 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2378 replica=server-b]
+2026-10-30 17:16:46,102 C-atraso-cache-05 pedido 17 tentativa 1/3 jsonrpc_id=23 -> ok (0.003 s) [charge_id=2379 replica=server-a]
+2026-10-30 17:16:48,107 C-atraso-cache-05 pedido 18 tentativa 1/3 jsonrpc_id=24 -> timeout (2.006 s)
+2026-10-30 17:16:50,116 C-atraso-cache-05 pedido 18 tentativa 2/3 jsonrpc_id=25 -> timeout (2.008 s)
+2026-10-30 17:16:50,128 C-atraso-cache-05 pedido 18 tentativa 3/3 jsonrpc_id=26 -> ok (0.012 s) [charge_id=2380 replica=server-b]
+2026-10-30 17:16:50,134 C-atraso-cache-05 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.006 s) [charge_id=2382 replica=server-a]
+2026-10-30 17:16:52,137 C-atraso-cache-05 pedido 20 tentativa 1/3 jsonrpc_id=28 -> timeout (2.002 s)
+2026-10-30 17:16:54,142 C-atraso-cache-05 pedido 20 tentativa 2/3 jsonrpc_id=29 -> timeout (2.005 s)
+2026-10-30 17:16:54,152 C-atraso-cache-05 pedido 20 tentativa 3/3 jsonrpc_id=30 -> ok (0.010 s) [charge_id=2383 replica=server-b]
+2026-10-30 17:16:54,157 C-atraso-cache-05: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:16:55,323 C-atraso-cache-06 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.032 s) [charge_id=2385 replica=server-b]
+2026-10-30 17:16:55,328 C-atraso-cache-06 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2386 replica=server-a]
+2026-10-30 17:16:57,333 C-atraso-cache-06 pedido 3 tentativa 1/3 jsonrpc_id=4 -> timeout (2.005 s)
+2026-10-30 17:16:57,344 C-atraso-cache-06 pedido 3 tentativa 2/3 jsonrpc_id=5 -> ok (0.011 s) [charge_id=2388 replica=server-a]
+2026-10-30 17:16:59,353 C-atraso-cache-06 pedido 4 tentativa 1/3 jsonrpc_id=6 -> timeout (2.009 s)
+2026-10-30 17:17:01,369 C-atraso-cache-06 pedido 4 tentativa 2/3 jsonrpc_id=7 -> timeout (2.015 s)
+2026-10-30 17:17:01,429 C-atraso-cache-06 pedido 4 tentativa 3/3 jsonrpc_id=8 -> ok (0.059 s) [charge_id=2389 replica=server-b]
+2026-10-30 17:17:01,440 C-atraso-cache-06 pedido 5 tentativa 1/3 jsonrpc_id=9 -> ok (0.010 s) [charge_id=2391 replica=server-a]
+2026-10-30 17:17:03,447 C-atraso-cache-06 pedido 6 tentativa 1/3 jsonrpc_id=10 -> timeout (2.007 s)
+2026-10-30 17:17:05,459 C-atraso-cache-06 pedido 6 tentativa 2/3 jsonrpc_id=11 -> timeout (2.011 s)
+2026-10-30 17:17:05,480 C-atraso-cache-06 pedido 6 tentativa 3/3 jsonrpc_id=12 -> ok (0.021 s) [charge_id=2392 replica=server-b]
+2026-10-30 17:17:05,490 C-atraso-cache-06 pedido 7 tentativa 1/3 jsonrpc_id=13 -> ok (0.009 s) [charge_id=2394 replica=server-a]
+2026-10-30 17:17:05,499 C-atraso-cache-06 pedido 8 tentativa 1/3 jsonrpc_id=14 -> ok (0.009 s) [charge_id=2395 replica=server-b]
+2026-10-30 17:17:07,508 C-atraso-cache-06 pedido 9 tentativa 1/3 jsonrpc_id=15 -> timeout (2.009 s)
+2026-10-30 17:17:07,539 C-atraso-cache-06 pedido 9 tentativa 2/3 jsonrpc_id=16 -> ok (0.030 s) [charge_id=2397 replica=server-b]
+2026-10-30 17:17:09,543 C-atraso-cache-06 pedido 10 tentativa 1/3 jsonrpc_id=17 -> timeout (2.004 s)
+2026-10-30 17:17:11,553 C-atraso-cache-06 pedido 10 tentativa 2/3 jsonrpc_id=18 -> timeout (2.010 s)
+2026-10-30 17:17:11,568 C-atraso-cache-06 pedido 10 tentativa 3/3 jsonrpc_id=19 -> ok (0.015 s) [charge_id=2398 replica=server-a]
+2026-10-30 17:17:11,576 C-atraso-cache-06 pedido 11 tentativa 1/3 jsonrpc_id=20 -> ok (0.007 s) [charge_id=2400 replica=server-b]
+2026-10-30 17:17:11,584 C-atraso-cache-06 pedido 12 tentativa 1/3 jsonrpc_id=21 -> ok (0.008 s) [charge_id=2401 replica=server-a]
+2026-10-30 17:17:13,588 C-atraso-cache-06 pedido 13 tentativa 1/3 jsonrpc_id=22 -> timeout (2.004 s)
+2026-10-30 17:17:13,592 C-atraso-cache-06 pedido 13 tentativa 2/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2403 replica=server-a]
+2026-10-30 17:17:13,596 C-atraso-cache-06 pedido 14 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2404 replica=server-b]
+2026-10-30 17:17:13,599 C-atraso-cache-06 pedido 15 tentativa 1/3 jsonrpc_id=25 -> ok (0.003 s) [charge_id=2405 replica=server-a]
+2026-10-30 17:17:13,602 C-atraso-cache-06 pedido 16 tentativa 1/3 jsonrpc_id=26 -> ok (0.003 s) [charge_id=2406 replica=server-b]
+2026-10-30 17:17:15,604 C-atraso-cache-06 pedido 17 tentativa 1/3 jsonrpc_id=27 -> timeout (2.003 s)
+2026-10-30 17:17:17,607 C-atraso-cache-06 pedido 17 tentativa 2/3 jsonrpc_id=28 -> timeout (2.002 s)
+2026-10-30 17:17:17,615 C-atraso-cache-06 pedido 17 tentativa 3/3 jsonrpc_id=29 -> ok (0.008 s) [charge_id=2407 replica=server-a]
+2026-10-30 17:17:17,622 C-atraso-cache-06 pedido 18 tentativa 1/3 jsonrpc_id=30 -> ok (0.007 s) [charge_id=2409 replica=server-b]
+2026-10-30 17:17:17,626 C-atraso-cache-06 pedido 19 tentativa 1/3 jsonrpc_id=31 -> ok (0.005 s) [charge_id=2410 replica=server-a]
+2026-10-30 17:17:19,632 C-atraso-cache-06 pedido 20 tentativa 1/3 jsonrpc_id=32 -> timeout (2.005 s)
+2026-10-30 17:17:19,640 C-atraso-cache-06 pedido 20 tentativa 2/3 jsonrpc_id=33 -> ok (0.008 s) [charge_id=2412 replica=server-a]
+2026-10-30 17:17:19,642 C-atraso-cache-06: 20 pedidos lógicos, 32 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:22,818 C-atraso-cache-07 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.012 s)
+2026-10-30 17:17:22,890 C-atraso-cache-07 pedido 1 tentativa 2/3 jsonrpc_id=3 -> ok (0.072 s) [charge_id=2414 replica=server-b]
+2026-10-30 17:17:22,899 C-atraso-cache-07 pedido 2 tentativa 1/3 jsonrpc_id=4 -> ok (0.009 s) [charge_id=2415 replica=server-a]
+2026-10-30 17:17:22,903 C-atraso-cache-07 pedido 3 tentativa 1/3 jsonrpc_id=5 -> ok (0.004 s) [charge_id=2416 replica=server-b]
+2026-10-30 17:17:22,907 C-atraso-cache-07 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.004 s) [charge_id=2417 replica=server-a]
+2026-10-30 17:17:24,906 C-atraso-cache-07 pedido 5 tentativa 1/3 jsonrpc_id=7 -> timeout (2.007 s)
+2026-10-30 17:17:24,917 C-atraso-cache-07 pedido 5 tentativa 2/3 jsonrpc_id=8 -> ok (0.010 s) [charge_id=2419 replica=server-a]
+2026-10-30 17:17:26,923 C-atraso-cache-07 pedido 6 tentativa 1/3 jsonrpc_id=9 -> timeout (2.006 s)
+2026-10-30 17:17:26,938 C-atraso-cache-07 pedido 6 tentativa 2/3 jsonrpc_id=10 -> ok (0.015 s) [charge_id=2421 replica=server-a]
+2026-10-30 17:17:26,946 C-atraso-cache-07 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.008 s) [charge_id=2422 replica=server-b]
+2026-10-30 17:17:28,952 C-atraso-cache-07 pedido 8 tentativa 1/3 jsonrpc_id=12 -> timeout (2.006 s)
+2026-10-30 17:17:28,959 C-atraso-cache-07 pedido 8 tentativa 2/3 jsonrpc_id=13 -> ok (0.007 s) [charge_id=2424 replica=server-b]
+2026-10-30 17:17:28,964 C-atraso-cache-07 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2425 replica=server-a]
+2026-10-30 17:17:28,967 C-atraso-cache-07 pedido 10 tentativa 1/3 jsonrpc_id=15 -> ok (0.003 s) [charge_id=2426 replica=server-b]
+2026-10-30 17:17:28,970 C-atraso-cache-07 pedido 11 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2427 replica=server-a]
+2026-10-30 17:17:28,973 C-atraso-cache-07 pedido 12 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2428 replica=server-b]
+2026-10-30 17:17:28,976 C-atraso-cache-07 pedido 13 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2429 replica=server-a]
+2026-10-30 17:17:28,978 C-atraso-cache-07 pedido 14 tentativa 1/3 jsonrpc_id=19 -> ok (0.003 s) [charge_id=2430 replica=server-b]
+2026-10-30 17:17:28,981 C-atraso-cache-07 pedido 15 tentativa 1/3 jsonrpc_id=20 -> ok (0.002 s) [charge_id=2431 replica=server-a]
+2026-10-30 17:17:30,983 C-atraso-cache-07 pedido 16 tentativa 1/3 jsonrpc_id=21 -> timeout (2.002 s)
+2026-10-30 17:17:30,991 C-atraso-cache-07 pedido 16 tentativa 2/3 jsonrpc_id=22 -> ok (0.007 s) [charge_id=2433 replica=server-a]
+2026-10-30 17:17:30,996 C-atraso-cache-07 pedido 17 tentativa 1/3 jsonrpc_id=23 -> ok (0.005 s) [charge_id=2434 replica=server-b]
+2026-10-30 17:17:32,999 C-atraso-cache-07 pedido 18 tentativa 1/3 jsonrpc_id=24 -> timeout (2.004 s)
+2026-10-30 17:17:33,014 C-atraso-cache-07 pedido 18 tentativa 2/3 jsonrpc_id=25 -> ok (0.014 s) [charge_id=2436 replica=server-b]
+2026-10-30 17:17:33,022 C-atraso-cache-07 pedido 19 tentativa 1/3 jsonrpc_id=26 -> ok (0.007 s) [charge_id=2437 replica=server-a]
+2026-10-30 17:17:33,027 C-atraso-cache-07 pedido 20 tentativa 1/3 jsonrpc_id=27 -> ok (0.005 s) [charge_id=2438 replica=server-b]
+2026-10-30 17:17:33,028 C-atraso-cache-07: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:34,383 C-atraso-cache-08 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.035 s) [charge_id=2439 replica=server-b]
+2026-10-30 17:17:34,388 C-atraso-cache-08 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2440 replica=server-a]
+2026-10-30 17:17:34,393 C-atraso-cache-08 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.005 s) [charge_id=2441 replica=server-b]
+2026-10-30 17:17:34,400 C-atraso-cache-08 pedido 4 tentativa 1/3 jsonrpc_id=5 -> ok (0.007 s) [charge_id=2442 replica=server-a]
+2026-10-30 17:17:34,403 C-atraso-cache-08 pedido 5 tentativa 1/3 jsonrpc_id=6 -> ok (0.003 s) [charge_id=2443 replica=server-b]
+2026-10-30 17:17:34,406 C-atraso-cache-08 pedido 6 tentativa 1/3 jsonrpc_id=7 -> ok (0.003 s) [charge_id=2444 replica=server-a]
+2026-10-30 17:17:34,409 C-atraso-cache-08 pedido 7 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2445 replica=server-b]
+2026-10-30 17:17:34,411 C-atraso-cache-08 pedido 8 tentativa 1/3 jsonrpc_id=9 -> ok (0.002 s) [charge_id=2446 replica=server-a]
+2026-10-30 17:17:34,413 C-atraso-cache-08 pedido 9 tentativa 1/3 jsonrpc_id=10 -> ok (0.002 s) [charge_id=2447 replica=server-b]
+2026-10-30 17:17:36,421 C-atraso-cache-08 pedido 10 tentativa 1/3 jsonrpc_id=11 -> timeout (2.008 s)
+2026-10-30 17:17:36,436 C-atraso-cache-08 pedido 10 tentativa 2/3 jsonrpc_id=12 -> ok (0.015 s) [charge_id=2449 replica=server-b]
+2026-10-30 17:17:36,441 C-atraso-cache-08 pedido 11 tentativa 1/3 jsonrpc_id=13 -> ok (0.005 s) [charge_id=2450 replica=server-a]
+2026-10-30 17:17:36,444 C-atraso-cache-08 pedido 12 tentativa 1/3 jsonrpc_id=14 -> ok (0.003 s) [charge_id=2451 replica=server-b]
+2026-10-30 17:17:36,447 C-atraso-cache-08 pedido 13 tentativa 1/3 jsonrpc_id=15 -> ok (0.003 s) [charge_id=2452 replica=server-a]
+2026-10-30 17:17:36,450 C-atraso-cache-08 pedido 14 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2453 replica=server-b]
+2026-10-30 17:17:36,453 C-atraso-cache-08 pedido 15 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2454 replica=server-a]
+2026-10-30 17:17:36,456 C-atraso-cache-08 pedido 16 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2455 replica=server-b]
+2026-10-30 17:17:38,460 C-atraso-cache-08 pedido 17 tentativa 1/3 jsonrpc_id=19 -> timeout (2.004 s)
+2026-10-30 17:17:40,465 C-atraso-cache-08 pedido 17 tentativa 2/3 jsonrpc_id=20 -> timeout (2.004 s)
+2026-10-30 17:17:40,474 C-atraso-cache-08 pedido 17 tentativa 3/3 jsonrpc_id=21 -> ok (0.009 s) [charge_id=2456 replica=server-a]
+2026-10-30 17:17:40,481 C-atraso-cache-08 pedido 18 tentativa 1/3 jsonrpc_id=22 -> ok (0.007 s) [charge_id=2458 replica=server-b]
+2026-10-30 17:17:40,485 C-atraso-cache-08 pedido 19 tentativa 1/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2459 replica=server-a]
+2026-10-30 17:17:40,488 C-atraso-cache-08 pedido 20 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2460 replica=server-b]
+2026-10-30 17:17:40,489 C-atraso-cache-08: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:42,001 C-atraso-cache-09 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.040 s) [charge_id=2461 replica=server-b]
+2026-10-30 17:17:44,003 C-atraso-cache-09 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.002 s)
+2026-10-30 17:17:44,010 C-atraso-cache-09 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.007 s) [charge_id=2463 replica=server-b]
+2026-10-30 17:17:44,016 C-atraso-cache-09 pedido 3 tentativa 1/3 jsonrpc_id=5 -> ok (0.005 s) [charge_id=2464 replica=server-a]
+2026-10-30 17:17:44,020 C-atraso-cache-09 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.005 s) [charge_id=2465 replica=server-b]
+2026-10-30 17:17:44,025 C-atraso-cache-09 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.004 s) [charge_id=2466 replica=server-a]
+2026-10-30 17:17:46,029 C-atraso-cache-09 pedido 6 tentativa 1/3 jsonrpc_id=8 -> timeout (2.004 s)
+2026-10-30 17:17:46,037 C-atraso-cache-09 pedido 6 tentativa 2/3 jsonrpc_id=9 -> ok (0.008 s) [charge_id=2468 replica=server-a]
+2026-10-30 17:17:48,042 C-atraso-cache-09 pedido 7 tentativa 1/3 jsonrpc_id=10 -> timeout (2.005 s)
+2026-10-30 17:17:50,047 C-atraso-cache-09 pedido 7 tentativa 2/3 jsonrpc_id=11 -> timeout (2.005 s)
+2026-10-30 17:17:50,056 C-atraso-cache-09 pedido 7 tentativa 3/3 jsonrpc_id=12 -> ok (0.008 s) [charge_id=2469 replica=server-b]
+2026-10-30 17:17:50,064 C-atraso-cache-09 pedido 8 tentativa 1/3 jsonrpc_id=13 -> ok (0.008 s) [charge_id=2471 replica=server-a]
+2026-10-30 17:17:50,068 C-atraso-cache-09 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2472 replica=server-b]
+2026-10-30 17:17:52,075 C-atraso-cache-09 pedido 10 tentativa 1/3 jsonrpc_id=15 -> timeout (2.006 s)
+2026-10-30 17:17:52,096 C-atraso-cache-09 pedido 10 tentativa 2/3 jsonrpc_id=16 -> ok (0.021 s) [charge_id=2474 replica=server-b]
+2026-10-30 17:17:52,113 C-atraso-cache-09 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.016 s) [charge_id=2475 replica=server-a]
+2026-10-30 17:17:52,117 C-atraso-cache-09 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2476 replica=server-b]
+2026-10-30 17:17:54,123 C-atraso-cache-09 pedido 13 tentativa 1/3 jsonrpc_id=19 -> timeout (2.006 s)
+2026-10-30 17:17:54,140 C-atraso-cache-09 pedido 13 tentativa 2/3 jsonrpc_id=20 -> ok (0.017 s) [charge_id=2478 replica=server-b]
+2026-10-30 17:17:54,150 C-atraso-cache-09 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.010 s) [charge_id=2479 replica=server-a]
+2026-10-30 17:17:54,157 C-atraso-cache-09 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.008 s) [charge_id=2480 replica=server-b]
+2026-10-30 17:17:54,163 C-atraso-cache-09 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.006 s) [charge_id=2481 replica=server-a]
+2026-10-30 17:17:56,136 C-atraso-cache-09 pedido 17 tentativa 1/3 jsonrpc_id=24 -> timeout (2.006 s)
+2026-10-30 17:17:56,145 C-atraso-cache-09 pedido 17 tentativa 2/3 jsonrpc_id=25 -> ok (0.008 s) [charge_id=2483 replica=server-a]
+2026-10-30 17:17:56,151 C-atraso-cache-09 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.006 s) [charge_id=2484 replica=server-b]
+2026-10-30 17:17:56,155 C-atraso-cache-09 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2485 replica=server-a]
+2026-10-30 17:17:56,157 C-atraso-cache-09 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2486 replica=server-b]
+2026-10-30 17:17:56,158 C-atraso-cache-09: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:17:57,390 C-atraso-cache-10 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.026 s) [charge_id=2487 replica=server-b]
+2026-10-30 17:17:59,394 C-atraso-cache-10 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.004 s)
+2026-10-30 17:17:59,399 C-atraso-cache-10 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.005 s) [charge_id=2489 replica=server-b]
+2026-10-30 17:18:01,401 C-atraso-cache-10 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.002 s)
+2026-10-30 17:18:01,408 C-atraso-cache-10 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.006 s) [charge_id=2491 replica=server-b]
+2026-10-30 17:18:03,412 C-atraso-cache-10 pedido 4 tentativa 1/3 jsonrpc_id=7 -> timeout (2.004 s)
+2026-10-30 17:18:03,426 C-atraso-cache-10 pedido 4 tentativa 2/3 jsonrpc_id=8 -> ok (0.014 s) [charge_id=2493 replica=server-b]
+2026-10-30 17:18:03,437 C-atraso-cache-10 pedido 5 tentativa 1/3 jsonrpc_id=9 -> ok (0.010 s) [charge_id=2494 replica=server-a]
+2026-10-30 17:18:03,442 C-atraso-cache-10 pedido 6 tentativa 1/3 jsonrpc_id=10 -> ok (0.006 s) [charge_id=2495 replica=server-b]
+2026-10-30 17:18:03,447 C-atraso-cache-10 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.004 s) [charge_id=2496 replica=server-a]
+2026-10-30 17:18:05,453 C-atraso-cache-10 pedido 8 tentativa 1/3 jsonrpc_id=12 -> timeout (2.006 s)
+2026-10-30 17:18:07,464 C-atraso-cache-10 pedido 8 tentativa 2/3 jsonrpc_id=13 -> timeout (2.011 s)
+2026-10-30 17:18:07,481 C-atraso-cache-10 pedido 8 tentativa 3/3 jsonrpc_id=14 -> ok (0.016 s) [charge_id=2497 replica=server-b]
+2026-10-30 17:18:07,490 C-atraso-cache-10 pedido 9 tentativa 1/3 jsonrpc_id=15 -> ok (0.009 s) [charge_id=2499 replica=server-a]
+2026-10-30 17:18:07,496 C-atraso-cache-10 pedido 10 tentativa 1/3 jsonrpc_id=16 -> ok (0.006 s) [charge_id=2500 replica=server-b]
+2026-10-30 17:18:07,501 C-atraso-cache-10 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.005 s) [charge_id=2501 replica=server-a]
+2026-10-30 17:18:07,505 C-atraso-cache-10 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2502 replica=server-b]
+2026-10-30 17:18:07,508 C-atraso-cache-10 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.003 s) [charge_id=2503 replica=server-a]
+2026-10-30 17:18:07,511 C-atraso-cache-10 pedido 14 tentativa 1/3 jsonrpc_id=20 -> ok (0.003 s) [charge_id=2504 replica=server-b]
+2026-10-30 17:18:07,514 C-atraso-cache-10 pedido 15 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2505 replica=server-a]
+2026-10-30 17:18:07,517 C-atraso-cache-10 pedido 16 tentativa 1/3 jsonrpc_id=22 -> ok (0.002 s) [charge_id=2506 replica=server-b]
+2026-10-30 17:18:07,519 C-atraso-cache-10 pedido 17 tentativa 1/3 jsonrpc_id=23 -> ok (0.002 s) [charge_id=2507 replica=server-a]
+2026-10-30 17:18:07,522 C-atraso-cache-10 pedido 18 tentativa 1/3 jsonrpc_id=24 -> ok (0.002 s) [charge_id=2508 replica=server-b]
+2026-10-30 17:18:09,524 C-atraso-cache-10 pedido 19 tentativa 1/3 jsonrpc_id=25 -> timeout (2.003 s)
+2026-10-30 17:18:11,535 C-atraso-cache-10 pedido 19 tentativa 2/3 jsonrpc_id=26 -> timeout (2.011 s)
+2026-10-30 17:18:11,547 C-atraso-cache-10 pedido 19 tentativa 3/3 jsonrpc_id=27 -> ok (0.011 s) [charge_id=2509 replica=server-a]
+2026-10-30 17:18:13,550 C-atraso-cache-10 pedido 20 tentativa 1/3 jsonrpc_id=28 -> timeout (2.003 s)
+2026-10-30 17:18:15,556 C-atraso-cache-10 pedido 20 tentativa 2/3 jsonrpc_id=29 -> timeout (2.006 s)
+2026-10-30 17:18:15,563 C-atraso-cache-10 pedido 20 tentativa 3/3 jsonrpc_id=30 -> ok (0.007 s) [charge_id=2511 replica=server-b]
+2026-10-30 17:18:15,565 C-atraso-cache-10: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:16,855 C-atraso-cache-11 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.026 s) [charge_id=2513 replica=server-b]
+2026-10-30 17:18:16,859 C-atraso-cache-11 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2514 replica=server-a]
+2026-10-30 17:18:16,862 C-atraso-cache-11 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2515 replica=server-b]
+2026-10-30 17:18:18,866 C-atraso-cache-11 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.004 s)
+2026-10-30 17:18:20,871 C-atraso-cache-11 pedido 4 tentativa 2/3 jsonrpc_id=6 -> timeout (2.005 s)
+2026-10-30 17:18:20,879 C-atraso-cache-11 pedido 4 tentativa 3/3 jsonrpc_id=7 -> ok (0.008 s) [charge_id=2516 replica=server-a]
+2026-10-30 17:18:20,887 C-atraso-cache-11 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.008 s) [charge_id=2518 replica=server-b]
+2026-10-30 17:18:20,892 C-atraso-cache-11 pedido 6 tentativa 1/3 jsonrpc_id=9 -> ok (0.005 s) [charge_id=2519 replica=server-a]
+2026-10-30 17:18:22,898 C-atraso-cache-11 pedido 7 tentativa 1/3 jsonrpc_id=10 -> timeout (2.006 s)
+2026-10-30 17:18:24,900 C-atraso-cache-11 pedido 7 tentativa 2/3 jsonrpc_id=11 -> timeout (2.005 s)
+2026-10-30 17:18:24,913 C-atraso-cache-11 pedido 7 tentativa 3/3 jsonrpc_id=12 -> ok (0.013 s) [charge_id=2520 replica=server-b]
+2026-10-30 17:18:24,922 C-atraso-cache-11 pedido 8 tentativa 1/3 jsonrpc_id=13 -> ok (0.009 s) [charge_id=2522 replica=server-a]
+2026-10-30 17:18:26,926 C-atraso-cache-11 pedido 9 tentativa 1/3 jsonrpc_id=14 -> timeout (2.005 s)
+2026-10-30 17:18:28,936 C-atraso-cache-11 pedido 9 tentativa 2/3 jsonrpc_id=15 -> timeout (2.009 s)
+2026-10-30 17:18:28,951 C-atraso-cache-11 pedido 9 tentativa 3/3 jsonrpc_id=16 -> ok (0.015 s) [charge_id=2523 replica=server-b]
+2026-10-30 17:18:28,961 C-atraso-cache-11 pedido 10 tentativa 1/3 jsonrpc_id=17 -> ok (0.010 s) [charge_id=2525 replica=server-a]
+2026-10-30 17:18:28,968 C-atraso-cache-11 pedido 11 tentativa 1/3 jsonrpc_id=18 -> ok (0.007 s) [charge_id=2526 replica=server-b]
+2026-10-30 17:18:30,973 C-atraso-cache-11 pedido 12 tentativa 1/3 jsonrpc_id=19 -> timeout (2.004 s)
+2026-10-30 17:18:30,981 C-atraso-cache-11 pedido 12 tentativa 2/3 jsonrpc_id=20 -> ok (0.008 s) [charge_id=2528 replica=server-b]
+2026-10-30 17:18:30,987 C-atraso-cache-11 pedido 13 tentativa 1/3 jsonrpc_id=21 -> ok (0.006 s) [charge_id=2529 replica=server-a]
+2026-10-30 17:18:30,992 C-atraso-cache-11 pedido 14 tentativa 1/3 jsonrpc_id=22 -> ok (0.005 s) [charge_id=2530 replica=server-b]
+2026-10-30 17:18:30,995 C-atraso-cache-11 pedido 15 tentativa 1/3 jsonrpc_id=23 -> ok (0.003 s) [charge_id=2531 replica=server-a]
+2026-10-30 17:18:30,997 C-atraso-cache-11 pedido 16 tentativa 1/3 jsonrpc_id=24 -> ok (0.002 s) [charge_id=2532 replica=server-b]
+2026-10-30 17:18:30,999 C-atraso-cache-11 pedido 17 tentativa 1/3 jsonrpc_id=25 -> ok (0.002 s) [charge_id=2533 replica=server-a]
+2026-10-30 17:18:31,002 C-atraso-cache-11 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.002 s) [charge_id=2534 replica=server-b]
+2026-10-30 17:18:31,004 C-atraso-cache-11 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.002 s) [charge_id=2535 replica=server-a]
+2026-10-30 17:18:31,006 C-atraso-cache-11 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2536 replica=server-b]
+2026-10-30 17:18:31,007 C-atraso-cache-11: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:32,381 C-atraso-cache-12 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.028 s) [charge_id=2537 replica=server-b]
+2026-10-30 17:18:32,386 C-atraso-cache-12 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2538 replica=server-a]
+2026-10-30 17:18:32,389 C-atraso-cache-12 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2539 replica=server-b]
+2026-10-30 17:18:32,391 C-atraso-cache-12 pedido 4 tentativa 1/3 jsonrpc_id=5 -> ok (0.002 s) [charge_id=2540 replica=server-a]
+2026-10-30 17:18:32,394 C-atraso-cache-12 pedido 5 tentativa 1/3 jsonrpc_id=6 -> ok (0.002 s) [charge_id=2541 replica=server-b]
+2026-10-30 17:18:32,396 C-atraso-cache-12 pedido 6 tentativa 1/3 jsonrpc_id=7 -> ok (0.002 s) [charge_id=2542 replica=server-a]
+2026-10-30 17:18:32,398 C-atraso-cache-12 pedido 7 tentativa 1/3 jsonrpc_id=8 -> ok (0.002 s) [charge_id=2543 replica=server-b]
+2026-10-30 17:18:32,401 C-atraso-cache-12 pedido 8 tentativa 1/3 jsonrpc_id=9 -> ok (0.003 s) [charge_id=2544 replica=server-a]
+2026-10-30 17:18:32,404 C-atraso-cache-12 pedido 9 tentativa 1/3 jsonrpc_id=10 -> ok (0.003 s) [charge_id=2545 replica=server-b]
+2026-10-30 17:18:34,408 C-atraso-cache-12 pedido 10 tentativa 1/3 jsonrpc_id=11 -> timeout (2.004 s)
+2026-10-30 17:18:34,426 C-atraso-cache-12 pedido 10 tentativa 2/3 jsonrpc_id=12 -> ok (0.018 s) [charge_id=2547 replica=server-b]
+2026-10-30 17:18:34,434 C-atraso-cache-12 pedido 11 tentativa 1/3 jsonrpc_id=13 -> ok (0.008 s) [charge_id=2548 replica=server-a]
+2026-10-30 17:18:34,440 C-atraso-cache-12 pedido 12 tentativa 1/3 jsonrpc_id=14 -> ok (0.006 s) [charge_id=2549 replica=server-b]
+2026-10-30 17:18:36,445 C-atraso-cache-12 pedido 13 tentativa 1/3 jsonrpc_id=15 -> timeout (2.005 s)
+2026-10-30 17:18:38,451 C-atraso-cache-12 pedido 13 tentativa 2/3 jsonrpc_id=16 -> timeout (2.006 s)
+2026-10-30 17:18:38,462 C-atraso-cache-12 pedido 13 tentativa 3/3 jsonrpc_id=17 -> ok (0.011 s) [charge_id=2550 replica=server-a]
+2026-10-30 17:18:38,470 C-atraso-cache-12 pedido 14 tentativa 1/3 jsonrpc_id=18 -> ok (0.007 s) [charge_id=2552 replica=server-b]
+2026-10-30 17:18:38,475 C-atraso-cache-12 pedido 15 tentativa 1/3 jsonrpc_id=19 -> ok (0.005 s) [charge_id=2553 replica=server-a]
+2026-10-30 17:18:38,479 C-atraso-cache-12 pedido 16 tentativa 1/3 jsonrpc_id=20 -> ok (0.004 s) [charge_id=2554 replica=server-b]
+2026-10-30 17:18:38,483 C-atraso-cache-12 pedido 17 tentativa 1/3 jsonrpc_id=21 -> ok (0.004 s) [charge_id=2555 replica=server-a]
+2026-10-30 17:18:38,487 C-atraso-cache-12 pedido 18 tentativa 1/3 jsonrpc_id=22 -> ok (0.004 s) [charge_id=2556 replica=server-b]
+2026-10-30 17:18:40,491 C-atraso-cache-12 pedido 19 tentativa 1/3 jsonrpc_id=23 -> timeout (2.003 s)
+2026-10-30 17:18:40,499 C-atraso-cache-12 pedido 19 tentativa 2/3 jsonrpc_id=24 -> ok (0.008 s) [charge_id=2558 replica=server-b]
+2026-10-30 17:18:42,505 C-atraso-cache-12 pedido 20 tentativa 1/3 jsonrpc_id=25 -> timeout (2.006 s)
+2026-10-30 17:18:42,518 C-atraso-cache-12 pedido 20 tentativa 2/3 jsonrpc_id=26 -> ok (0.013 s) [charge_id=2560 replica=server-b]
+2026-10-30 17:18:42,519 C-atraso-cache-12: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:18:45,841 C-atraso-cache-13 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.006 s)
+2026-10-30 17:18:47,848 C-atraso-cache-13 pedido 1 tentativa 2/3 jsonrpc_id=3 -> timeout (2.007 s)
+2026-10-30 17:18:47,901 C-atraso-cache-13 pedido 1 tentativa 3/3 jsonrpc_id=4 -> ok (0.052 s) [charge_id=2561 replica=server-b]
+2026-10-30 17:18:47,905 C-atraso-cache-13 pedido 2 tentativa 1/3 jsonrpc_id=5 -> ok (0.004 s) [charge_id=2563 replica=server-a]
+2026-10-30 17:18:47,908 C-atraso-cache-13 pedido 3 tentativa 1/3 jsonrpc_id=6 -> ok (0.003 s) [charge_id=2564 replica=server-b]
+2026-10-30 17:18:47,912 C-atraso-cache-13 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.004 s) [charge_id=2565 replica=server-a]
+2026-10-30 17:18:49,918 C-atraso-cache-13 pedido 5 tentativa 1/3 jsonrpc_id=8 -> timeout (2.006 s)
+2026-10-30 17:18:49,932 C-atraso-cache-13 pedido 5 tentativa 2/3 jsonrpc_id=9 -> ok (0.014 s) [charge_id=2567 replica=server-a]
+2026-10-30 17:18:49,941 C-atraso-cache-13 pedido 6 tentativa 1/3 jsonrpc_id=10 -> ok (0.009 s) [charge_id=2568 replica=server-b]
+2026-10-30 17:18:49,947 C-atraso-cache-13 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.006 s) [charge_id=2569 replica=server-a]
+2026-10-30 17:18:51,953 C-atraso-cache-13 pedido 8 tentativa 1/3 jsonrpc_id=12 -> timeout (2.005 s)
+2026-10-30 17:18:51,961 C-atraso-cache-13 pedido 8 tentativa 2/3 jsonrpc_id=13 -> ok (0.008 s) [charge_id=2571 replica=server-a]
+2026-10-30 17:18:51,967 C-atraso-cache-13 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.006 s) [charge_id=2572 replica=server-b]
+2026-10-30 17:18:51,972 C-atraso-cache-13 pedido 10 tentativa 1/3 jsonrpc_id=15 -> ok (0.005 s) [charge_id=2573 replica=server-a]
+2026-10-30 17:18:53,977 C-atraso-cache-13 pedido 11 tentativa 1/3 jsonrpc_id=16 -> timeout (2.005 s)
+2026-10-30 17:18:53,989 C-atraso-cache-13 pedido 11 tentativa 2/3 jsonrpc_id=17 -> ok (0.012 s) [charge_id=2575 replica=server-a]
+2026-10-30 17:18:53,999 C-atraso-cache-13 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.009 s) [charge_id=2576 replica=server-b]
+2026-10-30 17:18:54,005 C-atraso-cache-13 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.006 s) [charge_id=2577 replica=server-a]
+2026-10-30 17:18:56,008 C-atraso-cache-13 pedido 14 tentativa 1/3 jsonrpc_id=20 -> timeout (2.004 s)
+2026-10-30 17:18:56,011 C-atraso-cache-13 pedido 14 tentativa 2/3 jsonrpc_id=21 -> ok (0.004 s) [charge_id=2579 replica=server-a]
+2026-10-30 17:18:56,014 C-atraso-cache-13 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2580 replica=server-b]
+2026-10-30 17:18:58,019 C-atraso-cache-13 pedido 16 tentativa 1/3 jsonrpc_id=23 -> timeout (2.005 s)
+2026-10-30 17:18:58,023 C-atraso-cache-13 pedido 16 tentativa 2/3 jsonrpc_id=24 -> ok (0.004 s) [charge_id=2582 replica=server-b]
+2026-10-30 17:19:00,029 C-atraso-cache-13 pedido 17 tentativa 1/3 jsonrpc_id=25 -> timeout (2.006 s)
+2026-10-30 17:19:00,040 C-atraso-cache-13 pedido 17 tentativa 2/3 jsonrpc_id=26 -> ok (0.011 s) [charge_id=2584 replica=server-b]
+2026-10-30 17:19:00,049 C-atraso-cache-13 pedido 18 tentativa 1/3 jsonrpc_id=27 -> ok (0.009 s) [charge_id=2585 replica=server-a]
+2026-10-30 17:19:00,056 C-atraso-cache-13 pedido 19 tentativa 1/3 jsonrpc_id=28 -> ok (0.007 s) [charge_id=2586 replica=server-b]
+2026-10-30 17:19:02,058 C-atraso-cache-13 pedido 20 tentativa 1/3 jsonrpc_id=29 -> timeout (2.002 s)
+2026-10-30 17:19:02,069 C-atraso-cache-13 pedido 20 tentativa 2/3 jsonrpc_id=30 -> ok (0.010 s) [charge_id=2588 replica=server-b]
+2026-10-30 17:19:02,069 C-atraso-cache-13: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:03,278 C-atraso-cache-14 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.025 s) [charge_id=2589 replica=server-b]
+2026-10-30 17:19:05,287 C-atraso-cache-14 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.009 s)
+2026-10-30 17:19:05,299 C-atraso-cache-14 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.012 s) [charge_id=2591 replica=server-b]
+2026-10-30 17:19:07,306 C-atraso-cache-14 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.006 s)
+2026-10-30 17:19:07,316 C-atraso-cache-14 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.010 s) [charge_id=2593 replica=server-b]
+2026-10-30 17:19:07,322 C-atraso-cache-14 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.006 s) [charge_id=2594 replica=server-a]
+2026-10-30 17:19:07,326 C-atraso-cache-14 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.004 s) [charge_id=2595 replica=server-b]
+2026-10-30 17:19:07,329 C-atraso-cache-14 pedido 6 tentativa 1/3 jsonrpc_id=9 -> ok (0.003 s) [charge_id=2596 replica=server-a]
+2026-10-30 17:19:07,332 C-atraso-cache-14 pedido 7 tentativa 1/3 jsonrpc_id=10 -> ok (0.002 s) [charge_id=2597 replica=server-b]
+2026-10-30 17:19:07,334 C-atraso-cache-14 pedido 8 tentativa 1/3 jsonrpc_id=11 -> ok (0.002 s) [charge_id=2598 replica=server-a]
+2026-10-30 17:19:07,337 C-atraso-cache-14 pedido 9 tentativa 1/3 jsonrpc_id=12 -> ok (0.002 s) [charge_id=2599 replica=server-b]
+2026-10-30 17:19:09,340 C-atraso-cache-14 pedido 10 tentativa 1/3 jsonrpc_id=13 -> timeout (2.003 s)
+2026-10-30 17:19:11,345 C-atraso-cache-14 pedido 10 tentativa 2/3 jsonrpc_id=14 -> timeout (2.005 s)
+2026-10-30 17:19:11,350 C-atraso-cache-14 pedido 10 tentativa 3/3 jsonrpc_id=15 -> ok (0.005 s) [charge_id=2600 replica=server-a]
+2026-10-30 17:19:13,352 C-atraso-cache-14 pedido 11 tentativa 1/3 jsonrpc_id=16 -> timeout (2.002 s)
+2026-10-30 17:19:15,358 C-atraso-cache-14 pedido 11 tentativa 2/3 jsonrpc_id=17 -> timeout (2.005 s)
+2026-10-30 17:19:15,369 C-atraso-cache-14 pedido 11 tentativa 3/3 jsonrpc_id=18 -> ok (0.011 s) [charge_id=2602 replica=server-b]
+2026-10-30 17:19:17,375 C-atraso-cache-14 pedido 12 tentativa 1/3 jsonrpc_id=19 -> timeout (2.006 s)
+2026-10-30 17:19:17,391 C-atraso-cache-14 pedido 12 tentativa 2/3 jsonrpc_id=20 -> ok (0.015 s) [charge_id=2605 replica=server-b]
+2026-10-30 17:19:17,396 C-atraso-cache-14 pedido 13 tentativa 1/3 jsonrpc_id=21 -> ok (0.005 s) [charge_id=2606 replica=server-a]
+2026-10-30 17:19:17,398 C-atraso-cache-14 pedido 14 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2607 replica=server-b]
+2026-10-30 17:19:17,401 C-atraso-cache-14 pedido 15 tentativa 1/3 jsonrpc_id=23 -> ok (0.003 s) [charge_id=2608 replica=server-a]
+2026-10-30 17:19:17,404 C-atraso-cache-14 pedido 16 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2609 replica=server-b]
+2026-10-30 17:19:17,407 C-atraso-cache-14 pedido 17 tentativa 1/3 jsonrpc_id=25 -> ok (0.003 s) [charge_id=2610 replica=server-a]
+2026-10-30 17:19:17,409 C-atraso-cache-14 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.002 s) [charge_id=2611 replica=server-b]
+2026-10-30 17:19:19,413 C-atraso-cache-14 pedido 19 tentativa 1/3 jsonrpc_id=27 -> timeout (2.004 s)
+2026-10-30 17:19:19,429 C-atraso-cache-14 pedido 19 tentativa 2/3 jsonrpc_id=28 -> ok (0.015 s) [charge_id=2613 replica=server-b]
+2026-10-30 17:19:19,437 C-atraso-cache-14 pedido 20 tentativa 1/3 jsonrpc_id=29 -> ok (0.007 s) [charge_id=2614 replica=server-a]
+2026-10-30 17:19:19,438 C-atraso-cache-14: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:20,902 C-atraso-cache-15 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.035 s) [charge_id=2615 replica=server-a]
+2026-10-30 17:19:20,911 C-atraso-cache-15 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.009 s) [charge_id=2616 replica=server-b]
+2026-10-30 17:19:20,915 C-atraso-cache-15 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.004 s) [charge_id=2617 replica=server-a]
+2026-10-30 17:19:22,924 C-atraso-cache-15 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.008 s)
+2026-10-30 17:19:22,938 C-atraso-cache-15 pedido 4 tentativa 2/3 jsonrpc_id=6 -> ok (0.013 s) [charge_id=2619 replica=server-a]
+2026-10-30 17:19:22,944 C-atraso-cache-15 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.006 s) [charge_id=2620 replica=server-b]
+2026-10-30 17:19:22,947 C-atraso-cache-15 pedido 6 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2621 replica=server-a]
+2026-10-30 17:19:24,951 C-atraso-cache-15 pedido 7 tentativa 1/3 jsonrpc_id=9 -> timeout (2.004 s)
+2026-10-30 17:19:24,964 C-atraso-cache-15 pedido 7 tentativa 2/3 jsonrpc_id=10 -> ok (0.013 s) [charge_id=2623 replica=server-a]
+2026-10-30 17:19:24,972 C-atraso-cache-15 pedido 8 tentativa 1/3 jsonrpc_id=11 -> ok (0.008 s) [charge_id=2624 replica=server-b]
+2026-10-30 17:19:24,979 C-atraso-cache-15 pedido 9 tentativa 1/3 jsonrpc_id=12 -> ok (0.006 s) [charge_id=2625 replica=server-a]
+2026-10-30 17:19:24,983 C-atraso-cache-15 pedido 10 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2626 replica=server-b]
+2026-10-30 17:19:24,988 C-atraso-cache-15 pedido 11 tentativa 1/3 jsonrpc_id=14 -> ok (0.005 s) [charge_id=2627 replica=server-a]
+2026-10-30 17:19:24,991 C-atraso-cache-15 pedido 12 tentativa 1/3 jsonrpc_id=15 -> ok (0.004 s) [charge_id=2628 replica=server-b]
+2026-10-30 17:19:24,995 C-atraso-cache-15 pedido 13 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2629 replica=server-a]
+2026-10-30 17:19:24,998 C-atraso-cache-15 pedido 14 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2630 replica=server-b]
+2026-10-30 17:19:25,002 C-atraso-cache-15 pedido 15 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2631 replica=server-a]
+2026-10-30 17:19:25,008 C-atraso-cache-15 pedido 16 tentativa 1/3 jsonrpc_id=19 -> ok (0.006 s) [charge_id=2632 replica=server-b]
+2026-10-30 17:19:25,011 C-atraso-cache-15 pedido 17 tentativa 1/3 jsonrpc_id=20 -> ok (0.003 s) [charge_id=2633 replica=server-a]
+2026-10-30 17:19:25,014 C-atraso-cache-15 pedido 18 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2634 replica=server-b]
+2026-10-30 17:19:25,017 C-atraso-cache-15 pedido 19 tentativa 1/3 jsonrpc_id=22 -> ok (0.004 s) [charge_id=2635 replica=server-a]
+2026-10-30 17:19:27,024 C-atraso-cache-15 pedido 20 tentativa 1/3 jsonrpc_id=23 -> timeout (2.007 s)
+2026-10-30 17:19:27,035 C-atraso-cache-15 pedido 20 tentativa 2/3 jsonrpc_id=24 -> ok (0.010 s) [charge_id=2637 replica=server-a]
+2026-10-30 17:19:27,036 C-atraso-cache-15: 20 pedidos lógicos, 23 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:28,226 C-atraso-cache-16 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.026 s) [charge_id=2638 replica=server-a]
+2026-10-30 17:19:28,230 C-atraso-cache-16 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2639 replica=server-b]
+2026-10-30 17:19:30,236 C-atraso-cache-16 pedido 3 tentativa 1/3 jsonrpc_id=4 -> timeout (2.006 s)
+2026-10-30 17:19:30,249 C-atraso-cache-16 pedido 3 tentativa 2/3 jsonrpc_id=5 -> ok (0.013 s) [charge_id=2641 replica=server-b]
+2026-10-30 17:19:30,261 C-atraso-cache-16 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.012 s) [charge_id=2642 replica=server-a]
+2026-10-30 17:19:30,268 C-atraso-cache-16 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.007 s) [charge_id=2643 replica=server-b]
+2026-10-30 17:19:32,285 C-atraso-cache-16 pedido 6 tentativa 1/3 jsonrpc_id=8 -> timeout (2.017 s)
+2026-10-30 17:19:34,303 C-atraso-cache-16 pedido 6 tentativa 2/3 jsonrpc_id=9 -> timeout (2.016 s)
+2026-10-30 17:19:34,335 C-atraso-cache-16 pedido 6 tentativa 3/3 jsonrpc_id=10 -> ok (0.032 s) [charge_id=2644 replica=server-a]
+2026-10-30 17:19:36,340 C-atraso-cache-16 pedido 7 tentativa 1/3 jsonrpc_id=11 -> timeout (2.005 s)
+2026-10-30 17:19:38,347 C-atraso-cache-16 pedido 7 tentativa 2/3 jsonrpc_id=12 -> timeout (2.006 s)
+2026-10-30 17:19:38,362 C-atraso-cache-16 pedido 7 tentativa 3/3 jsonrpc_id=13 -> ok (0.015 s) [charge_id=2646 replica=server-b]
+2026-10-30 17:19:38,371 C-atraso-cache-16 pedido 8 tentativa 1/3 jsonrpc_id=14 -> ok (0.009 s) [charge_id=2648 replica=server-a]
+2026-10-30 17:19:38,376 C-atraso-cache-16 pedido 9 tentativa 1/3 jsonrpc_id=15 -> ok (0.005 s) [charge_id=2649 replica=server-b]
+2026-10-30 17:19:38,380 C-atraso-cache-16 pedido 10 tentativa 1/3 jsonrpc_id=16 -> ok (0.004 s) [charge_id=2650 replica=server-a]
+2026-10-30 17:19:38,384 C-atraso-cache-16 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.004 s) [charge_id=2651 replica=server-b]
+2026-10-30 17:19:38,389 C-atraso-cache-16 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2652 replica=server-a]
+2026-10-30 17:19:40,396 C-atraso-cache-16 pedido 13 tentativa 1/3 jsonrpc_id=19 -> timeout (2.007 s)
+2026-10-30 17:19:40,407 C-atraso-cache-16 pedido 13 tentativa 2/3 jsonrpc_id=20 -> ok (0.011 s) [charge_id=2654 replica=server-a]
+2026-10-30 17:19:40,413 C-atraso-cache-16 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.006 s) [charge_id=2655 replica=server-b]
+2026-10-30 17:19:40,417 C-atraso-cache-16 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.004 s) [charge_id=2656 replica=server-a]
+2026-10-30 17:19:40,421 C-atraso-cache-16 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2657 replica=server-b]
+2026-10-30 17:19:40,425 C-atraso-cache-16 pedido 17 tentativa 1/3 jsonrpc_id=24 -> ok (0.004 s) [charge_id=2658 replica=server-a]
+2026-10-30 17:19:42,430 C-atraso-cache-16 pedido 18 tentativa 1/3 jsonrpc_id=25 -> timeout (2.006 s)
+2026-10-30 17:19:42,442 C-atraso-cache-16 pedido 18 tentativa 2/3 jsonrpc_id=26 -> ok (0.011 s) [charge_id=2660 replica=server-a]
+2026-10-30 17:19:42,447 C-atraso-cache-16 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.006 s) [charge_id=2661 replica=server-b]
+2026-10-30 17:19:42,450 C-atraso-cache-16 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2662 replica=server-a]
+2026-10-30 17:19:42,451 C-atraso-cache-16: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:43,610 C-atraso-cache-17 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.026 s) [charge_id=2663 replica=server-a]
+2026-10-30 17:19:45,617 C-atraso-cache-17 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.007 s)
+2026-10-30 17:19:45,634 C-atraso-cache-17 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.018 s) [charge_id=2665 replica=server-a]
+2026-10-30 17:19:47,641 C-atraso-cache-17 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.006 s)
+2026-10-30 17:19:47,652 C-atraso-cache-17 pedido 3 tentativa 2/3 jsonrpc_id=6 -> ok (0.011 s) [charge_id=2667 replica=server-a]
+2026-10-30 17:19:47,657 C-atraso-cache-17 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.006 s) [charge_id=2668 replica=server-b]
+2026-10-30 17:19:49,663 C-atraso-cache-17 pedido 5 tentativa 1/3 jsonrpc_id=8 -> timeout (2.005 s)
+2026-10-30 17:19:51,675 C-atraso-cache-17 pedido 5 tentativa 2/3 jsonrpc_id=9 -> timeout (2.012 s)
+2026-10-30 17:19:51,690 C-atraso-cache-17 pedido 5 tentativa 3/3 jsonrpc_id=10 -> ok (0.015 s) [charge_id=2669 replica=server-a]
+2026-10-30 17:19:53,695 C-atraso-cache-17 pedido 6 tentativa 1/3 jsonrpc_id=11 -> timeout (2.005 s)
+2026-10-30 17:19:53,713 C-atraso-cache-17 pedido 6 tentativa 2/3 jsonrpc_id=12 -> ok (0.017 s) [charge_id=2672 replica=server-a]
+2026-10-30 17:19:53,722 C-atraso-cache-17 pedido 7 tentativa 1/3 jsonrpc_id=13 -> ok (0.009 s) [charge_id=2673 replica=server-b]
+2026-10-30 17:19:53,727 C-atraso-cache-17 pedido 8 tentativa 1/3 jsonrpc_id=14 -> ok (0.005 s) [charge_id=2674 replica=server-a]
+2026-10-30 17:19:53,731 C-atraso-cache-17 pedido 9 tentativa 1/3 jsonrpc_id=15 -> ok (0.004 s) [charge_id=2675 replica=server-b]
+2026-10-30 17:19:53,735 C-atraso-cache-17 pedido 10 tentativa 1/3 jsonrpc_id=16 -> ok (0.004 s) [charge_id=2676 replica=server-a]
+2026-10-30 17:19:53,739 C-atraso-cache-17 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2677 replica=server-b]
+2026-10-30 17:19:53,742 C-atraso-cache-17 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2678 replica=server-a]
+2026-10-30 17:19:53,745 C-atraso-cache-17 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.003 s) [charge_id=2679 replica=server-b]
+2026-10-30 17:19:53,748 C-atraso-cache-17 pedido 14 tentativa 1/3 jsonrpc_id=20 -> ok (0.003 s) [charge_id=2680 replica=server-a]
+2026-10-30 17:19:53,751 C-atraso-cache-17 pedido 15 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2681 replica=server-b]
+2026-10-30 17:19:55,757 C-atraso-cache-17 pedido 16 tentativa 1/3 jsonrpc_id=22 -> timeout (2.005 s)
+2026-10-30 17:19:55,771 C-atraso-cache-17 pedido 16 tentativa 2/3 jsonrpc_id=23 -> ok (0.014 s) [charge_id=2683 replica=server-b]
+2026-10-30 17:19:55,780 C-atraso-cache-17 pedido 17 tentativa 1/3 jsonrpc_id=24 -> ok (0.009 s) [charge_id=2684 replica=server-a]
+2026-10-30 17:19:55,786 C-atraso-cache-17 pedido 18 tentativa 1/3 jsonrpc_id=25 -> ok (0.006 s) [charge_id=2685 replica=server-b]
+2026-10-30 17:19:55,791 C-atraso-cache-17 pedido 19 tentativa 1/3 jsonrpc_id=26 -> ok (0.004 s) [charge_id=2686 replica=server-a]
+2026-10-30 17:19:55,794 C-atraso-cache-17 pedido 20 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2687 replica=server-b]
+2026-10-30 17:19:55,795 C-atraso-cache-17: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:19:56,936 C-atraso-cache-18 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.027 s) [charge_id=2688 replica=server-b]
+2026-10-30 17:19:56,939 C-atraso-cache-18 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2689 replica=server-a]
+2026-10-30 17:19:56,942 C-atraso-cache-18 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2690 replica=server-b]
+2026-10-30 17:19:56,945 C-atraso-cache-18 pedido 4 tentativa 1/3 jsonrpc_id=5 -> ok (0.003 s) [charge_id=2691 replica=server-a]
+2026-10-30 17:19:56,948 C-atraso-cache-18 pedido 5 tentativa 1/3 jsonrpc_id=6 -> ok (0.003 s) [charge_id=2692 replica=server-b]
+2026-10-30 17:19:56,951 C-atraso-cache-18 pedido 6 tentativa 1/3 jsonrpc_id=7 -> ok (0.003 s) [charge_id=2693 replica=server-a]
+2026-10-30 17:19:56,953 C-atraso-cache-18 pedido 7 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2694 replica=server-b]
+2026-10-30 17:19:58,959 C-atraso-cache-18 pedido 8 tentativa 1/3 jsonrpc_id=9 -> timeout (2.006 s)
+2026-10-30 17:19:58,977 C-atraso-cache-18 pedido 8 tentativa 2/3 jsonrpc_id=10 -> ok (0.017 s) [charge_id=2696 replica=server-b]
+2026-10-30 17:20:00,983 C-atraso-cache-18 pedido 9 tentativa 1/3 jsonrpc_id=11 -> timeout (2.006 s)
+2026-10-30 17:20:00,996 C-atraso-cache-18 pedido 9 tentativa 2/3 jsonrpc_id=12 -> ok (0.013 s) [charge_id=2698 replica=server-b]
+2026-10-30 17:20:03,003 C-atraso-cache-18 pedido 10 tentativa 1/3 jsonrpc_id=13 -> timeout (2.006 s)
+2026-10-30 17:20:05,010 C-atraso-cache-18 pedido 10 tentativa 2/3 jsonrpc_id=14 -> timeout (2.007 s)
+2026-10-30 17:20:05,025 C-atraso-cache-18 pedido 10 tentativa 3/3 jsonrpc_id=15 -> ok (0.015 s) [charge_id=2699 replica=server-a]
+2026-10-30 17:20:07,030 C-atraso-cache-18 pedido 11 tentativa 1/3 jsonrpc_id=16 -> timeout (2.005 s)
+2026-10-30 17:20:07,044 C-atraso-cache-18 pedido 11 tentativa 2/3 jsonrpc_id=17 -> ok (0.014 s) [charge_id=2702 replica=server-a]
+2026-10-30 17:20:07,054 C-atraso-cache-18 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.009 s) [charge_id=2703 replica=server-b]
+2026-10-30 17:20:07,059 C-atraso-cache-18 pedido 13 tentativa 1/3 jsonrpc_id=19 -> ok (0.005 s) [charge_id=2704 replica=server-a]
+2026-10-30 17:20:09,064 C-atraso-cache-18 pedido 14 tentativa 1/3 jsonrpc_id=20 -> timeout (2.005 s)
+2026-10-30 17:20:09,074 C-atraso-cache-18 pedido 14 tentativa 2/3 jsonrpc_id=21 -> ok (0.010 s) [charge_id=2706 replica=server-a]
+2026-10-30 17:20:09,081 C-atraso-cache-18 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.006 s) [charge_id=2707 replica=server-b]
+2026-10-30 17:20:09,085 C-atraso-cache-18 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.005 s) [charge_id=2708 replica=server-a]
+2026-10-30 17:20:11,090 C-atraso-cache-18 pedido 17 tentativa 1/3 jsonrpc_id=24 -> timeout (2.005 s)
+2026-10-30 17:20:11,104 C-atraso-cache-18 pedido 17 tentativa 2/3 jsonrpc_id=25 -> ok (0.014 s) [charge_id=2710 replica=server-a]
+2026-10-30 17:20:11,112 C-atraso-cache-18 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.008 s) [charge_id=2711 replica=server-b]
+2026-10-30 17:20:11,116 C-atraso-cache-18 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2712 replica=server-a]
+2026-10-30 17:20:13,124 C-atraso-cache-18 pedido 20 tentativa 1/3 jsonrpc_id=28 -> timeout (2.007 s)
+2026-10-30 17:20:13,136 C-atraso-cache-18 pedido 20 tentativa 2/3 jsonrpc_id=29 -> ok (0.012 s) [charge_id=2714 replica=server-a]
+2026-10-30 17:20:13,137 C-atraso-cache-18: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:14,412 C-atraso-cache-19 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.027 s) [charge_id=2715 replica=server-a]
+2026-10-30 17:20:14,418 C-atraso-cache-19 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2716 replica=server-b]
+2026-10-30 17:20:14,421 C-atraso-cache-19 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2717 replica=server-a]
+2026-10-30 17:20:14,423 C-atraso-cache-19 pedido 4 tentativa 1/3 jsonrpc_id=5 -> ok (0.002 s) [charge_id=2718 replica=server-b]
+2026-10-30 17:20:14,425 C-atraso-cache-19 pedido 5 tentativa 1/3 jsonrpc_id=6 -> ok (0.002 s) [charge_id=2719 replica=server-a]
+2026-10-30 17:20:14,427 C-atraso-cache-19 pedido 6 tentativa 1/3 jsonrpc_id=7 -> ok (0.002 s) [charge_id=2720 replica=server-b]
+2026-10-30 17:20:14,429 C-atraso-cache-19 pedido 7 tentativa 1/3 jsonrpc_id=8 -> ok (0.002 s) [charge_id=2721 replica=server-a]
+2026-10-30 17:20:16,438 C-atraso-cache-19 pedido 8 tentativa 1/3 jsonrpc_id=9 -> timeout (2.008 s)
+2026-10-30 17:20:16,455 C-atraso-cache-19 pedido 8 tentativa 2/3 jsonrpc_id=10 -> ok (0.017 s) [charge_id=2723 replica=server-a]
+2026-10-30 17:20:18,461 C-atraso-cache-19 pedido 9 tentativa 1/3 jsonrpc_id=11 -> timeout (2.006 s)
+2026-10-30 17:20:18,476 C-atraso-cache-19 pedido 9 tentativa 2/3 jsonrpc_id=12 -> ok (0.014 s) [charge_id=2725 replica=server-a]
+2026-10-30 17:20:18,485 C-atraso-cache-19 pedido 10 tentativa 1/3 jsonrpc_id=13 -> ok (0.009 s) [charge_id=2726 replica=server-b]
+2026-10-30 17:20:20,491 C-atraso-cache-19 pedido 11 tentativa 1/3 jsonrpc_id=14 -> timeout (2.006 s)
+2026-10-30 17:20:22,499 C-atraso-cache-19 pedido 11 tentativa 2/3 jsonrpc_id=15 -> timeout (2.008 s)
+2026-10-30 17:20:22,508 C-atraso-cache-19 pedido 11 tentativa 3/3 jsonrpc_id=16 -> ok (0.009 s) [charge_id=2727 replica=server-a]
+2026-10-30 17:20:22,516 C-atraso-cache-19 pedido 12 tentativa 1/3 jsonrpc_id=17 -> ok (0.008 s) [charge_id=2729 replica=server-b]
+2026-10-30 17:20:22,520 C-atraso-cache-19 pedido 13 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2730 replica=server-a]
+2026-10-30 17:20:24,524 C-atraso-cache-19 pedido 14 tentativa 1/3 jsonrpc_id=19 -> timeout (2.005 s)
+2026-10-30 17:20:24,534 C-atraso-cache-19 pedido 14 tentativa 2/3 jsonrpc_id=20 -> ok (0.009 s) [charge_id=2732 replica=server-a]
+2026-10-30 17:20:24,542 C-atraso-cache-19 pedido 15 tentativa 1/3 jsonrpc_id=21 -> ok (0.008 s) [charge_id=2733 replica=server-b]
+2026-10-30 17:20:24,545 C-atraso-cache-19 pedido 16 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2734 replica=server-a]
+2026-10-30 17:20:24,548 C-atraso-cache-19 pedido 17 tentativa 1/3 jsonrpc_id=23 -> ok (0.002 s) [charge_id=2735 replica=server-b]
+2026-10-30 17:20:24,550 C-atraso-cache-19 pedido 18 tentativa 1/3 jsonrpc_id=24 -> ok (0.002 s) [charge_id=2736 replica=server-a]
+2026-10-30 17:20:24,552 C-atraso-cache-19 pedido 19 tentativa 1/3 jsonrpc_id=25 -> ok (0.002 s) [charge_id=2737 replica=server-b]
+2026-10-30 17:20:24,554 C-atraso-cache-19 pedido 20 tentativa 1/3 jsonrpc_id=26 -> ok (0.002 s) [charge_id=2738 replica=server-a]
+2026-10-30 17:20:24,555 C-atraso-cache-19: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:27,752 C-atraso-cache-20 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.004 s)
+2026-10-30 17:20:29,758 C-atraso-cache-20 pedido 1 tentativa 2/3 jsonrpc_id=3 -> timeout (2.005 s)
+2026-10-30 17:20:29,796 C-atraso-cache-20 pedido 1 tentativa 3/3 jsonrpc_id=4 -> ok (0.038 s) [charge_id=2739 replica=server-a]
+2026-10-30 17:20:29,801 C-atraso-cache-20 pedido 2 tentativa 1/3 jsonrpc_id=5 -> ok (0.005 s) [charge_id=2741 replica=server-b]
+2026-10-30 17:20:29,805 C-atraso-cache-20 pedido 3 tentativa 1/3 jsonrpc_id=6 -> ok (0.004 s) [charge_id=2742 replica=server-a]
+2026-10-30 17:20:29,809 C-atraso-cache-20 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.004 s) [charge_id=2743 replica=server-b]
+2026-10-30 17:20:31,814 C-atraso-cache-20 pedido 5 tentativa 1/3 jsonrpc_id=8 -> timeout (2.004 s)
+2026-10-30 17:20:33,821 C-atraso-cache-20 pedido 5 tentativa 2/3 jsonrpc_id=9 -> timeout (2.007 s)
+2026-10-30 17:20:33,832 C-atraso-cache-20 pedido 5 tentativa 3/3 jsonrpc_id=10 -> ok (0.011 s) [charge_id=2744 replica=server-a]
+2026-10-30 17:20:33,841 C-atraso-cache-20 pedido 6 tentativa 1/3 jsonrpc_id=11 -> ok (0.009 s) [charge_id=2746 replica=server-b]
+2026-10-30 17:20:33,847 C-atraso-cache-20 pedido 7 tentativa 1/3 jsonrpc_id=12 -> ok (0.006 s) [charge_id=2747 replica=server-a]
+2026-10-30 17:20:33,851 C-atraso-cache-20 pedido 8 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2748 replica=server-b]
+2026-10-30 17:20:35,857 C-atraso-cache-20 pedido 9 tentativa 1/3 jsonrpc_id=14 -> timeout (2.005 s)
+2026-10-30 17:20:35,868 C-atraso-cache-20 pedido 9 tentativa 2/3 jsonrpc_id=15 -> ok (0.011 s) [charge_id=2750 replica=server-b]
+2026-10-30 17:20:35,878 C-atraso-cache-20 pedido 10 tentativa 1/3 jsonrpc_id=16 -> ok (0.010 s) [charge_id=2751 replica=server-a]
+2026-10-30 17:20:37,884 C-atraso-cache-20 pedido 11 tentativa 1/3 jsonrpc_id=17 -> timeout (2.006 s)
+2026-10-30 17:20:39,890 C-atraso-cache-20 pedido 11 tentativa 2/3 jsonrpc_id=18 -> timeout (2.005 s)
+2026-10-30 17:20:39,900 C-atraso-cache-20 pedido 11 tentativa 3/3 jsonrpc_id=19 -> ok (0.010 s) [charge_id=2752 replica=server-b]
+2026-10-30 17:20:41,904 C-atraso-cache-20 pedido 12 tentativa 1/3 jsonrpc_id=20 -> timeout (2.004 s)
+2026-10-30 17:20:43,910 C-atraso-cache-20 pedido 12 tentativa 2/3 jsonrpc_id=21 -> timeout (2.005 s)
+2026-10-30 17:20:43,916 C-atraso-cache-20 pedido 12 tentativa 3/3 jsonrpc_id=22 -> ok (0.005 s) [charge_id=2754 replica=server-a]
+2026-10-30 17:20:43,921 C-atraso-cache-20 pedido 13 tentativa 1/3 jsonrpc_id=23 -> ok (0.005 s) [charge_id=2756 replica=server-b]
+2026-10-30 17:20:43,925 C-atraso-cache-20 pedido 14 tentativa 1/3 jsonrpc_id=24 -> ok (0.004 s) [charge_id=2757 replica=server-a]
+2026-10-30 17:20:43,928 C-atraso-cache-20 pedido 15 tentativa 1/3 jsonrpc_id=25 -> ok (0.003 s) [charge_id=2758 replica=server-b]
+2026-10-30 17:20:43,931 C-atraso-cache-20 pedido 16 tentativa 1/3 jsonrpc_id=26 -> ok (0.003 s) [charge_id=2759 replica=server-a]
+2026-10-30 17:20:43,933 C-atraso-cache-20 pedido 17 tentativa 1/3 jsonrpc_id=27 -> ok (0.002 s) [charge_id=2760 replica=server-b]
+2026-10-30 17:20:43,936 C-atraso-cache-20 pedido 18 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2761 replica=server-a]
+2026-10-30 17:20:43,939 C-atraso-cache-20 pedido 19 tentativa 1/3 jsonrpc_id=29 -> ok (0.003 s) [charge_id=2762 replica=server-b]
+2026-10-30 17:20:43,941 C-atraso-cache-20 pedido 20 tentativa 1/3 jsonrpc_id=30 -> ok (0.002 s) [charge_id=2763 replica=server-a]
+2026-10-30 17:20:43,942 C-atraso-cache-20: 20 pedidos lógicos, 29 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:20:47,257 C-atraso-cache-21 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.002 s)
+2026-10-30 17:20:47,286 C-atraso-cache-21 pedido 1 tentativa 2/3 jsonrpc_id=3 -> ok (0.030 s) [charge_id=2765 replica=server-b]
+2026-10-30 17:20:47,290 C-atraso-cache-21 pedido 2 tentativa 1/3 jsonrpc_id=4 -> ok (0.004 s) [charge_id=2766 replica=server-a]
+2026-10-30 17:20:47,293 C-atraso-cache-21 pedido 3 tentativa 1/3 jsonrpc_id=5 -> ok (0.003 s) [charge_id=2767 replica=server-b]
+2026-10-30 17:20:49,296 C-atraso-cache-21 pedido 4 tentativa 1/3 jsonrpc_id=6 -> timeout (2.003 s)
+2026-10-30 17:20:49,305 C-atraso-cache-21 pedido 4 tentativa 2/3 jsonrpc_id=7 -> ok (0.008 s) [charge_id=2769 replica=server-b]
+2026-10-30 17:20:49,313 C-atraso-cache-21 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.009 s) [charge_id=2770 replica=server-a]
+2026-10-30 17:20:51,320 C-atraso-cache-21 pedido 6 tentativa 1/3 jsonrpc_id=9 -> timeout (2.007 s)
+2026-10-30 17:20:51,338 C-atraso-cache-21 pedido 6 tentativa 2/3 jsonrpc_id=10 -> ok (0.017 s) [charge_id=2772 replica=server-a]
+2026-10-30 17:20:51,349 C-atraso-cache-21 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.010 s) [charge_id=2773 replica=server-b]
+2026-10-30 17:20:51,355 C-atraso-cache-21 pedido 8 tentativa 1/3 jsonrpc_id=12 -> ok (0.006 s) [charge_id=2774 replica=server-a]
+2026-10-30 17:20:53,369 C-atraso-cache-21 pedido 9 tentativa 1/3 jsonrpc_id=13 -> timeout (2.014 s)
+2026-10-30 17:20:53,412 C-atraso-cache-21 pedido 9 tentativa 2/3 jsonrpc_id=14 -> ok (0.043 s) [charge_id=2776 replica=server-a]
+2026-10-30 17:20:55,420 C-atraso-cache-21 pedido 10 tentativa 1/3 jsonrpc_id=15 -> timeout (2.006 s)
+2026-10-30 17:20:55,440 C-atraso-cache-21 pedido 10 tentativa 2/3 jsonrpc_id=16 -> ok (0.019 s) [charge_id=2778 replica=server-a]
+2026-10-30 17:20:55,449 C-atraso-cache-21 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.010 s) [charge_id=2779 replica=server-b]
+2026-10-30 17:20:55,454 C-atraso-cache-21 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.004 s) [charge_id=2780 replica=server-a]
+2026-10-30 17:20:57,462 C-atraso-cache-21 pedido 13 tentativa 1/3 jsonrpc_id=19 -> timeout (2.008 s)
+2026-10-30 17:20:57,482 C-atraso-cache-21 pedido 13 tentativa 2/3 jsonrpc_id=20 -> ok (0.020 s) [charge_id=2782 replica=server-a]
+2026-10-30 17:20:57,489 C-atraso-cache-21 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.007 s) [charge_id=2783 replica=server-b]
+2026-10-30 17:20:57,494 C-atraso-cache-21 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.005 s) [charge_id=2784 replica=server-a]
+2026-10-30 17:20:57,498 C-atraso-cache-21 pedido 16 tentativa 1/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2785 replica=server-b]
+2026-10-30 17:20:57,502 C-atraso-cache-21 pedido 17 tentativa 1/3 jsonrpc_id=24 -> ok (0.003 s) [charge_id=2786 replica=server-a]
+2026-10-30 17:20:57,505 C-atraso-cache-21 pedido 18 tentativa 1/3 jsonrpc_id=25 -> ok (0.003 s) [charge_id=2787 replica=server-b]
+2026-10-30 17:20:57,508 C-atraso-cache-21 pedido 19 tentativa 1/3 jsonrpc_id=26 -> ok (0.003 s) [charge_id=2788 replica=server-a]
+2026-10-30 17:20:59,515 C-atraso-cache-21 pedido 20 tentativa 1/3 jsonrpc_id=27 -> timeout (2.007 s)
+2026-10-30 17:21:01,528 C-atraso-cache-21 pedido 20 tentativa 2/3 jsonrpc_id=28 -> timeout (2.012 s)
+2026-10-30 17:21:01,536 C-atraso-cache-21 pedido 20 tentativa 3/3 jsonrpc_id=29 -> ok (0.008 s) [charge_id=2789 replica=server-b]
+2026-10-30 17:21:01,538 C-atraso-cache-21: 20 pedidos lógicos, 28 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:02,986 C-atraso-cache-22 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.028 s) [charge_id=2791 replica=server-b]
+2026-10-30 17:21:02,990 C-atraso-cache-22 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2792 replica=server-a]
+2026-10-30 17:21:04,997 C-atraso-cache-22 pedido 3 tentativa 1/3 jsonrpc_id=4 -> timeout (2.006 s)
+2026-10-30 17:21:05,007 C-atraso-cache-22 pedido 3 tentativa 2/3 jsonrpc_id=5 -> ok (0.010 s) [charge_id=2794 replica=server-a]
+2026-10-30 17:21:05,011 C-atraso-cache-22 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.004 s) [charge_id=2795 replica=server-b]
+2026-10-30 17:21:05,015 C-atraso-cache-22 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.003 s) [charge_id=2796 replica=server-a]
+2026-10-30 17:21:05,017 C-atraso-cache-22 pedido 6 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2797 replica=server-b]
+2026-10-30 17:21:05,020 C-atraso-cache-22 pedido 7 tentativa 1/3 jsonrpc_id=9 -> ok (0.003 s) [charge_id=2798 replica=server-a]
+2026-10-30 17:21:07,024 C-atraso-cache-22 pedido 8 tentativa 1/3 jsonrpc_id=10 -> timeout (2.004 s)
+2026-10-30 17:21:09,031 C-atraso-cache-22 pedido 8 tentativa 2/3 jsonrpc_id=11 -> timeout (2.007 s)
+2026-10-30 17:21:09,040 C-atraso-cache-22 pedido 8 tentativa 3/3 jsonrpc_id=12 -> ok (0.009 s) [charge_id=2799 replica=server-b]
+2026-10-30 17:21:09,046 C-atraso-cache-22 pedido 9 tentativa 1/3 jsonrpc_id=13 -> ok (0.006 s) [charge_id=2801 replica=server-a]
+2026-10-30 17:21:11,054 C-atraso-cache-22 pedido 10 tentativa 1/3 jsonrpc_id=14 -> timeout (2.007 s)
+2026-10-30 17:21:13,062 C-atraso-cache-22 pedido 10 tentativa 2/3 jsonrpc_id=15 -> timeout (2.008 s)
+2026-10-30 17:21:13,072 C-atraso-cache-22 pedido 10 tentativa 3/3 jsonrpc_id=16 -> ok (0.010 s) [charge_id=2802 replica=server-b]
+2026-10-30 17:21:13,079 C-atraso-cache-22 pedido 11 tentativa 1/3 jsonrpc_id=17 -> ok (0.006 s) [charge_id=2804 replica=server-a]
+2026-10-30 17:21:13,082 C-atraso-cache-22 pedido 12 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2805 replica=server-b]
+2026-10-30 17:21:15,087 C-atraso-cache-22 pedido 13 tentativa 1/3 jsonrpc_id=19 -> timeout (2.005 s)
+2026-10-30 17:21:15,104 C-atraso-cache-22 pedido 13 tentativa 2/3 jsonrpc_id=20 -> ok (0.017 s) [charge_id=2807 replica=server-b]
+2026-10-30 17:21:15,115 C-atraso-cache-22 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.011 s) [charge_id=2808 replica=server-a]
+2026-10-30 17:21:15,123 C-atraso-cache-22 pedido 15 tentativa 1/3 jsonrpc_id=22 -> ok (0.008 s) [charge_id=2809 replica=server-b]
+2026-10-30 17:21:17,132 C-atraso-cache-22 pedido 16 tentativa 1/3 jsonrpc_id=23 -> timeout (2.008 s)
+2026-10-30 17:21:17,144 C-atraso-cache-22 pedido 16 tentativa 2/3 jsonrpc_id=24 -> ok (0.012 s) [charge_id=2811 replica=server-b]
+2026-10-30 17:21:17,152 C-atraso-cache-22 pedido 17 tentativa 1/3 jsonrpc_id=25 -> ok (0.008 s) [charge_id=2812 replica=server-a]
+2026-10-30 17:21:17,157 C-atraso-cache-22 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.005 s) [charge_id=2813 replica=server-b]
+2026-10-30 17:21:17,161 C-atraso-cache-22 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2814 replica=server-a]
+2026-10-30 17:21:17,165 C-atraso-cache-22 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2815 replica=server-b]
+2026-10-30 17:21:17,166 C-atraso-cache-22: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:18,382 C-atraso-cache-23 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.031 s) [charge_id=2816 replica=server-b]
+2026-10-30 17:21:18,387 C-atraso-cache-23 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2817 replica=server-a]
+2026-10-30 17:21:18,390 C-atraso-cache-23 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2818 replica=server-b]
+2026-10-30 17:21:20,396 C-atraso-cache-23 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.006 s)
+2026-10-30 17:21:22,403 C-atraso-cache-23 pedido 4 tentativa 2/3 jsonrpc_id=6 -> timeout (2.006 s)
+2026-10-30 17:21:22,406 C-atraso-cache-23 pedido 4 tentativa 3/3 jsonrpc_id=7 -> ok (0.004 s) [charge_id=2819 replica=server-a]
+2026-10-30 17:21:22,410 C-atraso-cache-23 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2821 replica=server-b]
+2026-10-30 17:21:22,412 C-atraso-cache-23 pedido 6 tentativa 1/3 jsonrpc_id=9 -> ok (0.002 s) [charge_id=2822 replica=server-a]
+2026-10-30 17:21:22,415 C-atraso-cache-23 pedido 7 tentativa 1/3 jsonrpc_id=10 -> ok (0.002 s) [charge_id=2823 replica=server-b]
+2026-10-30 17:21:24,416 C-atraso-cache-23 pedido 8 tentativa 1/3 jsonrpc_id=11 -> timeout (2.001 s)
+2026-10-30 17:21:24,420 C-atraso-cache-23 pedido 8 tentativa 2/3 jsonrpc_id=12 -> ok (0.005 s) [charge_id=2825 replica=server-b]
+2026-10-30 17:21:24,424 C-atraso-cache-23 pedido 9 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2826 replica=server-a]
+2026-10-30 17:21:24,428 C-atraso-cache-23 pedido 10 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2827 replica=server-b]
+2026-10-30 17:21:26,433 C-atraso-cache-23 pedido 11 tentativa 1/3 jsonrpc_id=15 -> timeout (2.005 s)
+2026-10-30 17:21:26,449 C-atraso-cache-23 pedido 11 tentativa 2/3 jsonrpc_id=16 -> ok (0.016 s) [charge_id=2829 replica=server-b]
+2026-10-30 17:21:28,456 C-atraso-cache-23 pedido 12 tentativa 1/3 jsonrpc_id=17 -> timeout (2.007 s)
+2026-10-30 17:21:30,466 C-atraso-cache-23 pedido 12 tentativa 2/3 jsonrpc_id=18 -> timeout (2.010 s)
+2026-10-30 17:21:30,479 C-atraso-cache-23 pedido 12 tentativa 3/3 jsonrpc_id=19 -> ok (0.013 s) [charge_id=2830 replica=server-a]
+2026-10-30 17:21:30,486 C-atraso-cache-23 pedido 13 tentativa 1/3 jsonrpc_id=20 -> ok (0.006 s) [charge_id=2832 replica=server-b]
+2026-10-30 17:21:32,493 C-atraso-cache-23 pedido 14 tentativa 1/3 jsonrpc_id=21 -> timeout (2.007 s)
+2026-10-30 17:21:34,502 C-atraso-cache-23 pedido 14 tentativa 2/3 jsonrpc_id=22 -> timeout (2.008 s)
+2026-10-30 17:21:34,514 C-atraso-cache-23 pedido 14 tentativa 3/3 jsonrpc_id=23 -> ok (0.012 s) [charge_id=2833 replica=server-a]
+2026-10-30 17:21:36,518 C-atraso-cache-23 pedido 15 tentativa 1/3 jsonrpc_id=24 -> timeout (2.004 s)
+2026-10-30 17:21:36,540 C-atraso-cache-23 pedido 15 tentativa 2/3 jsonrpc_id=25 -> ok (0.021 s) [charge_id=2836 replica=server-a]
+2026-10-30 17:21:38,550 C-atraso-cache-23 pedido 16 tentativa 1/3 jsonrpc_id=26 -> timeout (2.010 s)
+2026-10-30 17:21:38,575 C-atraso-cache-23 pedido 16 tentativa 2/3 jsonrpc_id=27 -> ok (0.025 s) [charge_id=2838 replica=server-a]
+2026-10-30 17:21:40,581 C-atraso-cache-23 pedido 17 tentativa 1/3 jsonrpc_id=28 -> timeout (2.005 s)
+2026-10-30 17:21:40,613 C-atraso-cache-23 pedido 17 tentativa 2/3 jsonrpc_id=29 -> ok (0.032 s) [charge_id=2840 replica=server-a]
+2026-10-30 17:21:40,624 C-atraso-cache-23 pedido 18 tentativa 1/3 jsonrpc_id=30 -> ok (0.011 s) [charge_id=2841 replica=server-b]
+2026-10-30 17:21:40,631 C-atraso-cache-23 pedido 19 tentativa 1/3 jsonrpc_id=31 -> ok (0.007 s) [charge_id=2842 replica=server-a]
+2026-10-30 17:21:40,637 C-atraso-cache-23 pedido 20 tentativa 1/3 jsonrpc_id=32 -> ok (0.006 s) [charge_id=2843 replica=server-b]
+2026-10-30 17:21:40,639 C-atraso-cache-23: 20 pedidos lógicos, 31 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:41,824 C-atraso-cache-24 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.023 s) [charge_id=2844 replica=server-b]
+2026-10-30 17:21:43,839 C-atraso-cache-24 pedido 2 tentativa 1/3 jsonrpc_id=3 -> timeout (2.014 s)
+2026-10-30 17:21:43,908 C-atraso-cache-24 pedido 2 tentativa 2/3 jsonrpc_id=4 -> ok (0.063 s) [charge_id=2846 replica=server-b]
+2026-10-30 17:21:45,914 C-atraso-cache-24 pedido 3 tentativa 1/3 jsonrpc_id=5 -> timeout (2.006 s)
+2026-10-30 17:21:47,925 C-atraso-cache-24 pedido 3 tentativa 2/3 jsonrpc_id=6 -> timeout (2.010 s)
+2026-10-30 17:21:47,940 C-atraso-cache-24 pedido 3 tentativa 3/3 jsonrpc_id=7 -> ok (0.015 s) [charge_id=2847 replica=server-a]
+2026-10-30 17:21:47,949 C-atraso-cache-24 pedido 4 tentativa 1/3 jsonrpc_id=8 -> ok (0.008 s) [charge_id=2849 replica=server-b]
+2026-10-30 17:21:49,956 C-atraso-cache-24 pedido 5 tentativa 1/3 jsonrpc_id=9 -> timeout (2.007 s)
+2026-10-30 17:21:49,980 C-atraso-cache-24 pedido 5 tentativa 2/3 jsonrpc_id=10 -> ok (0.023 s) [charge_id=2851 replica=server-b]
+2026-10-30 17:21:49,990 C-atraso-cache-24 pedido 6 tentativa 1/3 jsonrpc_id=11 -> ok (0.010 s) [charge_id=2852 replica=server-a]
+2026-10-30 17:21:49,995 C-atraso-cache-24 pedido 7 tentativa 1/3 jsonrpc_id=12 -> ok (0.005 s) [charge_id=2853 replica=server-b]
+2026-10-30 17:21:49,999 C-atraso-cache-24 pedido 8 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2854 replica=server-a]
+2026-10-30 17:21:50,005 C-atraso-cache-24 pedido 9 tentativa 1/3 jsonrpc_id=14 -> ok (0.005 s) [charge_id=2855 replica=server-b]
+2026-10-30 17:21:50,009 C-atraso-cache-24 pedido 10 tentativa 1/3 jsonrpc_id=15 -> ok (0.004 s) [charge_id=2856 replica=server-a]
+2026-10-30 17:21:50,012 C-atraso-cache-24 pedido 11 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2857 replica=server-b]
+2026-10-30 17:21:52,018 C-atraso-cache-24 pedido 12 tentativa 1/3 jsonrpc_id=17 -> timeout (2.006 s)
+2026-10-30 17:21:52,035 C-atraso-cache-24 pedido 12 tentativa 2/3 jsonrpc_id=18 -> ok (0.017 s) [charge_id=2859 replica=server-b]
+2026-10-30 17:21:54,041 C-atraso-cache-24 pedido 13 tentativa 1/3 jsonrpc_id=19 -> timeout (2.005 s)
+2026-10-30 17:21:54,058 C-atraso-cache-24 pedido 13 tentativa 2/3 jsonrpc_id=20 -> ok (0.017 s) [charge_id=2861 replica=server-b]
+2026-10-30 17:21:54,067 C-atraso-cache-24 pedido 14 tentativa 1/3 jsonrpc_id=21 -> ok (0.009 s) [charge_id=2862 replica=server-a]
+2026-10-30 17:21:56,076 C-atraso-cache-24 pedido 15 tentativa 1/3 jsonrpc_id=22 -> timeout (2.009 s)
+2026-10-30 17:21:56,093 C-atraso-cache-24 pedido 15 tentativa 2/3 jsonrpc_id=23 -> ok (0.018 s) [charge_id=2864 replica=server-a]
+2026-10-30 17:21:56,102 C-atraso-cache-24 pedido 16 tentativa 1/3 jsonrpc_id=24 -> ok (0.008 s) [charge_id=2865 replica=server-b]
+2026-10-30 17:21:56,106 C-atraso-cache-24 pedido 17 tentativa 1/3 jsonrpc_id=25 -> ok (0.004 s) [charge_id=2866 replica=server-a]
+2026-10-30 17:21:56,111 C-atraso-cache-24 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.005 s) [charge_id=2867 replica=server-b]
+2026-10-30 17:21:56,115 C-atraso-cache-24 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2868 replica=server-a]
+2026-10-30 17:21:56,119 C-atraso-cache-24 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.004 s) [charge_id=2869 replica=server-b]
+2026-10-30 17:21:56,120 C-atraso-cache-24: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:21:57,312 C-atraso-cache-25 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.031 s) [charge_id=2870 replica=server-b]
+2026-10-30 17:21:57,318 C-atraso-cache-25 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2871 replica=server-a]
+2026-10-30 17:21:57,321 C-atraso-cache-25 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.004 s) [charge_id=2872 replica=server-b]
+2026-10-30 17:21:59,325 C-atraso-cache-25 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.004 s)
+2026-10-30 17:21:59,334 C-atraso-cache-25 pedido 4 tentativa 2/3 jsonrpc_id=6 -> ok (0.009 s) [charge_id=2874 replica=server-b]
+2026-10-30 17:21:59,341 C-atraso-cache-25 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.007 s) [charge_id=2875 replica=server-a]
+2026-10-30 17:22:01,346 C-atraso-cache-25 pedido 6 tentativa 1/3 jsonrpc_id=8 -> timeout (2.005 s)
+2026-10-30 17:22:01,362 C-atraso-cache-25 pedido 6 tentativa 2/3 jsonrpc_id=9 -> ok (0.015 s) [charge_id=2877 replica=server-a]
+2026-10-30 17:22:01,369 C-atraso-cache-25 pedido 7 tentativa 1/3 jsonrpc_id=10 -> ok (0.007 s) [charge_id=2878 replica=server-b]
+2026-10-30 17:22:01,374 C-atraso-cache-25 pedido 8 tentativa 1/3 jsonrpc_id=11 -> ok (0.006 s) [charge_id=2879 replica=server-a]
+2026-10-30 17:22:01,379 C-atraso-cache-25 pedido 9 tentativa 1/3 jsonrpc_id=12 -> ok (0.005 s) [charge_id=2880 replica=server-b]
+2026-10-30 17:22:01,384 C-atraso-cache-25 pedido 10 tentativa 1/3 jsonrpc_id=13 -> ok (0.005 s) [charge_id=2881 replica=server-a]
+2026-10-30 17:22:01,388 C-atraso-cache-25 pedido 11 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2882 replica=server-b]
+2026-10-30 17:22:01,391 C-atraso-cache-25 pedido 12 tentativa 1/3 jsonrpc_id=15 -> ok (0.003 s) [charge_id=2883 replica=server-a]
+2026-10-30 17:22:01,394 C-atraso-cache-25 pedido 13 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2884 replica=server-b]
+2026-10-30 17:22:01,396 C-atraso-cache-25 pedido 14 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2885 replica=server-a]
+2026-10-30 17:22:01,399 C-atraso-cache-25 pedido 15 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2886 replica=server-b]
+2026-10-30 17:22:01,402 C-atraso-cache-25 pedido 16 tentativa 1/3 jsonrpc_id=19 -> ok (0.003 s) [charge_id=2887 replica=server-a]
+2026-10-30 17:22:01,407 C-atraso-cache-25 pedido 17 tentativa 1/3 jsonrpc_id=20 -> ok (0.005 s) [charge_id=2888 replica=server-b]
+2026-10-30 17:22:03,411 C-atraso-cache-25 pedido 18 tentativa 1/3 jsonrpc_id=21 -> timeout (2.004 s)
+2026-10-30 17:22:05,418 C-atraso-cache-25 pedido 18 tentativa 2/3 jsonrpc_id=22 -> timeout (2.006 s)
+2026-10-30 17:22:05,425 C-atraso-cache-25 pedido 18 tentativa 3/3 jsonrpc_id=23 -> ok (0.007 s) [charge_id=2889 replica=server-a]
+2026-10-30 17:22:07,430 C-atraso-cache-25 pedido 19 tentativa 1/3 jsonrpc_id=24 -> timeout (2.004 s)
+2026-10-30 17:22:07,446 C-atraso-cache-25 pedido 19 tentativa 2/3 jsonrpc_id=25 -> ok (0.016 s) [charge_id=2892 replica=server-a]
+2026-10-30 17:22:07,455 C-atraso-cache-25 pedido 20 tentativa 1/3 jsonrpc_id=26 -> ok (0.009 s) [charge_id=2893 replica=server-b]
+2026-10-30 17:22:07,457 C-atraso-cache-25: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:08,641 C-atraso-cache-26 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.031 s) [charge_id=2894 replica=server-b]
+2026-10-30 17:22:08,650 C-atraso-cache-26 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.009 s) [charge_id=2895 replica=server-a]
+2026-10-30 17:22:10,655 C-atraso-cache-26 pedido 3 tentativa 1/3 jsonrpc_id=4 -> timeout (2.005 s)
+2026-10-30 17:22:10,667 C-atraso-cache-26 pedido 3 tentativa 2/3 jsonrpc_id=5 -> ok (0.011 s) [charge_id=2897 replica=server-a]
+2026-10-30 17:22:10,673 C-atraso-cache-26 pedido 4 tentativa 1/3 jsonrpc_id=6 -> ok (0.006 s) [charge_id=2898 replica=server-b]
+2026-10-30 17:22:10,676 C-atraso-cache-26 pedido 5 tentativa 1/3 jsonrpc_id=7 -> ok (0.003 s) [charge_id=2899 replica=server-a]
+2026-10-30 17:22:10,679 C-atraso-cache-26 pedido 6 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2900 replica=server-b]
+2026-10-30 17:22:10,681 C-atraso-cache-26 pedido 7 tentativa 1/3 jsonrpc_id=9 -> ok (0.002 s) [charge_id=2901 replica=server-a]
+2026-10-30 17:22:10,683 C-atraso-cache-26 pedido 8 tentativa 1/3 jsonrpc_id=10 -> ok (0.002 s) [charge_id=2902 replica=server-b]
+2026-10-30 17:22:12,692 C-atraso-cache-26 pedido 9 tentativa 1/3 jsonrpc_id=11 -> timeout (2.008 s)
+2026-10-30 17:22:12,701 C-atraso-cache-26 pedido 9 tentativa 2/3 jsonrpc_id=12 -> ok (0.009 s) [charge_id=2904 replica=server-b]
+2026-10-30 17:22:12,705 C-atraso-cache-26 pedido 10 tentativa 1/3 jsonrpc_id=13 -> ok (0.004 s) [charge_id=2905 replica=server-a]
+2026-10-30 17:22:12,709 C-atraso-cache-26 pedido 11 tentativa 1/3 jsonrpc_id=14 -> ok (0.003 s) [charge_id=2906 replica=server-b]
+2026-10-30 17:22:12,712 C-atraso-cache-26 pedido 12 tentativa 1/3 jsonrpc_id=15 -> ok (0.003 s) [charge_id=2907 replica=server-a]
+2026-10-30 17:22:12,714 C-atraso-cache-26 pedido 13 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2908 replica=server-b]
+2026-10-30 17:22:12,717 C-atraso-cache-26 pedido 14 tentativa 1/3 jsonrpc_id=17 -> ok (0.003 s) [charge_id=2909 replica=server-a]
+2026-10-30 17:22:12,720 C-atraso-cache-26 pedido 15 tentativa 1/3 jsonrpc_id=18 -> ok (0.003 s) [charge_id=2910 replica=server-b]
+2026-10-30 17:22:14,725 C-atraso-cache-26 pedido 16 tentativa 1/3 jsonrpc_id=19 -> timeout (2.005 s)
+2026-10-30 17:22:14,729 C-atraso-cache-26 pedido 16 tentativa 2/3 jsonrpc_id=20 -> ok (0.005 s) [charge_id=2912 replica=server-b]
+2026-10-30 17:22:14,734 C-atraso-cache-26 pedido 17 tentativa 1/3 jsonrpc_id=21 -> ok (0.005 s) [charge_id=2913 replica=server-a]
+2026-10-30 17:22:14,739 C-atraso-cache-26 pedido 18 tentativa 1/3 jsonrpc_id=22 -> ok (0.004 s) [charge_id=2914 replica=server-b]
+2026-10-30 17:22:14,742 C-atraso-cache-26 pedido 19 tentativa 1/3 jsonrpc_id=23 -> ok (0.003 s) [charge_id=2915 replica=server-a]
+2026-10-30 17:22:16,751 C-atraso-cache-26 pedido 20 tentativa 1/3 jsonrpc_id=24 -> timeout (2.008 s)
+2026-10-30 17:22:18,764 C-atraso-cache-26 pedido 20 tentativa 2/3 jsonrpc_id=25 -> timeout (2.013 s)
+2026-10-30 17:22:18,796 C-atraso-cache-26 pedido 20 tentativa 3/3 jsonrpc_id=26 -> ok (0.032 s) [charge_id=2916 replica=server-b]
+2026-10-30 17:22:18,798 C-atraso-cache-26: 20 pedidos lógicos, 25 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:22,456 C-atraso-cache-27 pedido 1 tentativa 1/3 jsonrpc_id=2 -> timeout (2.007 s)
+2026-10-30 17:22:22,517 C-atraso-cache-27 pedido 1 tentativa 2/3 jsonrpc_id=3 -> ok (0.061 s) [charge_id=2919 replica=server-a]
+2026-10-30 17:22:24,521 C-atraso-cache-27 pedido 2 tentativa 1/3 jsonrpc_id=4 -> timeout (2.004 s)
+2026-10-30 17:22:24,531 C-atraso-cache-27 pedido 2 tentativa 2/3 jsonrpc_id=5 -> ok (0.010 s) [charge_id=2921 replica=server-a]
+2026-10-30 17:22:24,538 C-atraso-cache-27 pedido 3 tentativa 1/3 jsonrpc_id=6 -> ok (0.007 s) [charge_id=2922 replica=server-b]
+2026-10-30 17:22:24,542 C-atraso-cache-27 pedido 4 tentativa 1/3 jsonrpc_id=7 -> ok (0.004 s) [charge_id=2923 replica=server-a]
+2026-10-30 17:22:24,545 C-atraso-cache-27 pedido 5 tentativa 1/3 jsonrpc_id=8 -> ok (0.003 s) [charge_id=2924 replica=server-b]
+2026-10-30 17:22:24,548 C-atraso-cache-27 pedido 6 tentativa 1/3 jsonrpc_id=9 -> ok (0.003 s) [charge_id=2925 replica=server-a]
+2026-10-30 17:22:24,551 C-atraso-cache-27 pedido 7 tentativa 1/3 jsonrpc_id=10 -> ok (0.003 s) [charge_id=2926 replica=server-b]
+2026-10-30 17:22:24,554 C-atraso-cache-27 pedido 8 tentativa 1/3 jsonrpc_id=11 -> ok (0.003 s) [charge_id=2927 replica=server-a]
+2026-10-30 17:22:24,556 C-atraso-cache-27 pedido 9 tentativa 1/3 jsonrpc_id=12 -> ok (0.002 s) [charge_id=2928 replica=server-b]
+2026-10-30 17:22:24,559 C-atraso-cache-27 pedido 10 tentativa 1/3 jsonrpc_id=13 -> ok (0.002 s) [charge_id=2929 replica=server-a]
+2026-10-30 17:22:24,562 C-atraso-cache-27 pedido 11 tentativa 1/3 jsonrpc_id=14 -> ok (0.003 s) [charge_id=2930 replica=server-b]
+2026-10-30 17:22:24,564 C-atraso-cache-27 pedido 12 tentativa 1/3 jsonrpc_id=15 -> ok (0.002 s) [charge_id=2931 replica=server-a]
+2026-10-30 17:22:26,569 C-atraso-cache-27 pedido 13 tentativa 1/3 jsonrpc_id=16 -> timeout (2.005 s)
+2026-10-30 17:22:28,576 C-atraso-cache-27 pedido 13 tentativa 2/3 jsonrpc_id=17 -> timeout (2.007 s)
+2026-10-30 17:22:28,589 C-atraso-cache-27 pedido 13 tentativa 3/3 jsonrpc_id=18 -> ok (0.013 s) [charge_id=2932 replica=server-b]
+2026-10-30 17:22:28,600 C-atraso-cache-27 pedido 14 tentativa 1/3 jsonrpc_id=19 -> ok (0.010 s) [charge_id=2934 replica=server-a]
+2026-10-30 17:22:30,605 C-atraso-cache-27 pedido 15 tentativa 1/3 jsonrpc_id=20 -> timeout (2.005 s)
+2026-10-30 17:22:30,614 C-atraso-cache-27 pedido 15 tentativa 2/3 jsonrpc_id=21 -> ok (0.009 s) [charge_id=2936 replica=server-a]
+2026-10-30 17:22:32,620 C-atraso-cache-27 pedido 16 tentativa 1/3 jsonrpc_id=22 -> timeout (2.006 s)
+2026-10-30 17:22:32,635 C-atraso-cache-27 pedido 16 tentativa 2/3 jsonrpc_id=23 -> ok (0.015 s) [charge_id=2938 replica=server-a]
+2026-10-30 17:22:34,638 C-atraso-cache-27 pedido 17 tentativa 1/3 jsonrpc_id=24 -> timeout (2.003 s)
+2026-10-30 17:22:34,647 C-atraso-cache-27 pedido 17 tentativa 2/3 jsonrpc_id=25 -> ok (0.009 s) [charge_id=2940 replica=server-a]
+2026-10-30 17:22:34,653 C-atraso-cache-27 pedido 18 tentativa 1/3 jsonrpc_id=26 -> ok (0.006 s) [charge_id=2941 replica=server-b]
+2026-10-30 17:22:34,657 C-atraso-cache-27 pedido 19 tentativa 1/3 jsonrpc_id=27 -> ok (0.004 s) [charge_id=2942 replica=server-a]
+2026-10-30 17:22:34,660 C-atraso-cache-27 pedido 20 tentativa 1/3 jsonrpc_id=28 -> ok (0.003 s) [charge_id=2943 replica=server-b]
+2026-10-30 17:22:34,661 C-atraso-cache-27: 20 pedidos lógicos, 27 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:35,834 C-atraso-cache-28 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.034 s) [charge_id=2944 replica=server-b]
+2026-10-30 17:22:35,839 C-atraso-cache-28 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2945 replica=server-a]
+2026-10-30 17:22:35,841 C-atraso-cache-28 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2946 replica=server-b]
+2026-10-30 17:22:37,848 C-atraso-cache-28 pedido 4 tentativa 1/3 jsonrpc_id=5 -> timeout (2.007 s)
+2026-10-30 17:22:37,868 C-atraso-cache-28 pedido 4 tentativa 2/3 jsonrpc_id=6 -> ok (0.019 s) [charge_id=2948 replica=server-b]
+2026-10-30 17:22:39,874 C-atraso-cache-28 pedido 5 tentativa 1/3 jsonrpc_id=7 -> timeout (2.006 s)
+2026-10-30 17:22:41,886 C-atraso-cache-28 pedido 5 tentativa 2/3 jsonrpc_id=8 -> timeout (2.011 s)
+2026-10-30 17:22:41,917 C-atraso-cache-28 pedido 5 tentativa 3/3 jsonrpc_id=9 -> ok (0.030 s) [charge_id=2949 replica=server-a]
+2026-10-30 17:22:41,931 C-atraso-cache-28 pedido 6 tentativa 1/3 jsonrpc_id=10 -> ok (0.014 s) [charge_id=2951 replica=server-b]
+2026-10-30 17:22:41,941 C-atraso-cache-28 pedido 7 tentativa 1/3 jsonrpc_id=11 -> ok (0.010 s) [charge_id=2952 replica=server-a]
+2026-10-30 17:22:41,946 C-atraso-cache-28 pedido 8 tentativa 1/3 jsonrpc_id=12 -> ok (0.005 s) [charge_id=2953 replica=server-b]
+2026-10-30 17:22:41,951 C-atraso-cache-28 pedido 9 tentativa 1/3 jsonrpc_id=13 -> ok (0.005 s) [charge_id=2954 replica=server-a]
+2026-10-30 17:22:41,956 C-atraso-cache-28 pedido 10 tentativa 1/3 jsonrpc_id=14 -> ok (0.004 s) [charge_id=2955 replica=server-b]
+2026-10-30 17:22:41,959 C-atraso-cache-28 pedido 11 tentativa 1/3 jsonrpc_id=15 -> ok (0.003 s) [charge_id=2956 replica=server-a]
+2026-10-30 17:22:41,961 C-atraso-cache-28 pedido 12 tentativa 1/3 jsonrpc_id=16 -> ok (0.003 s) [charge_id=2957 replica=server-b]
+2026-10-30 17:22:43,968 C-atraso-cache-28 pedido 13 tentativa 1/3 jsonrpc_id=17 -> timeout (2.007 s)
+2026-10-30 17:22:45,978 C-atraso-cache-28 pedido 13 tentativa 2/3 jsonrpc_id=18 -> timeout (2.009 s)
+2026-10-30 17:22:45,988 C-atraso-cache-28 pedido 13 tentativa 3/3 jsonrpc_id=19 -> ok (0.010 s) [charge_id=2958 replica=server-a]
+2026-10-30 17:22:45,995 C-atraso-cache-28 pedido 14 tentativa 1/3 jsonrpc_id=20 -> ok (0.007 s) [charge_id=2960 replica=server-b]
+2026-10-30 17:22:45,998 C-atraso-cache-28 pedido 15 tentativa 1/3 jsonrpc_id=21 -> ok (0.003 s) [charge_id=2961 replica=server-a]
+2026-10-30 17:22:46,001 C-atraso-cache-28 pedido 16 tentativa 1/3 jsonrpc_id=22 -> ok (0.003 s) [charge_id=2962 replica=server-b]
+2026-10-30 17:22:46,003 C-atraso-cache-28 pedido 17 tentativa 1/3 jsonrpc_id=23 -> ok (0.002 s) [charge_id=2963 replica=server-a]
+2026-10-30 17:22:46,006 C-atraso-cache-28 pedido 18 tentativa 1/3 jsonrpc_id=24 -> ok (0.002 s) [charge_id=2964 replica=server-b]
+2026-10-30 17:22:48,012 C-atraso-cache-28 pedido 19 tentativa 1/3 jsonrpc_id=25 -> timeout (2.007 s)
+2026-10-30 17:22:48,027 C-atraso-cache-28 pedido 19 tentativa 2/3 jsonrpc_id=26 -> ok (0.014 s) [charge_id=2966 replica=server-b]
+2026-10-30 17:22:48,037 C-atraso-cache-28 pedido 20 tentativa 1/3 jsonrpc_id=27 -> ok (0.009 s) [charge_id=2967 replica=server-a]
+2026-10-30 17:22:48,039 C-atraso-cache-28: 20 pedidos lógicos, 26 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:49,123 C-atraso-cache-29 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.026 s) [charge_id=2968 replica=server-a]
+2026-10-30 17:22:49,127 C-atraso-cache-29 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.004 s) [charge_id=2969 replica=server-b]
+2026-10-30 17:22:49,130 C-atraso-cache-29 pedido 3 tentativa 1/3 jsonrpc_id=4 -> ok (0.003 s) [charge_id=2970 replica=server-a]
+2026-10-30 17:22:49,132 C-atraso-cache-29 pedido 4 tentativa 1/3 jsonrpc_id=5 -> ok (0.002 s) [charge_id=2971 replica=server-b]
+2026-10-30 17:22:49,134 C-atraso-cache-29 pedido 5 tentativa 1/3 jsonrpc_id=6 -> ok (0.002 s) [charge_id=2972 replica=server-a]
+2026-10-30 17:22:49,136 C-atraso-cache-29 pedido 6 tentativa 1/3 jsonrpc_id=7 -> ok (0.002 s) [charge_id=2973 replica=server-b]
+2026-10-30 17:22:49,138 C-atraso-cache-29 pedido 7 tentativa 1/3 jsonrpc_id=8 -> ok (0.002 s) [charge_id=2974 replica=server-a]
+2026-10-30 17:22:49,140 C-atraso-cache-29 pedido 8 tentativa 1/3 jsonrpc_id=9 -> ok (0.002 s) [charge_id=2975 replica=server-b]
+2026-10-30 17:22:49,142 C-atraso-cache-29 pedido 9 tentativa 1/3 jsonrpc_id=10 -> ok (0.002 s) [charge_id=2976 replica=server-a]
+2026-10-30 17:22:49,144 C-atraso-cache-29 pedido 10 tentativa 1/3 jsonrpc_id=11 -> ok (0.002 s) [charge_id=2977 replica=server-b]
+2026-10-30 17:22:49,146 C-atraso-cache-29 pedido 11 tentativa 1/3 jsonrpc_id=12 -> ok (0.002 s) [charge_id=2978 replica=server-a]
+2026-10-30 17:22:49,148 C-atraso-cache-29 pedido 12 tentativa 1/3 jsonrpc_id=13 -> ok (0.002 s) [charge_id=2979 replica=server-b]
+2026-10-30 17:22:51,153 C-atraso-cache-29 pedido 13 tentativa 1/3 jsonrpc_id=14 -> timeout (2.005 s)
+2026-10-30 17:22:51,168 C-atraso-cache-29 pedido 13 tentativa 2/3 jsonrpc_id=15 -> ok (0.014 s) [charge_id=2981 replica=server-b]
+2026-10-30 17:22:51,175 C-atraso-cache-29 pedido 14 tentativa 1/3 jsonrpc_id=16 -> ok (0.007 s) [charge_id=2982 replica=server-a]
+2026-10-30 17:22:51,179 C-atraso-cache-29 pedido 15 tentativa 1/3 jsonrpc_id=17 -> ok (0.004 s) [charge_id=2983 replica=server-b]
+2026-10-30 17:22:53,184 C-atraso-cache-29 pedido 16 tentativa 1/3 jsonrpc_id=18 -> timeout (2.005 s)
+2026-10-30 17:22:53,212 C-atraso-cache-29 pedido 16 tentativa 2/3 jsonrpc_id=19 -> ok (0.028 s) [charge_id=2985 replica=server-b]
+2026-10-30 17:22:53,219 C-atraso-cache-29 pedido 17 tentativa 1/3 jsonrpc_id=20 -> ok (0.006 s) [charge_id=2986 replica=server-a]
+2026-10-30 17:22:53,225 C-atraso-cache-29 pedido 18 tentativa 1/3 jsonrpc_id=21 -> ok (0.006 s) [charge_id=2987 replica=server-b]
+2026-10-30 17:22:53,230 C-atraso-cache-29 pedido 19 tentativa 1/3 jsonrpc_id=22 -> ok (0.005 s) [charge_id=2988 replica=server-a]
+2026-10-30 17:22:53,234 C-atraso-cache-29 pedido 20 tentativa 1/3 jsonrpc_id=23 -> ok (0.004 s) [charge_id=2989 replica=server-b]
+2026-10-30 17:22:53,235 C-atraso-cache-29: 20 pedidos lógicos, 22 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv
+2026-10-30 17:22:54,431 C-atraso-cache-30 pedido 1 tentativa 1/3 jsonrpc_id=2 -> ok (0.027 s) [charge_id=2990 replica=server-b]
+2026-10-30 17:22:54,436 C-atraso-cache-30 pedido 2 tentativa 1/3 jsonrpc_id=3 -> ok (0.005 s) [charge_id=2991 replica=server-a]
+2026-10-30 17:22:56,443 C-atraso-cache-30 pedido 3 tentativa 1/3 jsonrpc_id=4 -> timeout (2.007 s)
+2026-10-30 17:22:56,452 C-atraso-cache-30 pedido 3 tentativa 2/3 jsonrpc_id=5 -> ok (0.009 s) [charge_id=2993 replica=server-a]
+2026-10-30 17:22:58,457 C-atraso-cache-30 pedido 4 tentativa 1/3 jsonrpc_id=6 -> timeout (2.005 s)
+2026-10-30 17:23:00,469 C-atraso-cache-30 pedido 4 tentativa 2/3 jsonrpc_id=7 -> timeout (2.012 s)
+2026-10-30 17:23:00,478 C-atraso-cache-30 pedido 4 tentativa 3/3 jsonrpc_id=8 -> ok (0.008 s) [charge_id=2994 replica=server-b]
+2026-10-30 17:23:02,481 C-atraso-cache-30 pedido 5 tentativa 1/3 jsonrpc_id=9 -> timeout (2.004 s)
+2026-10-30 17:23:02,498 C-atraso-cache-30 pedido 5 tentativa 2/3 jsonrpc_id=10 -> ok (0.016 s) [charge_id=2997 replica=server-b]
+2026-10-30 17:23:04,502 C-atraso-cache-30 pedido 6 tentativa 1/3 jsonrpc_id=11 -> timeout (2.004 s)
+2026-10-30 17:23:06,509 C-atraso-cache-30 pedido 6 tentativa 2/3 jsonrpc_id=12 -> timeout (2.007 s)
+2026-10-30 17:23:06,523 C-atraso-cache-30 pedido 6 tentativa 3/3 jsonrpc_id=13 -> ok (0.014 s) [charge_id=2998 replica=server-a]
+2026-10-30 17:23:06,529 C-atraso-cache-30 pedido 7 tentativa 1/3 jsonrpc_id=14 -> ok (0.006 s) [charge_id=3000 replica=server-b]
+2026-10-30 17:23:08,535 C-atraso-cache-30 pedido 8 tentativa 1/3 jsonrpc_id=15 -> timeout (2.006 s)
+2026-10-30 17:23:08,550 C-atraso-cache-30 pedido 8 tentativa 2/3 jsonrpc_id=16 -> ok (0.014 s) [charge_id=3002 replica=server-b]
+2026-10-30 17:23:10,557 C-atraso-cache-30 pedido 9 tentativa 1/3 jsonrpc_id=17 -> timeout (2.007 s)
+2026-10-30 17:23:10,566 C-atraso-cache-30 pedido 9 tentativa 2/3 jsonrpc_id=18 -> ok (0.009 s) [charge_id=3004 replica=server-b]
+2026-10-30 17:23:10,573 C-atraso-cache-30 pedido 10 tentativa 1/3 jsonrpc_id=19 -> ok (0.007 s) [charge_id=3005 replica=server-a]
+2026-10-30 17:23:10,577 C-atraso-cache-30 pedido 11 tentativa 1/3 jsonrpc_id=20 -> ok (0.004 s) [charge_id=3006 replica=server-b]
+2026-10-30 17:23:12,586 C-atraso-cache-30 pedido 12 tentativa 1/3 jsonrpc_id=21 -> timeout (2.009 s)
+2026-10-30 17:23:12,604 C-atraso-cache-30 pedido 12 tentativa 2/3 jsonrpc_id=22 -> ok (0.017 s) [charge_id=3008 replica=server-b]
+2026-10-30 17:23:12,612 C-atraso-cache-30 pedido 13 tentativa 1/3 jsonrpc_id=23 -> ok (0.009 s) [charge_id=3009 replica=server-a]
+2026-10-30 17:23:12,620 C-atraso-cache-30 pedido 14 tentativa 1/3 jsonrpc_id=24 -> ok (0.007 s) [charge_id=3010 replica=server-b]
+2026-10-30 17:23:14,628 C-atraso-cache-30 pedido 15 tentativa 1/3 jsonrpc_id=25 -> timeout (2.008 s)
+2026-10-30 17:23:16,638 C-atraso-cache-30 pedido 15 tentativa 2/3 jsonrpc_id=26 -> timeout (2.010 s)
+2026-10-30 17:23:16,645 C-atraso-cache-30 pedido 15 tentativa 3/3 jsonrpc_id=27 -> ok (0.008 s) [charge_id=3011 replica=server-a]
+2026-10-30 17:23:16,652 C-atraso-cache-30 pedido 16 tentativa 1/3 jsonrpc_id=28 -> ok (0.007 s) [charge_id=3013 replica=server-b]
+2026-10-30 17:23:18,660 C-atraso-cache-30 pedido 17 tentativa 1/3 jsonrpc_id=29 -> timeout (2.007 s)
+2026-10-30 17:23:20,668 C-atraso-cache-30 pedido 17 tentativa 2/3 jsonrpc_id=30 -> timeout (2.009 s)
+2026-10-30 17:23:20,676 C-atraso-cache-30 pedido 17 tentativa 3/3 jsonrpc_id=31 -> ok (0.008 s) [charge_id=3014 replica=server-a]
+2026-10-30 17:23:20,684 C-atraso-cache-30 pedido 18 tentativa 1/3 jsonrpc_id=32 -> ok (0.007 s) [charge_id=3016 replica=server-b]
+2026-10-30 17:23:20,688 C-atraso-cache-30 pedido 19 tentativa 1/3 jsonrpc_id=33 -> ok (0.004 s) [charge_id=3017 replica=server-a]
+2026-10-30 17:23:20,691 C-atraso-cache-30 pedido 20 tentativa 1/3 jsonrpc_id=34 -> ok (0.003 s) [charge_id=3018 replica=server-b]
+2026-10-30 17:23:20,692 C-atraso-cache-30: 20 pedidos lógicos, 33 tentativas (tools/call), resultados finais {'ok': 20}, cortes de ligação 0 (+0 no aquecimento), POSTs extra 0 -> /results/C-atraso-cache.csv

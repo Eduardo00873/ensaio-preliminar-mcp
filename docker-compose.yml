@@ -1,0 +1,98 @@
+# Ensaio preliminar: efeitos duplicados em servidores MCP replicados e sem estado.
+#
+# As imagens estão fixadas por etiqueta e por digest (índice multi-arquitetura),
+# para que o ensaio corra sempre com as mesmas versões.
+#
+# Caminho de um pedido:
+#   cliente -> toxiproxy:8666 -> nginx:80 -> server-a:8000 | server-b:8000 -> postgres
+#
+# Nenhum serviço publica portas no anfitrião; tudo comunica pela rede do Compose.
+
+name: ensaio-mcp
+
+# Configuração comum às duas réplicas: a mesma imagem e as mesmas variáveis,
+# exceto REPLICA_NAME.
+x-mcp-server: &mcp-server
+  build: ./server
+  image: ensaio-mcp-server:local
+  depends_on:
+    postgres:
+      condition: service_healthy
+  healthcheck:
+    test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=2)"]
+    interval: 2s
+    timeout: 3s
+    retries: 30
+
+x-mcp-server-env: &mcp-server-env
+  DATABASE_URL: postgresql://ensaio:ensaio@postgres:5432/ensaio
+  # Atraso injetado depois do commit (C-atraso). Por omissão 0. Aplica-se a cada
+  # chamada com probabilidade FAULT_PROB, sorteada com a semente FAULT_SEED.
+  FAULT_DELAY_MS: ${FAULT_DELAY_MS:-0}
+  FAULT_PROB: ${FAULT_PROB:-0.3}
+  FAULT_SEED: ${FAULT_SEED:-42}
+  # Variante do Passo 7: deduplicação em memória por réplica. Por omissão desligada.
+  DEDUP_MEMORIA: ${DEDUP_MEMORIA:-0}
+
+services:
+  postgres:
+    image: postgres:18.6-alpine@sha256:10a5c69a83035ab5239f5620d708520e8b28f5aa1f2b20143e6024532edadfb5
+    environment:
+      POSTGRES_USER: ensaio
+      POSTGRES_PASSWORD: ensaio
+      POSTGRES_DB: ensaio
+    volumes:
+      # Corre apenas quando a base de dados é criada pela primeira vez.
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    # As consultas fazem-se com `docker compose exec postgres psql -U ensaio -d ensaio`.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ensaio -d ensaio"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  server-a:
+    <<: *mcp-server
+    environment:
+      <<: *mcp-server-env
+      REPLICA_NAME: server-a
+
+  server-b:
+    <<: *mcp-server
+    environment:
+      <<: *mcp-server-env
+      REPLICA_NAME: server-b
+
+  nginx:
+    image: nginx:1.30.6-alpine@sha256:0e52bd054126cdc040b1276c0af347aeb02a41b9cfe305d6094767ac30e97949
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      server-a:
+        condition: service_healthy
+      server-b:
+        condition: service_healthy
+
+  toxiproxy:
+    image: ghcr.io/shopify/toxiproxy:2.13.0@sha256:5d3dae09bc185dcc5ff6cf43abf6062a4a720aff0c4306a471e773acdcd107aa
+    # Cria o proxy "mcp" ao arrancar: escuta em 8666 e encaminha para nginx:80.
+    # Os toxics (Passo 5) são acrescentados e retirados pela API HTTP na porta 8474.
+    command: ["-host=0.0.0.0", "-config=/config/toxiproxy.json"]
+    volumes:
+      - ./toxiproxy/toxiproxy.json:/config/toxiproxy.json:ro
+    depends_on:
+      - nginx
+
+  # Cliente de ensaio. Não arranca com `docker compose up` (perfil "cliente");
+  # corre-se uma repetição de cada vez, por exemplo:
+  #   docker compose run --rm --no-deps client --run-id C-controlo-01 --csv /results/C-controlo.csv
+  # --no-deps é necessário: sem ele, `run` recria as réplicas com o FAULT_DELAY_MS
+  # da shell atual, desfazendo a condição que estiver configurada.
+  client:
+    build: ./client
+    image: ensaio-mcp-client:local
+    profiles: ["cliente"]
+    volumes:
+      - ./results:/results
+    depends_on:
+      - toxiproxy
